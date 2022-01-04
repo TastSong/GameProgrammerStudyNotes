@@ -438,7 +438,7 @@ Unity实现《游戏编程模式》
 
 ### 案例
 
-对象的更新行为
+[对象的更新行为](./Assets/SequencingPatterns/UpdateMethod)
 
 ### 实现方式
 
