@@ -1,8 +1,4 @@
-﻿//-------------------------------------------------------------------------------------
-//	GameLoopPatternExample.cs
-//-------------------------------------------------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 
@@ -14,14 +10,14 @@ namespace GameLoopPatternExample
     {
         GameLoopManager GameLoop = new GameLoopManager();
 
-        void Start()
+        public void Start()
         {
             //进行游戏循环
             //DoGameLoop();
             Debug.Log("Unity已经内建了游戏循环模式，即Update( )，按《游戏编程模式》书中的原版实现会导致卡死。这边仅保留代码框架，不作调用。");
         }
 
-        void Update()
+        public void Update()
         {
 
         }
@@ -29,7 +25,7 @@ namespace GameLoopPatternExample
         /// <summary>
         /// 进行游戏循环
         /// </summary>
-        void DoGameLoop()
+        public void DoGameLoop()
         {
             if (GameLoop==null)
             {
