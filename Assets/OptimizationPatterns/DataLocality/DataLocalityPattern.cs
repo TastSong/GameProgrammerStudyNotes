@@ -6,9 +6,9 @@ using UnityEngine;
 using System.Collections;
 using System;
 
-namespace DataLocalityPatternExample
+namespace DataLocalityPattern
 {
-    public class DataLocalityPatternExample : MonoBehaviour
+    public class DataLocalityPattern : MonoBehaviour
     {
         GameX gameProject;
 
