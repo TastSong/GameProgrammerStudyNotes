@@ -5,7 +5,7 @@
 [代码示例](./GameProgrammingPatterns)	[文档说明](./GameProgrammingPatterns/README_GameProgrammingPatterns.md) 
 
 - 重访设计模式
-  - 命令模式
+  - [命令模式](./GameProgrammingPatterns/README_GameProgrammingPatterns#2)
   - 享元模式
   - 观察者模式
   - 原型模式
