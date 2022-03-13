@@ -1,0 +1,12 @@
+{
+  "name": "com.unity.ugui",
+  "displayName": "Unity UI",
+  "version": "1.0.0",
+  "unity": "2019.2",
+  "keywords": ["UI", "ugui", "Unity UI", "Canvas"],
+  "description": "Unity's in-game UI system used to create in-game user interfaces fast and intuitively. Using a couple included components such as a panel, and buttons you can create a basic main menu for your application.",
+  "dependencies": {
+	"com.unity.modules.ui": "1.0.0",
+  "com.unity.modules.imgui":"1.0.0" 
+   }
+}
