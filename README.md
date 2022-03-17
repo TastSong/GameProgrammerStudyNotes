@@ -5,12 +5,12 @@
 [代码示例](./GameProgrammingPatterns)	[文档说明](./GameProgrammingPatterns/README_GameProgrammingPatterns.md) 
 
 - 重访设计模式
-  - 命令模式
-  - 享元模式
-  - 观察者模式
-  - 原型模式
-  - 单例模式
-  - 状态模式
+  - [命令模式](./GameProgrammingPatterns/Command.md)
+  - [享元模式](./GameProgrammingPatterns/Flyweight.md)
+  - [观察者模式](./GameProgrammingPatterns/Observer.md)
+  - [原型模式](./GameProgrammingPatterns/Prototype.md)
+  - [单例模式](./GameProgrammingPatterns/Singleton.md)
+  - [状态模式](./GameProgrammingPatterns/State.md)
 - 序列模式
   - 双缓冲模式
   - 游戏循环
