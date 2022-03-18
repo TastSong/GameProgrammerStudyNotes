@@ -12,22 +12,22 @@
   - [单例模式](./GameProgrammingPatterns/Singleton.md)
   - [状态模式](./GameProgrammingPatterns/State.md)
 - 序列模式
-  - 双缓冲模式
-  - 游戏循环
-  - 更新方法
+  - [双缓冲模式](./GameProgrammingPatterns/DoubleBuffer.md)
+  - [游戏循环](./GameProgrammingPatterns/)
+  - [更新方法](./GameProgrammingPatterns/)
 - 行为模式
-  - 字节码
-  - 子类沙箱
-  - 类型对象
+  - [字节码](./GameProgrammingPatterns/)
+  - [子类沙箱](./GameProgrammingPatterns/)
+  - [类型对象](./GameProgrammingPatterns/)
 - 解耦模式
-  - 组件模式
-  - 事件队列
-  - 服务定位器
+  - [组件模式](./GameProgrammingPatterns/)
+  - [事件队列](./GameProgrammingPatterns/)
+  - [服务定位器](./GameProgrammingPatterns/)
 - 优化模式
-  - 数据局部性
-  - 脏标识模式
-  - 对象池模式
-  - 空间分区
+  - [数据局部性](./GameProgrammingPatterns/)
+  - [脏标识模式](./GameProgrammingPatterns/)
+  - [对象池模式](./GameProgrammingPatterns/)
+  - [空间分区](./GameProgrammingPatterns/)
 
 # QFormwork Unity框架
 
