@@ -13,8 +13,8 @@
   - [状态模式](./GameProgrammingPatterns/State.md)
 - 序列模式
   - [双缓冲模式](./GameProgrammingPatterns/DoubleBuffer.md)
-  - [游戏循环](./GameProgrammingPatterns/)
-  - [更新方法](./GameProgrammingPatterns/)
+  - 游戏循环
+  - [更新方法](./GameProgrammingPatterns/UpdateMethod.md)
 - 行为模式
   - [字节码](./GameProgrammingPatterns/)
   - [子类沙箱](./GameProgrammingPatterns/)
