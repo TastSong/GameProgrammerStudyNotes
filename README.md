@@ -21,7 +21,7 @@
   - [类型对象](./GameProgrammingPatterns/TypeObject.md)
 - 解耦模式
   - [组件模式](./GameProgrammingPatterns/Component.md)
-  - [事件队列](./GameProgrammingPatterns/)
+  - [事件队列](./GameProgrammingPatterns/EventQueue.md)
   - [服务定位器](./GameProgrammingPatterns/)
 - 优化模式
   - [数据局部性](./GameProgrammingPatterns/)
