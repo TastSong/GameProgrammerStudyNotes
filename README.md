@@ -27,7 +27,7 @@
   - [数据局部性](./GameProgrammingPatterns/DataLocality.md)
   - [脏标识模式](./GameProgrammingPatterns/DirtyFlag.md)
   - [对象池模式](./GameProgrammingPatterns/ObjectPool.md)
-  - [空间分区](./GameProgrammingPatterns/)
+  - [空间分区](./GameProgrammingPatterns/SpatialPartition.md)
 
 # QFormwork Unity框架
 
