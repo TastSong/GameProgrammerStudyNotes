@@ -18,7 +18,7 @@
 - 行为模式
   - [字节码](./GameProgrammingPatterns/Bytecode.md)
   - [子类沙箱](./GameProgrammingPatterns/SubclassSandbox.md)
-  - [类型对象](./GameProgrammingPatterns/)
+  - [类型对象](./GameProgrammingPatterns/TypeObject.md)
 - 解耦模式
   - [组件模式](./GameProgrammingPatterns/)
   - [事件队列](./GameProgrammingPatterns/)
