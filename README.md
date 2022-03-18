@@ -26,7 +26,7 @@
 - 优化模式
   - [数据局部性](./GameProgrammingPatterns/DataLocality.md)
   - [脏标识模式](./GameProgrammingPatterns/DirtyFlag.md)
-  - [对象池模式](./GameProgrammingPatterns/)
+  - [对象池模式](./GameProgrammingPatterns/ObjectPool.md)
   - [空间分区](./GameProgrammingPatterns/)
 
 # QFormwork Unity框架
