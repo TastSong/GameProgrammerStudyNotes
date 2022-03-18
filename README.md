@@ -24,7 +24,7 @@
   - [事件队列](./GameProgrammingPatterns/EventQueue.md)
   - [服务定位器](./GameProgrammingPatterns/ServiceLocator.md)
 - 优化模式
-  - [数据局部性](./GameProgrammingPatterns/)
+  - [数据局部性](./GameProgrammingPatterns/DataLocality.md)
   - [脏标识模式](./GameProgrammingPatterns/)
   - [对象池模式](./GameProgrammingPatterns/)
   - [空间分区](./GameProgrammingPatterns/)
