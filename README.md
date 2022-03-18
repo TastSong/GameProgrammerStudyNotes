@@ -17,7 +17,7 @@
   - [更新方法](./GameProgrammingPatterns/UpdateMethod.md)
 - 行为模式
   - [字节码](./GameProgrammingPatterns/Bytecode.md)
-  - [子类沙箱](./GameProgrammingPatterns/)
+  - [子类沙箱](./GameProgrammingPatterns/SubclassSandbox.md)
   - [类型对象](./GameProgrammingPatterns/)
 - 解耦模式
   - [组件模式](./GameProgrammingPatterns/)
