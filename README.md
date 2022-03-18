@@ -25,7 +25,7 @@
   - [服务定位器](./GameProgrammingPatterns/ServiceLocator.md)
 - 优化模式
   - [数据局部性](./GameProgrammingPatterns/DataLocality.md)
-  - [脏标识模式](./GameProgrammingPatterns/)
+  - [脏标识模式](./GameProgrammingPatterns/DirtyFlag.md)
   - [对象池模式](./GameProgrammingPatterns/)
   - [空间分区](./GameProgrammingPatterns/)
 
