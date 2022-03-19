@@ -1,5 +1,7 @@
 ## 空间分区
 
+[代码示例](.\Assets\OptimizationPatterns\DataLocality)	
+
 ### 定义
 
 将对象根据它们的位置存储在数据结构中，来高效地定位对象

@@ -1,5 +1,7 @@
 ## 数据局部性
 
+[代码示例](.\Assets\OptimizationPatterns\DataLocality)	
+
 ### 定义
 
 合理组织数据，充分使用CPU的缓存来加速内存读取
