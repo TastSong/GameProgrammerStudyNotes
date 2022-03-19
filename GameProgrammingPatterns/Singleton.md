@@ -1,5 +1,7 @@
 ## 单例模式
 
+[代码示例](.\Assets\DesignPatternsRevisited\SingletonPattern)
+
 ### 定义
 
 确保一个类只有一个实例，并为其提供一个全局访问入口

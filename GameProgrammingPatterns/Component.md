@@ -1,5 +1,7 @@
 ## 组件模式
 
+[代码示例](.\Assets\DecouplingPatterns\Component)
+
 ### 定义
 
 允许一个单一的实体跨越多个不同域而不会导致耦合。

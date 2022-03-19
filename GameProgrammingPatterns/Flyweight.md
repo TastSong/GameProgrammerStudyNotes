@@ -1,5 +1,7 @@
 ## 享元模式
 
+[代码示例](.\Assets\DesignPatternsRevisited\FlyweightPattern)
+
 ### 定义
 
 摒弃了在每个对象中保存所有数据的方式， 通过**共享**多个对象所共有的相同状态， 让你能在有限的内存容量中**载入更多对象**。

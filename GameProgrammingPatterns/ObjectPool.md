@@ -1,5 +1,7 @@
 ## 对象池模式
 
+[代码示例](.\Assets\OptimizationPatterns\ObjectPool)	
+
 ### 定义
 
 放弃单独地分配和释放对象，从固定的池中重用对象，以提高性能和内存使用率

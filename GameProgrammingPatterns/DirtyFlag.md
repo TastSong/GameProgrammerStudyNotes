@@ -1,5 +1,7 @@
 ## 脏标识模式
 
+[代码示例](.\Assets\OptimizationPatterns\DirtyFlag)	
+
 ### 定义
 
 将工作延期至需要其结果时才去执行，避免不必要的工作

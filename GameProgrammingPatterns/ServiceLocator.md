@@ -1,5 +1,7 @@
 ## 服务定位器
 
+[代码示例](.\Assets\DecouplingPatterns\ServiceLocator)
+
 ### 定义
 
 提供服务的全局接入点，避免使用者和实现服务的具体类耦合。

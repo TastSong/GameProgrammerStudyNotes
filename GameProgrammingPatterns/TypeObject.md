@@ -1,5 +1,7 @@
 ## 类型对象
 
+[代码示例](.\Assets\BehavioralPatterns\TypeObject)
+
 ### 定义
 
 创造一个类A来允许灵活地创造新“类型”，类A的每个实例都代表了不同的对象类型。

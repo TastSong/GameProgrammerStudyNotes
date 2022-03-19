@@ -1,5 +1,7 @@
 ## 原型模式
 
+[代码示例](.\Assets\DesignPatternsRevisited\PrototypePattern)
+
 ### 定义
 
 使用特定原型实例来创建特定种类的对象，并且通过**拷贝**原型来创建新的对象

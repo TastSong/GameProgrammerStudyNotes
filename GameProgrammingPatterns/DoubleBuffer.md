@@ -1,5 +1,7 @@
 ## 双缓冲模式
 
+[代码示例](.\Assets\SequencingPatterns\DoubleBuffer)	
+
 ### 定义
 
 用序列的操作模拟瞬间或者同时发生的事情

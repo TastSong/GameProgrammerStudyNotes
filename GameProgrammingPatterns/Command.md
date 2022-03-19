@@ -1,4 +1,6 @@
-## 命令模式
+## 命令模式  
+
+[代码示例](.\Assets\DesignPatternsRevisited\CommandPattern)
 
 ### 定义
 

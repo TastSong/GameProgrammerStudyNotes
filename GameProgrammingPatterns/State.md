@@ -1,5 +1,7 @@
 ## 状态模式
 
+[代码示例](.\Assets\DesignPatternsRevisited\StatePattern)
+
 ### 定义
 
 能在一个对象的内部状态变化时改变其行为， 使其看上去就像改变了自身所属的类一样。

@@ -1,5 +1,7 @@
 ## 更新方法
 
+[代码示例](.\Assets\SequencingPatterns\UpdateMethod)	
+
 ### 定义
 
 * 通过每次处理一帧的行为模拟一系列独立对象；

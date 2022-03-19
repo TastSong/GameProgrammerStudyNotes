@@ -1,5 +1,7 @@
 ## 子类沙箱
 
+[代码示例](.\Assets\BehavioralPatterns\SubclassSandbox)
+
 ### 定义
 
 用一系列由基类提供的操作定义子类中的行为。
