@@ -2,6 +2,8 @@
 
 # Game Programming Patterns 游戏编程模式
 
+![](./Pictures/GameProgrammingPatterns.png)
+
 [代码示例](./GameProgrammingPatterns)	
 
 - 重访设计模式
@@ -31,6 +33,8 @@
 
 # QFormwork Unity框架
 
+![](./Pictures/QFormwork.png)
+
 [文档说明](./QFormwork/README.md)
 
 - 架构目的
@@ -40,4 +44,6 @@
 - 实现细节
 
 # Unity 3D高级编程
+
+![](./Pictures/ProfessionalNotes.png)
 
