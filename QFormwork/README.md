@@ -1,3 +1,5 @@
+
+
 # QFormwork
 
 # 一、框架目的
@@ -44,7 +46,7 @@
 
 # 二、设计原则
 
-#### SOLID **设计模式的六大原则有：**
+## SOLID **设计模式的六大原则有：**
 
 - Single Responsibility Principle：单一职责原则
 - Open Closed Principle：开闭原则
@@ -55,43 +57,43 @@
 
 把这六个原则的首字母联合起来（两个 L 算做一个）就是 SOLID （solid，稳定的），其代表的含义就是这六个原则结合使用的好处：建立稳定、灵活、健壮的设计。下面我们来分别看一下这六大设计原则。
 
-#### 1. 单一职责原则（Single Responsibility Principle）
+## 1. 单一职责原则（Single Responsibility Principle）
 
 一个类应该只有一个发生变化的原因
 
-#### 2. 开闭原则（Open Closed Principle）
+## 2. 开闭原则（Open Closed Principle）
 
 一个软件实体，如类、模块和函数应该对扩展开放，对修改关闭
 
-#### 3. 里氏替换原则（Liskov Substitution Principle）
+## 3. 里氏替换原则（Liskov Substitution Principle）
 
 所有引用基类的地方必须能透明地使用其子类的对象
 
-#### 4. 迪米特法则（Law of Demeter）
+## 4. 迪米特法则（Law of Demeter）
 
 只与你的直接朋友交谈，不跟“陌生人”说话
 
 其含义是：如果两个软件实体无须直接通信，那么就不应当发生直接的相互调用，可以通过第三方转发该调用。其目的是降低类之间的耦合度，提高模块的相对独立性。
 
-#### 5. 接口隔离原则（Interface Segregation Principle）
+## 5. 接口隔离原则（Interface Segregation Principle）
 
 1、客户端不应该依赖它不需要的接口。
 2、类间的依赖关系应该建立在最小的接口上。
 
 注：该原则中的接口，是一个泛泛而言的接口，不仅仅指Java中的接口，还包括其中的抽象类。
 
-#### 6. 依赖倒置原则（Dependence Inversion Principle）
+## 6. 依赖倒置原则（Dependence Inversion Principle）
 
 1、上层模块不应该依赖底层模块，它们都应该依赖于抽象。
 2、抽象不应该依赖于细节，细节应该依赖于抽象。
 
 # 三、总体架构
 
+## 架构分层
+
 ![img](./Design.png)
 
-**QFramework系统设计架构分为四层及其规则：**
-
-
+## QFramework系统设计架构分为四层及其规则：
 
 -  表现层：ViewController层。IController接口，负责接收输入和状态变化时的表现，一般情况下，MonoBehaviour 均为表现层 
 
@@ -130,11 +132,17 @@
   - 下层向上层通信用事件
   - 上层向下层通信用方法调用（只是做查询，状态变更用Command），IController的交互逻辑为特别情况，只能用Command
 
-# 四、实例
+# 四、示例
 
-https://github.com/liangxiegame/QFramework.Example
+## 示例效果
 
-```csharp
+[代码地址](https://github.com/liangxiegame/QFramework.Example)
+
+![](1.CounterAppPreview.gif)
+
+## 模块注册
+
+```c#
 using QFramework;
 
 namespace CounterApp
@@ -149,6 +157,11 @@ namespace CounterApp
         }
     }
 }
+```
+
+## ViewController
+
+```c#
 using System;
 using QFramework;
 using UnityEngine;
@@ -220,6 +233,11 @@ namespace CounterApp
         };
     }
 }
+```
+
+## System
+
+```c#
 using QFramework;
 using UnityEngine;
 
@@ -255,6 +273,11 @@ namespace CounterApp
         }
     }
 }
+```
+
+## Utility
+
+```c#
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -301,6 +324,11 @@ namespace CounterApp
         }
     }
 }
+```
+
+## Command
+
+```csharp
 namespace CounterApp {
     public class AddCountCommand : AbstractCommand {
         protected override void OnExecute() {
@@ -343,7 +371,7 @@ public static class CounterModel
 
 2. 交互逻辑：View -> Model ； 表现逻辑: Model -> View  
 
-![img](https://cdn.nlark.com/yuque/0/2022/png/1561541/1647095339348-5ec00ea2-3746-4a4c-908f-3cf17cbbc2e4.png)
+![img](./image.png)
 
 3. IOC 容器  
 
