@@ -31,17 +31,21 @@
   - [对象池模式](./GameProgrammingPatterns/ObjectPool.md)：*放弃单独地分配和释放对象，从固定的池中重用对象，以提高性能和内存使用率*
   - [空间分区](./GameProgrammingPatterns/SpatialPartition.md)：*将对条存储在基于位置组织的数据结构中，来有效的定位对象*
 
+**重访设计模式的六种设计方法为经典23种设计模式的之六，这六种设计模式也是游戏中常用的设计模式；序列模式、行为模式和优化模式适用与游戏引擎设计；解耦模式适用于游戏UI部分的设计-------自定义组件和消息机制的设计**
+
 # QFormwork Unity框架
 
 ![](./Pictures/QFormwork.png)
 
-[文档说明](./QFormwork/README.md)
+[详细文档](./QFormwork/README.md)
 
-- 架构目的
-- 设计原则
+- 架构目的：使用框架的目的
+- 设计原则：SOLID设计模式的六大原则
 - 总体架构
 - 代码示例
 - 实现细节
+
+**此框架相较于流行的框架[ET](https://github.com/egametang/ET)、[JEngine](https://github.com/JasonXuDeveloper/JEngine)等框架，QFormwork更专注于逻辑层的架构，在工具层实现组件化做到即用即安装，更佳纯粹**
 
 # Unity 3D高级编程
 
@@ -57,4 +61,6 @@
 * 第八章 地图与寻路 ：场景构建与优化、地图构建以及寻路算法优化
 * 第九章 渲染管线与图形学 ：图形数学、图形学常用算法、渲染管线的相关知识
 * 第十章 渲染原理与知识 ：客户端各类渲染技术的渲染原理
+
+**整本书讲解的为Unity的底层原理，核心思想是优化游戏性能，主要的围绕提高游戏运行速度与降低内存消耗展开，优化的本质其实就是减少GC和降低drewcall，进而分别从C#技术要点、UI、模型等模块进行讲解**
 
