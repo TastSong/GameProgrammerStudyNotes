@@ -39,11 +39,11 @@
 
 [详细文档](./QFormwork/README.md)
 
-- 架构目的：使用框架的目的
+- 架构目的：使用框架的目的与意义
 - 设计原则：SOLID设计模式的六大原则
-- 总体架构
-- 代码示例
-- 实现细节
+- 总体架构：框架的分层以及层级之间的规则
+- 代码示例：如何使用此框架
+- 实现细节：框架实现过程中的技术要点
 
 **此框架相较于流行的框架[ET](https://github.com/egametang/ET)、[JEngine](https://github.com/JasonXuDeveloper/JEngine)等框架，QFormwork更专注于逻辑层的架构，在工具层实现组件化做到即用即安装，更佳纯粹**
 
