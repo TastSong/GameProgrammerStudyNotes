@@ -4,47 +4,47 @@
 
 # 一、框架目的
 
-1. 难维护 
-
-由于拖拽的时候，对象之间的引用关系是随机的没有规律可循的，所以当时间久了或者比 人来接手次项目时要理清其中的逻辑所花费的时间会很多。 
-
-1. 团队难以协作 
-
-很多的拖拽操作和逻辑是在场景中操作的，并且也会记录到场景里，所以在使用 git 或者 svn 或者官方的 plastics 的时候比较难以管理，容易造成冲突。 
-
-1. 可扩展性差
-
- 	这个原因和第一条一样，拖拽的时候，对象之间的引用关系是随机的没有规律可循的，这 样会造成大量的耦合（牵一发动全身），后边当扩展功能的时候，花的时间越来越久。 而接下来的架构演化的方向就是针对以上的这些缺点针对性地进行解决。  
 
 
+1. 难维护
 
-而解决这三个的问题的途径-------低耦合、高内聚。
+   由于拖拽的时候，对象之间的引用关系是随机的没有规律可循的，所以当时间久了或者比 人来接手次项目时要理清其中的逻辑所花费的时间会很多。
 
-什么是耦合、内聚？
+2. 团队难以协作
 
-耦合就是对象、类的双向引用、循环引用；内聚就是同样类型的代码放 在一起。  
+   很多的拖拽操作和逻辑是在场景中操作的，并且也会记录到场景里，所以在使用 git 或者 svn 或者官方的 plastics 的时候比较难以管理，容易造成冲突。
+
+3. 可扩展性差
+
+   这个原因和第一条一样，拖拽的时候，对象之间的引用关系是随机的没有规律可循的，这 样会造成大量的耦合（牵一发动全身），后边当扩展功能的时候，花的时间越来越久。 而接下来的架构演化的方向就是针对以上的这些缺点针对性地进行解决。 
+
+**而解决这三个的问题的途径-------低耦合、高内聚。**
+
+**什么是耦合、内聚？**
+
+耦合就是对象、类的双向引用、循环引用；内聚就是同样类型的代码放 在一起。
+
+**低耦合：使对象之间的交互合理**
+
+• 方法调用，例如：A 调用 B 的 SayHello 方法（上下级）
+
+• 委托或者回调，例如：Action
+
+• 消息或事件，例如：TinyMessage
+
+**高内聚：使软件模块化**
+
+• 单例，例如：GameController、UIManager、ResourceManager
+
+• IOC，例如：Extenject、uFrame 的 Container、StrangeIOC 的绑定等等
+
+• 分层，例如：MVC、三层架构、领域驱动分层等等
 
 
-
- 对象之间的交互一般有三种
-
-• 方法调用，例如：A 调用 B 的 SayHello 方法
-
-• 委托或者回调，例如：界面监听子按钮的点击事件 
-
-• 消息或事件，例如：服务器像客户端发送通知 
-
-
-
-模块化也一般有三种 
-
-• 单例，例如：Manager Of Managers
-
-• IOC，例如：Extenject、uFrame 的 Container、StrangeIOC 的绑定等等 
-
-• 分层，例如：MVC、三层架构、领域驱动分层等等  
 
 # 二、设计原则
+
+
 
 ## SOLID **设计模式的六大原则有：**
 
@@ -55,25 +55,115 @@
 - Interface Segregation Principle：接口隔离原则
 - Dependence Inversion Principle：依赖倒置原则
 
+
+
 把这六个原则的首字母联合起来（两个 L 算做一个）就是 SOLID （solid，稳定的），其代表的含义就是这六个原则结合使用的好处：建立稳定、灵活、健壮的设计。下面我们来分别看一下这六大设计原则。
+
+
 
 ## 1. 单一职责原则（Single Responsibility Principle）
 
 一个类应该只有一个发生变化的原因
 
+T负责两个不同的职责：职责P1，职责P2。当由于职责P1需求发生改变而需要修改类T时，有可能会导致原本运行正常的职责P2功能发生故障。也就是说职责P1和P2被耦合在了一起。
+
+```csharp
+ public void ParseDefaultResource(JsonData data)
+    {
+        for (int i = 0; i < data.Count; i++)
+        {
+            AvatarInfo info = new AvatarInfo();
+            info.aid = (string)data[i]["aid"];
+            info.name = (string)data[i]["name"];
+            info.isDefault = (bool)data[i]["is_default"];
+            info.addr = (string)data[i]["addr"];
+            info.hash = (string)data[i]["hash"];
+            avatarResourceDic[info.aid] = info;
+        }
+
+        GameController.manager.StartCoroutine(DownloadAllAvatars());
+    }
+// 做了两件事：解析数据和开启下载；
+// 应该使用回调
+```
+
 ## 2. 开闭原则（Open Closed Principle）
 
 一个软件实体，如类、模块和函数应该对扩展开放，对修改关闭
 
+```csharp
+    public async UniTask<bool> LoadRemoteResource() {
+        if (resHasUpdate) {
+            Debug.Log("Try to Load res From Web");
+            res.Unload(true);
+            res = null;
+            downingSize = SizeRes;
+            Report(0f);
+            CachedAssetBundle ab = new CachedAssetBundle("res", Hash128.Parse(hashRes));
+            var _req = UnityWebRequestAssetBundle.GetAssetBundle(urlRes, ab, CRCRes);
+            var response = await _req.SendWebRequest().ToUniTask(progress: this);
+        }
+        if (equip == null) {
+            Debug.Log("Try to Load equip From Web");
+            downingSize = SizeEquip;
+            Report(0f);
+            CachedAssetBundle ab = new CachedAssetBundle("equip", Hash128.Parse(hashEquip));
+            var _req = UnityWebRequestAssetBundle.GetAssetBundle(urlEquip, ab, CRCEquip);
+            var response = await _req.SendWebRequest().ToUniTask(progress: this);
+        }
+
+        if (medal == null) {
+            Debug.Log("Try to Load Medal From Web");
+            downingSize = SizeMedal;
+            Report(0f);
+            CachedAssetBundle ab = new CachedAssetBundle("medal", Hash128.Parse(hashMedal));
+            var _req = UnityWebRequestAssetBundle.GetAssetBundle(urlMedal, ab, CRCMedal);
+        }
+        return true;
+    }
+// 修改成本太高，代码重复度太高
+// 应该以类型为参数传入
+```
+
 ## 3. 里氏替换原则（Liskov Substitution Principle）
 
 所有引用基类的地方必须能透明地使用其子类的对象
+
+C#不支持多继承
+
+```java
+public String getFirst(List<String> values) {
+    return values.get(0);
+}
+
+// 对于getFirst方法，接受一个List接口类型的参数，那既可以传递一个ArrayList类型的参数：
+List<String> values = new ArrayList<>();
+values.add("a");
+values.add("b");
+String firstValue = getFirst(values);
+
+// 又可以接收一个LinkedList参数：
+List<String> values = new LinkedList<>();
+values.add("a");
+values.add("b");
+String firstValue = getFirst(values);
+
+// 错误示例，并没有返回值CustomList
+class CustomList<T> extends ArrayList<T> {
+    @Override
+    public T get(int index) {
+        throw new UnsupportedOperationException();
+    }
+}
+```
 
 ## 4. 迪米特法则（Law of Demeter）
 
 只与你的直接朋友交谈，不跟“陌生人”说话
 
 其含义是：如果两个软件实体无须直接通信，那么就不应当发生直接的相互调用，可以通过第三方转发该调用。其目的是降低类之间的耦合度，提高模块的相对独立性。
+
+**TinyMessage 已经改善现状**
 
 ## 5. 接口隔离原则（Interface Segregation Principle）
 
@@ -82,10 +172,95 @@
 
 注：该原则中的接口，是一个泛泛而言的接口，不仅仅指Java中的接口，还包括其中的抽象类。
 
+```csharp
+public class EquipBtns : MonoBehaviour, SettingInterface {
+    public bool IsAnythingChanged() {
+        return false;
+    }
+    
+    public bool IsCorrectInput() {
+        return true;
+    }
+    
+    public void RecoveryData() {
+        // 不需要的模块，无需重置数据
+    }
+    
+    public void SaveSettings(Action succeed = null) {
+        
+    }
+}
+// Equip中添加了肤色页面，不得不继承接口SettingInterface
+// 再好的架构，也很难满足UI的快速变化
+```
+
 ## 6. 依赖倒置原则（Dependence Inversion Principle）
 
 1、上层模块不应该依赖底层模块，它们都应该依赖于抽象。
 2、抽象不应该依赖于细节，细节应该依赖于抽象。
+
+```csharp
+public class AppearanceUI : MonoBehaviour, JsonDataInterface, SettingInterface
+{// 依赖于接口 JsonDataInterface SettingInterface
+ // 肤色页面在创建人物和设置中功能相同，都需要IsInfoCompleted、SaveSettings等功能，
+ // 但是在相同功能下的表现可能不相同，例如保存成功后的弹窗
+ // 依赖于接口方便以后的扩展，例如设置页面也要添加新的功能设置默认数据，
+ // 只需要在SettingInterface接口中添加SetDefaultData()，然后肤色等模块实现就可以，
+ // 这样使得设置的所有子页面对外具备相同的表现，提高了代码的规范，同时有利于对代码进行维护
+ // 从而父级不需要关心具体实现
+    public enum AppearanceUseSceneType {
+        CreatePlayer = 0,
+        Setting
+    }
+    public AppearanceUseSceneType sceneType;
+
+    private void Awake() {
+        if (sceneType == AppearanceUseSceneType.Setting) {
+                
+        }
+
+        if (sceneType == AppearanceUseSceneType.CreatePlayer) {
+            
+        }        
+    }
+
+
+    /******** JsonDataInterface  createPlayer使用 ******/
+    public void GenerateData(JsonWriter w) {
+        w.WritePropertyName("skin");
+        w.Write(colorItemManager.selectItem.index);
+    }
+
+    public bool IsInfoCompleted() {
+        return true;
+    }
+
+    public bool IsInfoCorrect() {
+        return true;
+    }
+
+    /******** SettingInterface   ******/
+    public void SaveSettings(Action success = null) {
+        NetworkController.manager.SendAttrInfo(bytes, () => {
+            colorItemManager.SetSelectItem(colorItemManager.selectItem);
+            success?.Invoke();
+        });
+    }
+
+    public bool IsAnythingChanged() {       
+        return GameController.manager.userInfo.skin != (uint)colorItemManager.selectItem.index;
+    }
+
+    public bool IsCorrectInput() {
+        return true;
+    }
+
+    public void RecoveryData() {
+       colorItemManager.selectItem = colorItemList[(int)GameController.manager.userInfo.skin];
+        InitUI();
+    }
+}
+```
 
 # 三、总体架构
 
