@@ -33,11 +33,11 @@
 
 **重访设计模式的六种设计方法为经典23种设计模式的之六，这六种设计模式也是游戏中常用的设计模式；序列模式、行为模式和优化模式适用与游戏引擎设计；解耦模式适用于游戏UI部分的设计-------自定义组件和消息机制的设计**
 
-# QFormwork Unity框架
+# QFramework Unity框架
 
 ![](./Pictures/QFormwork.png)
 
-[详细文档](./QFormwork/README.md)
+[详细文档](./QFramework/README.md)
 
 - 架构目的：使用框架的目的与意义
 - 设计原则：SOLID设计模式的六大原则
