@@ -50,21 +50,7 @@
 
 # 第4章 新的NavMesh API
 
-4.1　简介 84
-
-4.2　初始化NavMesh开发组件 84
-
-4.3　创建和管理NavMesh，用于多种类型的agent 86
-
-4.4　在运行时创建和更新NavMesh数据 89
-
-4.5　控制NavMesh实例的生命周期 90
-
-4.6　连接多个NavMesh实例 92
-
-4.7　创建动态的带有障碍物的NavMesh 93
-
-4.8　用NavMesh API实现某些行为 94
+在运行时创建和更新NavMesh数据、控制NavMesh实例的生命周期、连接多个NavMesh实例、创建动态的带有障碍物的NavMesh 93
 
 # 第5章 协作和战术
 
