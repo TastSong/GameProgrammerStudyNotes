@@ -13,9 +13,26 @@
 # 第二章 分身有术：异步和多路复用
 
 1. 异步
+
+   在Start方法中创建一个定时器对象timer（定时器Timer类位于 System.Threading命名空间内）。Timer类的构造函数有4个参数：第 一个参数TimeOut代表回调函数，即打印“铃铃铃”的方法；第三个参 数5000代表5000毫秒，即5秒；另外两个参数暂不需要关心。整个程序 的功能就是开启定时器，5秒后回调TimeOut方法，打印“铃铃铃”。 这种方法称为异步，它指进程不需要一直等下去，而是继续往下 执行，直到满足条件时才调用回调函数，这样可以提高执行的效率。
+
+   异步的实现依赖于多线程技术。在Unity中，执行 Start、Update方法的线程是主线程，定时器会把定时任务交给另外的 线程去执行，在等待5秒后，“另外的某条线程”调用回调函数。主线 程继续往下执行代码，不受影响。
+
+   <img src="./1.png" alt="1" style="zoom:80%;" />
+
 2. 状态检测Poll
+
+   Poll方法将会检查Socket的状态。如果指定mode参数为 SelectMode.SelectRead，则可确定Socket是否为可读；指定参数为 SelectMode.SelectWrite，可确定Socket是否为可写；指定参数为 SelectMode.SelectError，可以检测错误条件。Poll将在指定的时段 （以微秒为单位）内阻止执行，如果希望无限期地等待响应，可将 microSeconds设置为一个负整数；如果希望不阻塞，可将 microSeconds设置为0。
+
+   *在阻塞方法前加上一层判断，有数据可读才调用Receive，有 数据可写才调用Send，那不就既能够实现功能，又不会卡住程序了 *
+
 3. 多路复用Select
-4. Select服务端、Select客户端
+
+   多路复用，就是同时处理多路信号，比如同时检测多个 Socket的状态。同时检测多个 Socket的状态。在设置要监听的Socket列表后，如果有一个（或多 个）Socket可读（或可写，或发生错误信息），那就返回这些可读的 Socket，如果没有可读的，那就阻塞。
+
+   Select可以确定一个或多个Socket对象的状态，如图所示。 使用它时，须先将一个或多个套接字放入IList中。通过调用 Select（将IList作为checkRead参数），可检查Socket是否具有可读 性。若要检查套接字是否具有可写性，可使用checkWrite参数。若要 检测错误条件，可使用checkError。在调用Select之后，Select将修 改IList列表，仅保留那些满足条件的套接字。如图2-13所示，把包含 6个Socket的列表传给Select，Select方法将会阻塞，等到超时或某个 （或多个）Socket可读时返回，并且修改checkRead列表，仅保存可读 的socket A和socket C。当没有任何可读Socket时，程序将会阻塞， 不占用CPU资源。
+
+   <img src="./2.png" alt="2" style="zoom:67%;" />
 
 # 第三章 实践出真知：大乱斗游戏
 
