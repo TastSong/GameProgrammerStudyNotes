@@ -220,97 +220,25 @@
 
 # 第六章 通用客户端网络模块
 
-1. 网络模块设计
+1. 网络模块设计：对外接口、内部设计
 
-   对外接口
+2. 网络事件：事件类型、监听列表、分发事件
 
-   内部设计
+3. 连接服务端：Connect、ConnectCallback、测试程序
 
-2. 网络事件
+4. 关闭连接：isClosing、Close、测试
 
-   事件类型
+5. Json协议：为什么会有协议类、使用JsonUtility、协议格式、协议文件、协议体的编码解码、协议名的编码解码
 
-   监听列表
-
-   分发事件
-
-3. 连接服务端
-
-   Connect
-
-   ConnectCallback
-
-   测试程序
-
-4. 关闭连接
-
-   isClosing
-
-   Close
-
-   测试
-
-5. Json协议
-
-   为什么会有协议类
-
-   使用JsonUtility
-
-   协议格式
-
-   协议文件
-
-   协议体的编码解码
-
-   协议名的编码解码
-
-6. 发送数据
-
-   Send
-
-   SendCallback
-
-   测试
+6. 发送数据：Send、SendCallback、测试
 
 7. 消息事件
 
-8. 接收数据
+8. 接收数据：新的成员、ConnectCallback、ReceiveCallback、OnReceiveData、Update、测试
 
-   新的成员
+9. 心跳机制：PING和PONG协议、成员变量、发送PING协议、监听PONG协议、测试
 
-   ConnectCallback
-
-   ReceiveCallback
-
-   OnReceiveData
-
-   Update
-
-   测试
-
-9. 心跳机制
-
-   PING和PONG协议
-
-   成员变量
-
-   发送PING协议
-
-   监听PONG协议
-
-   测试
-
-10. Protobuf协议
-
-    什么是Protobuf
-
-    编写proto文件
-
-    生成协议类
-
-    导入protobuf-net.dll
-
-    编码解码
+10. Protobuf协议：什么是Protobuf、编写proto文件、生成协议类、导入protobuf-net.dll、编码解码
 
 # 第七章  通用服务端框架
 
