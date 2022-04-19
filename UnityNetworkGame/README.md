@@ -441,9 +441,18 @@
 # 第十一章 战斗和胜负判定
 
 1. 协议设计
+
    * 进入战斗MsgEnterBattle
+
+     服务端收到离开房间的协议后，会调用room.RemovePlayer将玩家 移出房间。下面的代码中，程序先会判断玩家是否在某个房间里 （if(room==null)），如果不在，自然就不存在退出房间的操作，会 返回失败（msg.result=1）。如果玩家确实在某个房间里，直接调用 room.RemovePlayer将玩家移出房间，room.RemovePlayer还会给房间 里的其他玩家广播MsgGetRoomInfo，让客户端更新界面。
+
    * 战斗结果MsgBattleResult
+
+     服务端收到离开房间的协议后，会调用room.RemovePlayer将玩家 移出房间。下面的代码中，程序先会判断玩家是否在某个房间里 （if(room==null)），如果不在，自然就不存在退出房间的操作，会 返回失败（msg.result=1）。如果玩家确实在某个房间里，直接调用 room.RemovePlayer将玩家移出房间，room.RemovePlayer还会给房间 里的其他玩家广播MsgGetRoomInfo，让客户端更新界面。
+
    * 退出战斗MsgLeaveBattle
+
+     网络游戏不可避免会出现战斗中掉线的情况，当战场中有玩家掉 线，服务端会向房间内的其他玩家广播MsgLeaveBattle协议，通过参 数id告知谁退出了比赛。
 
 2. 坦克：不同阵营的坦克预设、战斗模块、同步坦克SyncTank、坦克的属性
 
