@@ -306,83 +306,59 @@
 
 # 第九章 UI界面模块
 
-1. 界面模块的设计
+1. 界面模块的设计：通用界面模块
 
-   简单的界面调用
+   开发商业游戏，需要处理好9.1.1节提到的两个问题。首先，每一 个面板对应一个类，在这个类里面编写面板的功能。再定义一个界面 管理器，通过它来控制界面的显示和关闭。界面管理器有两个基本方 法，分别是Open和Close。形如： PanelManager.Open(); PanelManager.Close(); 只要程序调用“PanelManager.Open();”，游戏就 会显示出登录面板（对应LoginPanel类）；只要调用 “PanelManager.Open("作者很帅");”就会弹出显示“作者很 帅”的提示框。下图展示了界面管理器的基本结构，除了Open和 Close两个方法，它一般还包含一个列表（这里取名为panels），索引 着所有已经打开的界面，避免重复打开。
 
-   通用界面模块
+   <img src="./24.png" alt="2" style="zoom:80%;" />
 
 2. 场景结构
 
-3. 面板基类BasePanel
+   在Unity的界面系统中，所有面板组件都应放置在画布下。考虑到 不同面板间会有层级关系，我们在Unity场景中添加名为Root的空物 体，Root将永久保留在场景上。如图所示，Root下面有一个名为 Canvas的子物体，是一个画布。再下面有名为Panel和Tip的空物体， 代表不同的层级。
 
-   设计要点
+   <img src="./25.png" alt="2" style="zoom:80%;" />
 
-   代码实现
+3. 面板基类BasePanel：设计要点
 
-   知识点
+   这套界面系统由面板基类（BasePanel）、界面管理器 （PanelManager）和多个具体的面板组件（如LoginPanel、 RegisterPanel）组成。所有面板都继承自BasePanel，而 PanelManager提供打开某个面板、关闭某个面板的方法。BasePanel是 面板基类，所有的面板类都要继承它。BasePanel的一些设计要点如 下。 
 
-4. 界面管理器PanelManager
+   1）面板的资源称为皮肤（skin，为GameObject类型），皮肤的路 径称为skinPath。界面管理器将会根据skinPath去实例化skin。 
 
-   层级管理
+   2）由于某些面板有层级关系，比如提示框总要覆盖普通面板。在 PanelManager中会定义名为Layer的枚举，指定面板的层级。 
 
-   打开面板
+   3）某些面板需要通过参数来确定它的表现形式。比如提示框显示 的内容由调用它的语句指定。 
 
-   关闭面板
+   4）面板有着图9-6所示的生命周期。在打开面板后，管理器会调 用面板的OnInit方法，做些初始化工作。随后加载资源，将面板预设 添加到场景上。再调用面板的OnShow方法，做些和面板资源有关的初 始化工作。当关闭面板时，会调用面板的OnClose方法。
 
-5. 登录面板LoginPanel
+   <img src="./26.png" alt="2" style="zoom:80%;" />
 
-   导入资源
+4. 界面管理器PanelManager：层级管理
 
-   UI组件
+   既是层级管理，就需要定义有哪些层级。以下代码展示了界面管 理器的整体结构，定义枚举类型Layer，分别有Layer.Panel和 Layer.Panel两项。layers、root和canvas三个成员分别指向场景中的 物体，Dictionary类型的layers让Layer枚举和场景物体相对应，后续 的代码会让layers[Layer.Panel]指向“Root/Canvas/Panel”，让 layers[Layer.Tip]指向“Root/Canvas/Tip”，如图所示。
 
-   制作面板预设
+   <img src="./27.png" alt="2" style="zoom:80%;" />
 
-   登录面板类
+5. 登录面板LoginPanel：导入资源、UI组件、制作面板预设、登录面板类、打开面板、引用UI组件、网络监听、登录和注册按钮、收到登录协议
 
-   打开面板
+6. 注册面板RegisterPanel：制作面板预设、注册面板类、按钮事件、收到注册协议
 
-   引用UI组件
+7. 提示面板TipPanel：制作面板预设、提示面板类、测试面板
 
-   网络监听
+8. 游戏入口GameMain：设计要点、代码实现、缓存用户名
 
-   登录和注册按钮
+   游戏入口类GameMain是一个挂载在场景中的组件，它作为整个游 戏的驱动类，解决下面几个问题。 
 
-   收到登录协议
+   1）当玩家打开游戏时，登录面板会作为第一个弹出的面板。那么 游戏项目中，应该在哪里调用弹出登录面板的PanelManager.Open呢？ 我们会把游戏的初始功能放置到GameMain里。 
 
-6. 注册面板RegisterPanel
+   2）客户端需要保存一些玩家数据，这些数据在整个游戏中都会用 到。例如在游戏的很多地方都会显示玩家的id，如果客户端能够自己 记录，便不需要从服务端获取。 
 
-   制作面板预设
+   3）网络框架NetManager需要外部调用它的Update方法来驱动， GameMain可完成这项功能。 
 
-   注册面板类
+   4）GameMain还会完成一些通用事件的处理，例如当网络断开时弹 出提示，当玩家被顶下线时也弹出提示。
 
-   按钮事件
+   <img src="./28.png" alt="2" style="zoom:80%;" />
 
-   收到注册协议
-
-7. 提示面板TipPanel
-
-   制作面板预设
-
-   提示面板类
-
-   测试面板
-
-8. 游戏入口GameMain
-
-   设计要点
-
-   代码实现
-
-   缓存用户名
-
-9. 功能测试
-
-   登录
-
-   注册
-
-   下线
+9. 功能测试：登录、注册、下线
 
 # 第十章 游戏大厅和房间
 
