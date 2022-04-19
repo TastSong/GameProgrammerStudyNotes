@@ -242,125 +242,33 @@
 
 # 第七章  通用服务端框架
 
-1. 服务端架构
+1. 服务端架构：总体架构
 
-   总体架构
+   服务端程序的两大核心是处理客户端的消息和存储玩家数据。下图展示的是最基础的单进程服务端结构，客户端与服务端通过TCP连 接，使两者可以传递数据；服务端还连接着MySQL数据库，可将玩家数 据保存到数据库中。
 
-   模块划分
+   <img src="./20.png" alt="2" style="zoom:80%;" />
 
-   游戏流程
+2. Json编码解码：添加协议文件、引用System.web.Extensions、修改MsgBase类、测试
 
-2. Json编码解码
+3. 网络模块：整体结构
 
-   添加协议文件
+   本章的服务端程序与第3章的服务端程序在结构上基本相似，是在第3章程序的基础上，添加粘包半包处理、协议解析、数据库存储等功能。除了协议解析相关，网络模块还分为4个部分：一是处理select多路复用的网络管理器NetManager，它是服务端网络模块的核心部件； 二是定义客户端信息的ClientState类，第3章的ClientState类相对简单，本章会继续完善它；三是处理网络消息的MsgHandler类，第3章中所有的消息处理都写在同一个文件里，但对于大型游戏来说，一个几十万行的文件不太容易编辑，本章会根据消息的类型，将MsgHandler 分拆到多个文件中（如BattleMsgHanler.cs专门处理战斗相关的协议，SysMsgHandler.cs专门处理MsgPing、MsgPong等系统协议）；四是事件处理类EventHandler。 下图展示了服务端网络模块的整体结构，与第3章不同的是，程序引入了玩家列表，玩家登录后clientState会与player对象关联。通过判断clientState是否持有player对象即可判断客户端是处于“连接 但未登录”状态，还是处于“登录成功”状态。
 
-   引用System.web.Extensions
+   <img src="./21.png" alt="2" style="zoom:80%;" />
 
-   修改MsgBase类
+4. 心跳机制：lastPingTime、时间戳、回应MsgPing协议、超时处理、测试程序
 
-   测试
+5. 玩家的数据结构：完整的ClientState
 
-3. 网络模块
+   <img src="./22.png" alt="2" style="zoom:80%;" />
 
-   整体结构
+   
 
-   ClientState
+6. 配置MySQL数据库：安装并启动MySQL数据库、安装Navicat for MySQL、配置数据表、安装connector、MySQL基础知识
 
-   开启监听和多路复用
+7. 数据库模块：连接数据库、防止SQL注入、IsAccountExist、Register、CreatePlayer、CheckPassword、GetPlayerData、UpdatePlayerData
 
-   处理监听消息
-
-   处理客户端消息
-
-   关闭连接
-
-   处理协议
-
-   Time
-
-   发送协议
-
-   测试
-
-4. 心跳机制
-
-   lastPingTime
-
-   时间戳
-
-   回应MsgPing协议
-
-   超时处理
-
-   测试程序
-
-5. 玩家的数据结构
-
-   完整的ClientState
-
-   PlayerData
-
-   Player
-
-   PlayerManager
-
-6. 配置MySQL数据库
-
-   安装并启动MySQL数据库
-
-   安装Navicat for MySQL
-
-   配置数据表
-
-   安装connector
-
-   MySQL基础知识
-
-7. 数据库模块
-
-   连接数据库
-
-   防止SQL注入
-
-   IsAccountExist
-
-   Register
-
-   CreatePlayer
-
-   CheckPassword
-
-   GetPlayerData
-
-   UpdatePlayerData
-
-8. 登录注册功能
-
-   注册登录协议
-
-   记事本协议
-
-   注册功能
-
-   登录功能
-
-   退出功能
-
-   获取文本功能
-
-   保存文本功能
-
-   客户端界面
-
-   客户端监听
-
-   客户端注册功能
-
-   客户端登录功能
-
-   客户端记事本功能
-
-   测试
+8. 登录注册功能：注册登录协议、记事本协议、注册功能、登录功能、退出功能、获取文本功能、保存文本功能、客户端界面、客户端监听、客户端注册功能、客户端登录功能、客户端记事本功能、测试
 
 # 第八章 完整大项目《坦克大战》
 
