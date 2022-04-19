@@ -362,129 +362,38 @@
 
 # 第十章 游戏大厅和房间
 
-1. 列表面板预设
+1. 列表面板预设：整体结构、个人信息栏、操作栏、房间列表栏、Scroll View、列表项Room
 
-   整体结构
-
-   个人信息栏
-
-   操作栏
-
-   房间列表栏
-
-   Scroll View
-
-   列表项Room
-
-2. 房间面板预设
-
-   整体结构
-
-   列表栏
-
-   列表项Player
-
-   控制栏
+2. 房间面板预设：整体结构、列表栏、列表项Player、控制栏
 
 3. 协议设计
+   * 查询战绩MsgGetAchieve协议
+   * 查询房间列表MsgGetRoomList协议
+   * 创建房间MsgCreateRoom协议
+   * 进入房间MsgEnterRoom协议
+   * 查询房间信息MsgGetRoomInfo协议
+   * 退出房间MsgLeaveRoom协议
+   * 开始战斗MsgStartBattle协议
 
-   查询战绩MsgGetAchieve协议
+4. 列表面板逻辑：面板类、获取部件、网络监听、刷新战绩、刷新房间列表、加入房间、创建房间、刷新按钮
 
-   查询房间列表MsgGetRoomList协议
-
-   创建房间MsgCreateRoom协议
-
-   进入房间MsgEnterRoom协议
-
-   查询房间信息MsgGetRoomInfo协议
-
-   退出房间MsgLeaveRoom协议
-
-   开始战斗MsgStartBattle协议
-
-4. 列表面板逻辑
-
-   面板类
-
-   获取部件
-
-   网络监听
-
-   刷新战绩
-
-   刷新房间列表
-
-   加入房间
-
-   创建房间
-
-   刷新按钮
-
-5. 房间面板逻辑
-
-   面板类
-
-   获取部件
-
-   网络监听
-
-   刷新玩家列表
-
-   退出房间
-
-   开始战斗
+5. 房间面板逻辑：面板类、获取部件、网络监听、刷新玩家列表、退出房间、开始战斗
 
 6. 打开列表面板
 
-7. 服务端玩家数据
+7. 服务端玩家数据：存储数据、临时数据
 
-   存储数据
+8. 服务端房间类：管理器和房间类的关系、房间类的设计要点、添加玩家、选择阵营、删除玩家、选择新房主、广播消息、生成房间信息
 
-   临时数据
-
-8. 服务端房间类
-
-   管理器和房间类的关系
-
-   房间类的设计要点
-
-   添加玩家
-
-   选择阵营
-
-   删除玩家
-
-   选择新房主
-
-   广播消息
-
-    生成房间信息
-
-9. 服务端房间管理器
-
-   数据结构
-
-   获取房间
-
-   添加房间
-
-   删除房间
-
-   生成列表信息
+9. 服务端房间管理器：数据结构、获取房间、添加房间、删除房间、生成列表信息
 
 10. 服务端消息处理
-
-    查询战绩MsgGetAchieve
-
-    查询房间列表MsgGetRoomList
-
-    创建房间MsgCreateRoom
-
-    进入房间MsgEnterRoom
-
-    查询房间信息MsgGetRoomInfo
-
-    离开房间MsgLeaveRoom
+    * 查询战绩MsgGetAchieve
+    * 查询房间列表MsgGetRoomList
+    * 创建房间MsgCreateRoom
+    * 进入房间MsgEnterRoom
+    * 查询房间信息MsgGetRoomInfo
+    * 离开房间MsgLeaveRoom
 
 11. 玩家事件处理
 
