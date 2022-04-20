@@ -52,19 +52,38 @@
 
 第3章Unity Shader基础 Unity在原有的渲染流程上进行了封装，并提供给开发者新的图像编程接口——Unity Shader。这一章将讲解Unity Shader的实现原理和基本语法，同时也将为读者解答一些常见的困惑点。
 
-### 3.1 Unity Shader概述
+### Unity Shader的基础：ShaderLab
 
-### 3.2 Unity Shader的基础：ShaderLab
+Unity Shader是Unity为开发者提供的高层级的渲染抽象层。
 
-### 3.3 Unity Shader的结构
+### Unity Shader的结构
 
-### 3.4 Unity Shader的形式
+1. 命名：每个Unity Shader文件的第一行都需要通过Shader语义来指定该Unity Shader的名字。这个名字由一个字符串来定义，例如“MyShader”。当为材质选择使用的Unity Shader时，这些名称就会出现在材质面板的下拉列表里。通过在字符串中添加斜杠（“/”），可以控制Unity Shader在材质面板中出现的位置。
+2. Properties：Properties语义块中包含了一系列属性（property），这些属性将会出现在材质面板中。
+3. SubShader：每一个Unity Shader文件可以包含多个SubShader语义块，但最少要有一个。当Unity需要加载这个Unity Shader时，Unity会扫描所有的SubShader语义块，然后选择第一个能够在目标平台上运行的SubShader。如果都不支持的话，Unity就会使用Fallback语义指定的Unity Shader。
+4. Fallback：紧跟在各个SubShader语义块后面的，可以是一个Fallback指令。它用于告诉Unity, “如果上面所有的SubShader在这块显卡上都不能运行，那么就使用这个最低级的Shader吧！”
 
-### 3.5 本书使用的Unity Shader形式
+###  Unity Shader的形式
 
-### 3.6 答疑解惑
+1. 表面着色器（Surface Shader）
 
-### 3.7 扩展阅读
+   表面着色器（Surface Shader）是Unity自己创造的一种着色器代码类型。它需要的代码量很少，Unity在背后做了很多工作，但渲染的代价比较大。它在本质上和下面要讲到的顶点/片元着色器是一样的。也就是说，当给Unity提供一个表面着色器的时候，它在背后仍旧把它转换成对应的顶点/片元着色器。我们可以理解成，表面着色器是Unity对顶点/片元着色器的更高一层的抽象。它存在的价值在于，Unity为我们处理了很多光照细节，使得我们不需要再操心这些“烦人的事情”。
+
+2. 顶点/片元着色器
+
+   顶点/片元着色器的代码也需要定义在CGPROGRAM和ENDCG之间，但不同的是，顶点/片元着色器是写在Pass语义块内，而非SubShader内的。原因是，我们需要自己定义每个Pass需要使用的Shader代码。虽然我们可能需要编写更多的代码，但带来的好处是灵活性很高。更重要的是，我们可以控制渲染的实现细节。
+
+3. 固定函数着色器（FixedFunction Shader）
+
+   上面两种Unity Shader形式都使用了可编程管线。而对于一些较旧的设备（其GPU仅支持DirectX 7.0、OpenGL 1.5或OpenGL ES 1.1），例如iPhone 3，它们不支持可编程管线着色器，因此，这时候我们就需要使用固定函数着色器（FixedFunction Shader）来完成渲染。
+
+### 答疑解惑
+
+1. Unity Shader和CG/HLSL之间的关系
+
+   Unity Shader是用ShaderLab语言编写的，但对于表面着色器和顶点/片元着色器，我们可以在ShaderLab内部嵌套CG/HLSL语言来编写这些着色器代码。在提供给编程人员这些便利的背后，Unity编辑器会把这些CG片段编译成低级语言，如汇编语言等。通常，Unity会自动把这些CG片段编译到所有相关平台（这里的平台是指不同的渲染平台，例如Direct3D 9、OpenGL、Direct3D 11、OpenGL ES等）上。这些编译过程比较复杂，Unity会使用不同的编译器来把CG转换成对应平台的代码。这样就不会在切换平台时再重新编译，而且如果代码在某些平台上发生错误就可以立刻得到错误信息。
+
+   “我就是不想用CG/HLSL来写！就是要使用GLSL来写！”，但是这意味着你可以发布的目标平台就只有Mac OS X、OpenGL ES 2.0或者Linux，而对于PC、Xbox 360这样的仅支持DirectX的平台来说，你就放弃它们了。
 
 ## 第4章 学习Shader所需的数学基础
 
