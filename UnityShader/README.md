@@ -101,21 +101,65 @@ Unity Shader是Unity为开发者提供的高层级的渲染抽象层。
 
 第5章 开始Unity Shader学习之旅 本章将实现一个简单的顶点/片元着色器，并详细解释其中每个步骤的原理，这需要读者对之前基础篇的内容有所理解。本章还会给出关于Unity Shader的一些常用的辅助技巧，例如如何调试、查看内置代码以及编写规范等。
 
-### 5.1 本书使用的软件和环境
+### Unity提供的内置文件和变量
 
-### 5.2 一个最简单的顶点/片元着色器
+1. Unity中一些常用的包含文件
 
-### 5.3 强大的援手：Unity提供的内置文件和变量
+<img src="./5.png" style="zoom:80%;" />
 
-### 5.4 Unity提供的CG/HLSL语义
+2. UnityCG.cginc中一些常用的结构体
 
-### 5.5 程序员的烦恼：Debug
+<img src="./6.png" style="zoom:80%;" />
 
-### 5.6 小心：渲染平台的差异
+3. UnityCG.cginc中一些常用的帮助函数
 
-### 5.7 Shader整洁之道
+   <img src="./7.png" style="zoom:80%;" />
 
-### 5.8 扩展阅读
+### Unity提供的CG/HLSL语义
+
+1. 从应用阶段传递模型数据给顶点着色器时Unity支持的常用语义
+
+   <img src="./8.png" style="zoom:80%;" />
+
+2. 从顶点着色器传递数据给片元着色器时Unity使用的常用语义
+
+   <img src="./9.png" style="zoom:80%;" />
+
+3. 片元着色器输出时Unity支持的常用语义
+
+   <img src="./10.png" style="zoom:80%;" />
+
+### Debug
+
+1. 使用假彩色图像
+2. 利用神器：Visual Studio——Graphics Debugger
+
+### 渲染平台的差异
+
+1. 渲染纹理的坐标差异
+
+   <img src="./11.png" style="zoom:80%;" />
+
+2. Shader的语法差异：DirectX 9/11对Shader的语义更加严格
+
+3. Shader的语义差异
+
+   * 使用SV_POSITION来描述顶点着色器输出的顶点位置。一些Shader使用了POSITION语义，但这些Shader无法在索尼PS4平台上或使用了细分着色器的情况下正常工作。
+   * 使用SV_Target来描述片元着色器的输出颜色。一些Shader使用了COLOR或者COLOR0语义，同样的，这些Shader无法在索尼PS4上正常工作。
+
+### Shader整洁之道
+
+1. float、half还是fixed
+
+   <img src="./12.png" style="zoom:80%;" />
+
+2. 规范语法：我们提到DirectX平台对Shader的语义有更加严格的要求。这意味着，如果我们要发布到DirectX平台上就需要使用更严格的语法。例如，使用和变量类型相匹配的参数数目来对变量进行初始化。
+
+3. 避免不必要的计算
+
+4. 慎用分支和循环语句
+
+5. 不要除以0
 
 ## 第6章 Unity中的基础光照
 
