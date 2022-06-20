@@ -10,23 +10,7 @@ Unity 是当前业界领先的 VR/AR 内容制作工具，是大多数 VR/AR 创
 
 # 第 3 章 当前主流 VR 硬件
 
-## 3.1 HTC VIVE 
-
-## 3.2 Oculus Rift
-
-## 3.3 Gear VR
-
-## 3.4 Cardboard
-
-## 3.5 Daydream 平台
-
-## 3.6 逐渐崛起的 VR 一体机
-
-### 3.6.1 Oculus Go 和小米 VR 一体机
-
-### 3.6.2 HTC VIVE Focus
-
-## 3.7 未来展望
+HTC VIVE （HTC 使用Value公司的Steam VR技术）、Oculus Rift（被Facebook收购前期版本使用SteamVR）、Gear VR（三星使用Oculus技术）、Cardboard（谷歌的开源初级VR方案）、Daydream 平台（第二代谷歌VR解决方案）
 
 # 第 4 章 VR 应用程序开发工作流程
 
