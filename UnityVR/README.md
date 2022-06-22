@@ -66,46 +66,6 @@ Unity 的 UI 系统主要由以下部分组成，它们互相配合，实现了�
 
 不同的 VR 硬件平台和SDK，与UI交互的实现机制不同，但它们都基于 Unity Ur 的事什系统流程，或者继示站文介绍的组件，或者模找相关的事件，例如在 Oculus Utilities 中，使用 OVR Physics Raycaster 类通过集成Unity 的 Basc Raycaster 类来实现Physics Raycaster的角色。
 
-# 第 8 章 Unity VR 写实材质
-
-## 8.1 Unity 材质基础
-
-## 8.2 基于物理的渲染理论
-
-## 8.3 PBR 材质的优势
-
-### 8.3.1 高品质写实级别材质表现 
-
-### 8.3.2 为实时渲染而生
-
-### 8.3.3 标准的材质制作流程
-
-## 8.4 PBR 材质主要贴图类型
-
-### 8.4.1 颜色贴图（Albedo/Basecolor Map
-
-### 8.4.2 金属贴图（Metallic Map）
-
-### 8.4.3 光滑度贴图（Roughness Map） 
-
-## 8.5 PBR 材质制作软件 
-
-### 8.5.1 Substance Designer
-
-### 8.5.2 Substance Painter 
-
-### 8.5.3 Quixel Suite 
-
-### 8.5.4 Marmoset Toolbag
-
-## 8.6 制作 PBR 椅子材质
-
-### 8.6.1 在 Substance Painter 中制作贴图
-
-### 8.6.2 导出贴图到 Unity
-
-## 8.7 Substance in Unity 的使用
-
 # 第 9 章 SteamVR
 
 ## 9.1 SteamVR 简介
