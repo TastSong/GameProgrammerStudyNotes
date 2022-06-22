@@ -49,11 +49,22 @@ HTC VIVE （HTC 使用Value公司的Steam VR技术）、Oculus Rift（被Faceboo
 
 # 第 7 章 VR 中的 UI
 
-## 7.1 概述
+一、将 UI 容器转换为世界空间坐标
 
-## 7.2 将 UI 容器转换为世界空间坐标
+1. 新建一个 Canvas 游戏对象，在其 Canvas 组件中，将Render Mode 属性修改为 World Space。
+2. 此时 Canvas 便具有了世界空间坐标，Rect Trasform 组件为可修改状态，可以像3D物体一样在场景中设置位置、旋转、缩放等参数。我们一般需要根据 VR 场景的大小，修改Canvas 容器的外观，使其适应场景比例。有两种方式实现：一种方式是修改 RectTransform 组件的缩放 Scale 值，比如将其修改为 0.001;另外-一种方式是保持缩放不变，修改 Rect Transform 的Width 和 Height 属性。需要注意的是，对于修改比例的操作，尽量在 Canvas（即 UI 元素的容器）上完成，而不要修改容器的子物体。
+3. 为了能够在 VR 场景中比较清晰地观看 UI 元素，需要修改 Canvas 容器上 Canvas Scaler组件的 Dynamic Pixels Per Unit 属性值，一般为 2~5 之间的数值。下图左右侧文字分别在不同的 Canvas 中，左侧文字是 Dynamic Pixels Per Unit 属性值为默认时的表现，右侧文字是该值为3时的表现。
 
-## 7.3 VR 中的 UI 交互 
+二、VR 中的 UI 交互 
+
+Unity 的 UI 系统主要由以下部分组成，它们互相配合，实现了从用户输入（例如点击、悬停等）到事件发送的过程。
+
+* Event System：事件系统。
+* Input Module： 输入模块。
+* Raycaster：射线投射器。
+* Graphic Components： 图形组件，如按钮、列表等。
+
+不同的 VR 硬件平台和SDK，与UI交互的实现机制不同，但它们都基于 Unity Ur 的事什系统流程，或者继示站文介绍的组件，或者模找相关的事件，例如在 Oculus Utilities 中，使用 OVR Physics Raycaster 类通过集成Unity 的 Basc Raycaster 类来实现Physics Raycaster的角色。
 
 # 第 8 章 Unity VR 写实材质
 
