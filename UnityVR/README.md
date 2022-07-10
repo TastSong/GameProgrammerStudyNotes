@@ -84,79 +84,58 @@ InteractionSystem 脱胎于 The Lab，抽取了这个应用中关于交互的关
 
 # 第 10 章 使用 VRTK 进行交互开发
 
-## 10.1 VRTK 简介
+一、什么是 VRTK
+VRTK 全称为 Virtual Reality Toolkit， 前身是 SteamVR Toolkit，由于后续版本开始支持其他VR 平台的 SDK，如 Oculus、Daydream、GearVR 等，所以改名为 VRTK。它是使用 Unity 进行VR 交互开发的利器，以二八原则来看，开发者可以使用 20%的时间完成 80%的 VR 交互开发内容，从这个工具在 Github 上的项目简介中就能印证。
 
-### 10.1.1 什么是 VRTK
+二、VRTK 能做什么
 
-### 10.1.2 VRTK 能做什么
+* 支持 SteamVR、 Oculus、Daydream 等SDK
+* VR模拟器，不需要 VR 硬件即可调试
+* 基于头显和手柄的激光指针
+* 基于头显和手柄的曲线指针
+* 游玩区域光标
+* 指针交互
+* 可以为物体设置拖放区域
+* 多种移动方式：瞬移、Dash Movement、 Touchpad Movement、 Move in place/Run in place Movement
+* 攀登
+* 物体交互：Touching. Grabbing、 Using
+* 双手联动操作物体：缩放、沖锋枪等需要双手持握的物体
+* 物体高亮
+* 手柄振动反馈
+* 手柄效果：高亮、透明、隐藏
+* 预制常见物体的交互方式：按钮、杠杆、门、抽屉、滑动条、把手
+* 面板菜单、环形菜单
+* 使用指针与 UGUI 进行交互
+* 对UI元素进行拖动
 
-### 10.1.3 为什么选择 VRTK
+三、为什么选择 VRTK
 
-### 10.1.4 未来版本
+1. 免费开源，GitHub、Unity Asset Store
+2. 文档丰富
 
-## 10.2 SteamVR Plugin、InteractionSystem 与 VRTK 的关系
+四、SteamVR Plugin、InteractionSystem 与 VRTK 的关系
 
-## 10.3 配置 VRTK
-
-### 10.3.1 一般配置过程
-
-### 10.3.2 快速配置 VRTK
-
-## 10.4 VRTK 中的指针
-
-### 10.4.1 指针
-
-### 10.4.2 指针渲染器 
-
-## 10.5 在 VRTK 中实现传送
-
-### 10.5.1 VRTK 中的传送类型
-
-### 10.5.2 限定传送区域
-
-### 10.5.3 在 VR 场景中实现传送 
-
-## 10.6 使用 VRTK 实现与物体的交互
-
-### 10.6.1 概述 
-
-### 10.6.2 配置方法 
-
-### 10.6.3 VRTK 的抓取机制
-
-## 10.7 VRTK 中的控制器高亮和振动
-
-### 10.7.1 控制器高亮
-
-### 10.7.2 控制器振动
-
-## 10.8 VRTK 中与 UI 的交互
-
-## 10.9 实例：开枪射击效果
-
-## 10.10 实例：攀爬效果
-
-## 10.11 实例：实现释放自动吸附功能
+SteamVR Plugin 是实现所有交互的基础，InteractionSystem 包含在 SteamVR Plugin 中，是The Lab 中常用交互功能的集合。而 VRTK 由第三方开发，同样基于 SteamVR Plugin，可以更加高效地实现更多丰富的交互功能。由于 InteractionSystem 与 VRTK 基于不同的架构，所以从理论上说，两个交互工具不适合同时使用。但是两者均为开源工具，所以可根据源码查看各自调用 SteamVR Plugin 的机制，用款工具实现另外一款工具的功能。
 
 # 第 11 章 将基于 PC 平台的应用移植到 VR 平台
 
-## 11.1 项目移植分析
+11.1 项目移植分析
 
-## 11.2 初始化 VR 交互
+11.2 初始化 VR 交互
 
-## 11.3 Player 的移植
+11.3 Player 的移植
 
-## 11.4 设置道具为可交互对象
+11.4 设置道具为可交互对象
 
-## 11.5 实现控制器与道具的交互逻辑
+11.5 实现控制器与道具的交互逻辑
 
-## 11.6 修改 UI 渲染模式为 World Space
+11.6 修改 UI 渲染模式为 World Space
 
-## 11.7 玩家伤害闪屏效果
+11.7 玩家伤害闪屏效果
 
-## 11.8 根据报错信息调整代码
+11.8 根据报错信息调整代码
 
-## 11.9 游戏结束及重新开始
+11.9 游戏结束及重新开始
 
 # 第 12 章 Leap Motion for VR
 
