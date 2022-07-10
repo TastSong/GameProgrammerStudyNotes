@@ -68,27 +68,19 @@ Unity 的 UI 系统主要由以下部分组成，它们互相配合，实现了�
 
 # 第 9 章 SteamVR
 
-## 9.1 SteamVR 简介
+一、 SteamVR
 
-### 9.1.1 SteamVR Runtime 
+SteamVR 是由 Valve 公司推出的一套 VR 软硬件解决方案，由 Valve 提供软件支持和硬件标淮，授权技术给硬件生产伙伴，其中包括 HTC VIVE、OSVR、微软 Windows MR 等。我们谈到 SteamVR，在不同的情境下，所指代的对象不同。当运行一个 VR 程序时，需要打开 SteamVR。进行房型设置、硬件配对时，这里指的是 SteamVR Runtime (SteamVR 运行时）如果在使用 Unity 进行 VR 内容开发时，需要导入 SteamVR，这里所指的是 SteamVR Plugin。
 
-### 9.1.2 SteamVR Plugin 
+二、 SteamVR Plugin 
 
-### 9.1.3 获取控制器引用及按键输入
+SteamVR Plugin 是针对Unity 的SteamVR 开发工具包，以插件的形式存在，可以从 Unity Asset Store 中进行下载，导入到 Unity 项目中。该插件是开发基于 SteamVR 应用程序的必备工具，包括附带的交互开发工具 Interaction System,以及第三方开发的 VRTK，都是基于该工具包延伸而来的.
 
-## 9.2 使用SteamVR Plugin实现与物体的交互
+三、 InteractionSystem
 
-## 9.3 InteractionSystem
+InteractionSystem 脱胎于 The Lab，抽取了这个应用中关于交互的关键部分，包括一系列的脚本、预制体和一些游戏资源，InteractionSystem 内置于 SteamVR Unity Plugin 中，将 SteamvR Plugin 导入Unity 后，即可在SteamVR 目录下找到 InteractionSystem。
 
-### 9.3.1 InteractionSystem 核心模块
-
-### 9.3.2 使用 InteractionSystem 实现传送
-
-### 9.3.3 使用 InteractionSystem 实现与物体的交互
-
-### 9.3.4 使用 InteractionSystem 实现与 UI 的交互
-
-## 9.4 需要注意的问题
+通过InteractionSystem可以快速实现传送、与物体的交互、UI 的交互等。
 
 # 第 10 章 使用 VRTK 进行交互开发
 
