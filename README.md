@@ -255,7 +255,9 @@
 
 **本书主要讲解VR的发展史、现状以及如何搭建VR项目，测试过将现有项目转Oculus、Pico 3以及Huawei VR，其本质就是替换Camera和输入设备仅此而已。**
 
+# Unity 游戏程序优化设计实战
 
+![](./Pictures/UnityGameOptimization.png)
 
 
 
