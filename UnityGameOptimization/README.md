@@ -8,41 +8,58 @@
    * 最小化内部干扰
    * 最小化外部干扰
 
-第2章 脚本编写策略
+# 第2章 脚本编写策略
 
-2.1 缓存组件引用
+1. 缓存组件引用
 
-2.2 使用最快的方法获取组
+   在Awake、Start等初始化期间缓存组件，不要每次用每次GetComponent
 
-2.3 删除空的回调声明
+2. 使用最快的方法获取组
 
-2.4 在运行时避免使用Find()和SendMessage()方法
+   根据测试GetComponent<T>，在所有GetComponent最快
 
-2.4.1 静态类
+3. 删除空的回调声明
 
-2.4.2 单例组件
+   空的Start、Update方法也是会调用的
 
-2.4.3 分配对现有对象的引用 
+4. 在运行时避免使用Find()和SendMessage()方法
 
-2.4.4 全局消息系统 
+   * 静态类
 
-2.5 禁用未使用的脚本和对象 
+   * 单例组件
 
-2.5.1 按可见性禁用对象 
+   * 分配对现有对象的引用 
 
-2.5.2 按距离禁用对象 
+   * 全局消息系统 
 
-2.6 考虑使用距离平方值 
+     像[TinyMessenger](https://github.com/grumpydev/TinyMessenger)等，且Unity的相关的框架基本都有自己的消息系统
 
-2.7 避免从GameObject中检索字符串属性 
+5. 禁用未使用的脚本和对象 
 
-2.8 更新和协程问题 
+   * 按可见性禁用对象 
 
-2.9 考虑缓存Transform值的更改 
+     视锥体剔除回调方法：OnBecameVisible 和 OnBecameInvisible
 
-2.10 更快的GameObject空引用检查 
+   * 按距离禁用对象 
 
-2.11 小结 
+6. 考虑使用距离平方值 
+
+   CPU 比较擅长计算浮点数的乘法，但是要计算平方根却相对比较困难。每次我们要求 Vector3 使用magnitude 属性或 Distance方法计算距离时，都会要求它执行乎方根计算（根据毕达哥拉斯定理）。但是，Vector3 类还提供了一个 sarMagnitude 属性，该属性与 distance相同，不同之处在于它计算的是平方值。这使我们能够进行基本相同的比较检查，而无须包含昂贵的平方根计算，只要我们对要进行比较的值进行平方即可。如果A的magnitude 小于 B的magnitude，则A将小于B。
+
+7. 避免从GameObject中检索字符串属性
+
+   GameObject.tag或者name属性都会引起字符串的复制，从而引起堆内存的分配，但是CompareTag方法不会。
+
+8. 更新和协程选择和优化
+
+9. 考虑缓存Transform值的更改 
+
+   * 变换组件 （Transform Component）仅存储相对于其自身父级的数据。这意味着访问和修改变换组件的 position（位置）、rotation（旋转）和 scale(缩放）属性可能会导致很多意外的矩阵乘法计算，从而通过其父对象的变换为对象生成正确的变换表示形式，所以推荐使用localPosition、localRotation、localScale
+   * 设置脏标示，只有需要修改时才修改Transform属性
+
+10. 更快的GameObject空引用检查 
+
+    gameObject == null会调用原生托管桥另一端的方法，推荐使用System.Object. ReferenceEquals (gameObject, null)，当然这个方法产生较好的收益的前提是需要大量的执行gameObject == null此判断。
 
 第3章 批处理的好处 
 
