@@ -58,35 +58,69 @@
 ### 二、场景打光步骤解析
 
 1. 修改Directional.Light设置
+
    * 修改Scene.Settings.Volume→HDRI.Sky设置
    * 修改Scene.Settings.Volume→Exposure（曝光）设置
    * 修改Scene.Settings.Volume→Fog（雾效）设置
    * 修改Scene.Settings.Volume→Contact.Shadow（接触阴影）设置
    * 修改Post.Processing.Volume→Color.Adjustment（颜色调整）设置
    * 修改Post.Processing.Volume→White.Balance（白平衡）设置
+
 2. 光源类型和模式
-   * Unity中的光源类型有哪几种
-   * Unity中的光照单位
+
    * 如何制作和使用Light.Cookie为灯光添加更多细节
+
+     本质为在射出的光线前添加一张图片
+
    * 光照相关的常见问题汇总
+
+     1. 为什么场景中出现奇怪的阴影块
+
+        灯光数超过24，Project setting -> HDRP default setting -> Default Frame -> light loop
+
+     2. 为什么相机移动场景中的阴影会扭曲或者闪烁
+
+        启用了HDRP中的阴影Dynamic Rescale
+
+     3. 未启用体积光的高质量，但是场景中的灯光雾效有很多噪点
+
+        编辑器只是预览，打包就好
+
 3. 光源分层
-   * 光源分层的作用
-   * 光源分层实例讲解
+
 4. 使用光照探针
+
    * 为什么要使用光照探针
+
+     为动态和静态物体提供间接光照信息
+
    * 使用光照探针的基本步骤
-   * Mesh.Renderer组件中的Probes选项详解
-   * 如何使用Mesh.Renderer组件的Probes→Anchor.Override参数
-   * 如果打开了Lighting窗口中Debug.Settings中的All.Probes.No.Cells选项，但是在Scene窗口看不到光照探针如何处理
+
+     1. 创建光照组
+     2. 光照烘焙生成间接光
+     3. 调整光照组
+
 5. 使用Reflection Probe为场景提供反射信息
+
    * Screen.Space.Reflection（屏幕空间反射）
    * Reflection.Probe（反射探针）
    * Sky.reflection（天空反射）
+
 6. 阴影 
-   * 阴影的种类和三种光照模式
+
+   * 阴影的种类
+
+     光源投射阴影和基于屏幕空间信息计算阴影(Contact shadow 、Micro shadow、Ambient Occlusion环境光遮蔽)
+
+   * 三种光照模式
+
    * 两种Shadowmask模式下的阴影表现
+
    * 阴影的最大投射距离设置
+
    * Distance.Shadowmask和Shadowmask两种模式对性能的影响
+
+     前者消耗GPU效果好，后者消耗内存
 
 ## 第5章　Lightmapping（光照烘焙）详解
 
