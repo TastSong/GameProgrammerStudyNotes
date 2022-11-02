@@ -277,14 +277,14 @@ Scene面板中有个UV Charts选项
 4. 配置HDRP项目以支持VR
 5. 可以应用到VR中的HDRP功能
 6. 将市政厅办公室场景转换成HDRP VR
-7. 配置HDRP+VR
-8. 配置XR.Plug-in.Management
-9. 添加XR.Interaction.Toolkit
-10. 创建XR.Rig、控制器和瞬移区域
-11. 创建转向系统
-12. 创建可交互物体
-13. 构建项目到设备
-14. 在VR设备中进行Debug
+   1. 配置HDRP+VR
+   2. 配置XR.Plug-in.Management
+   3. 添加XR.Interaction.Toolkit
+   4. 创建XR.Rig、控制器和瞬移区域
+   5. 创建转向系统
+   6. 创建可交互物体
+   7. 构建项目到设备
+7. 在VR设备中进行Debug
 
 ## 第10章　HDRP.Custom.Pass应用
 
