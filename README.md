@@ -284,7 +284,9 @@
 
 # 百万在线---大型游戏服务端开发
 
-![](./Pictures/BigGameServer Development.png)
+![](./Pictures/BigGameServerDevelopment.png)
+
+[详细文档](./BigGameServerDevelopment/README.md)
 
 ## 第一部分　学以致用
 
