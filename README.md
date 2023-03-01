@@ -167,7 +167,21 @@
 
 ![](./Pictures/UnityHDRP.png)
 
-[详细文档](./UnityHDRP/README.md) 未完成
+[详细文档](./UnityHDRP/README.md) 
+
+* 第1章　HDRP入门.
+* 第2章　实现市政厅办公室场景
+* 第3章　HDRP配置文件和Volume框架详解
+* 第4章　HDRP光照系统详解
+* 第5章　Lightmapping（光照烘焙）详解
+* 第6章　HDRP材质详解
+* 第7章　Post.Processing后处理详解
+* 第8章　HDRP.Debug窗口介绍
+* 第9章　HDRP在VR中的应用
+* 第10章　HDRP.Custom.Pass应用
+* 第11章　HDRP实时光线追踪项目应用
+
+**本书主要讲解Unity的HDRP渲染管线的使用，推荐地编阅读一下，有助于理解Unity的灯光系统与渲染。**
 
 # Unity网络游戏实战
 
