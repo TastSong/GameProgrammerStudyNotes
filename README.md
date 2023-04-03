@@ -120,7 +120,7 @@
 
 
 
-[详细文档](./Java游戏服务器架构实战/README.md)
+[详细文档](./JavaGameServerArchitectureOfActualCombat/README.md)
 
 * 模块零概论
   * 第1章 游戏服务器架构总体设计
