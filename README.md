@@ -296,6 +296,21 @@
 
 ![](./Pictures/Reconsitution.png)
 
+[详细文档](./Refactoring/README.md)
+
+第1章　重构，第一个示例 
+第2章　重构的原则 
+第3章　代码的坏味道
+第4章　构筑测试体系
+第5章　介绍重构名录 
+第6章　第一组重构
+第7章　封装
+第8章　搬移特性
+第9章　重新组织数据 
+第10章　简化条件逻辑 
+第11章　重构API 
+第12章　处理继承关系 
+
 # 百万在线---大型游戏服务端开发
 
 ![](./Pictures/BigGameServerDevelopment.png)
