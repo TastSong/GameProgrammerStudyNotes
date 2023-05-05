@@ -720,6 +720,200 @@ Transaction-Log-Miner读取事务日志条目。它将对应于插入消息的�
 
 ## 四、使用Saga管理事务
 
+### 1 微服务架构下的事务管理
+
+在只访问一个数据库的单体应用中，事务管理是简单明了的。一些较为复杂的单体应用可能会使用多个数据库和消息代理。更进一步，微服务架构下的事务往往需要横跨多个服务，每个服务都有属于自己的私有数据库。在这种情况下，应用程序必须使用一些更为高级的事务管理机制来管理事务。
+
+#### 1.1 微服务架构对分布式事务的需求
+
+已createOrder()操作为例，在微服务架构下，所需要的验证数据散布在不同的服务中。createOrder()操作必须访问多个服务来获得它所需要的验证数据。
+
+![img](./4-0.jpeg)
+
+#### 1.2 分布式事务的挑战
+
+在多个服务、数据库和消息代理之间维持数据一致性的传统方式是采用分布式事务。其事实标准是X/Open XA。XA采用了两阶段提交来保证事务中的所有参与方同时完成提交，或在失败时同时回滚。应用程序的整个技术栈都需要满足XA标准。市面上绝大多数的SQL数据库和一部分消息代理满足XA标准。
+
+问题：
+
+- 很多新技术，包括NoSQL数据库（如Mongodb）并不支持XA标准的分布式事务，RabbitMQ、Kafka也不支持。
+- 本质上都是同步进程间通信，会降低分布式系统的可用性。
+
+#### 1.3 使用Saga模式维护数据一致性
+
+Saga是一种在微服务架构中维护数据一致性的机制。它通过使用**异步消息**来协调一系列本地事务，从而维护多个服务之间的数据一致性，每个本地事务负责更新它所在服务的私有数据库，这些操作仍旧依赖于我们所熟悉的ACID事务框架和函数库。
+
+### 2 Saga的协调模式
+
+Saga的实现包含协调Saga步骤的逻辑。当通过系统命令启动Saga时，协调逻辑必须选择并通知第一个Saga参与方执行本地事务。一旦该事务完成，Saga协调选择并调用下一个Saga参与方。这个过程一直持续到Saga执行完所有步骤。如果任何本地事务失败，则Saga必须以相反的方式执行补偿事务。
+
+构建Saga协调逻辑的两种方法：
+
+- **协同式**：把Saga的决策和执行顺序逻辑分布在Saga的每一个参与方中，它们通过交换事件的方式来进行沟通。
+- **编排式**：把Saga的决策和执行顺序逻辑集中在一个Saga编排器类中。Saga编排器发出命令式消息给各个Saga参与方，指示这些参与方服务完成本地事务。
+
+#### 2.1 协同式Saga
+
+![img](./4-1.jpeg)
+
+图解：
+
+1. Order Service创建一个处于APPROVAL_PENDING状态的Order并发布OrderCreated事件；
+2. Consumer Service消费OrderCreated事件，验证消费者是否可以下订单，并发布ConsumerVerified事件；
+3. Kitchen Service消费OrderCreated事件，验证Order，创建一个处于CREATE_PENDING状态的后厨工单Ticket，并发布TicketCreated事件；
+4. Accounting Service消费OrderCreated事件并创建一个处于PENDING状态的CreditCardAuthorization；
+5. Accounting Service消费TicketCreated和ConsumerVerified事件，向消费者的信用卡收费，并发布CreditCardAuthorized事件；
+
+- - 如果失败，则发布CreditCardAuthorizationFailed事件；
+
+1. Kitchen Service消费CreditCardAuthorized事件，将Ticket的状态更改为AWAITING_ACCEPTANCE；
+
+- - 如果失败，则消费CreditCardAuthorizationFailed事件，将Ticket的状态更改为REJECTED；
+
+1. Order Service接收CreditCardAuthorized事件，将Order的状态改为APPROVED，并发布OrderApproved事件；
+
+- - 如果失败，则消费CreditCardAuthorizationFailed事件，将Order的状态更改为REJECTED；
+
+![img](./4-2.jpeg)
+
+
+
+基于协同式的Saga参与方使用发布/订阅进行交互。
+
+##### 可靠的事件通信
+
+在实现基于协同的Saga时，必须考虑一些服务间通信相关的问题。
+
+- 确保Saga参与方将其更新本地数据库和发布事件作为数据库事务的一部分。
+
+- - 解决方案：采用事务性消息。
+
+- 确保Saga参与方必须能够将接收到的每个事件映射到自己的数据上。
+
+- - 解决方案：让Saga参与方发布包含相关性ID的事件（orderId）。
+
+##### 协同式Sage的好处和弊端
+
+- 好处：
+
+- - 简单：服务在创建、更新和删除业务对象时发布事件。
+  - 松耦合：参与方订阅事件并且彼此之间不会因此而产生耦合。
+
+- 弊端：
+
+- - 更难理解：协调式Saga的逻辑分布在每个服务的实现中；开发人员有时很难理解特定Saga是如何工作。
+  - 服务之间的循环依赖关系：Saga参与方订阅彼此事件，通常会导致循环依赖关系。
+  - 紧耦合的风险：每个Saga参与方都需要订阅所有影响它们的事件。
+
+#### 2.2 编排式Saga
+
+##### 实现编排式的Create Order Saga
+
+开发人员定义一个编排器类，该类唯一的职责是告诉Saga的参与方该做什么事清。Saga编排器使用命令 / 异步响应方式与Saga参与方服务通信。
+
+基于编排式是Saga的每个步骤都包括一个更新数据库和发布消息的服务。
+
+![img](./4-3.jpg)
+
+图解：
+
+Order Service首先创建（实例化）一个Order对象和一个Create Order Saga编排器对象，一切正常后流程如下：
+
+1. Saga编排器向Consumer Service发送Verify Consumer命令；
+2. Consumer Service回复Consumer Verified消息；
+3. Saga编排器向Kitchen Service发送Create Ticket命令；
+4. Kitchen Service回复Ticket Created消息；
+5. Saga编排器向Accounting Service发送Authorize Card消息；
+6. Accounting Service使用Card Authorized消息回复；
+7. Saga编排器向Kitchen Service发送Approve Ticket命令；
+8. Saga编排器向Order Service发送Approve Ordere命令（命令式消息）；
+
+##### 把Saga编排器视为一个状态机
+
+状态机是由一组状态和一组由事件触发的状态之间的转换组成。每个转换都可以有一个动作，对Saga来说动作就是对某个参与方对调用。
+
+将Saga建模成状态机非常有用，因为它描述了所有可能的场景（可能成功也可能失败）。
+
+![img](./4-4.jpeg)
+
+- Verifying Consumer：初始状态。当处于此状态时，该Saga正在等待Consumer Service验证消费者是否可以下订单；
+- Creating Ticket：该Saga正在等待对Create Ticket命令的回复；
+- Authorizing Card：等待Authorizing Service授权消费者的信用卡；
+- Order Approved：最终状态，表示该Saga已成功完成；
+- Order Rejected：最终状态，表示Order被其中一个参与方拒绝；
+
+##### 编排式Saga的优缺点
+
+- 好处：
+
+- - 更简单的依赖：不会引入循环依赖关系；
+  - 较少的耦合：每个服务实现供编排器调用的API，因此它不需要知道Saga参与方发布的事件；
+  - 改善关注点隔离，简化业务逻辑：Saga的协调逻辑本地化在Saga编排器中；领域对象更简单，并且不需要了解它们参与的Saga；
+
+- 弊端：
+
+- - 在编排器中存在集中过多业务逻辑的风险；
+
+- - - 解决办法：可以通过设计只负责排序的编排器来避免此问题，并且不包含任何其他业务逻辑；
+
+### 3 解决隔离问题
+
+ACID事务的隔离性可确保同时执行多个事务的结果与顺序执行它们的结果相同。而Saga只满足ACD（原子性、一致性、持久性），不满足隔离性。
+
+#### Saga只满足ACD
+
+- 原子性：Saga实现确保执行所有事务或撤销所有更改；
+- 一致性：服务内的参照完整性（referential integrity）由本地数据库处理；服务之间的参照完整性由服务处理；
+- 持久性：由本地数据库处理；
+
+#### 3.1 缺乏隔离导致的问题
+
+缺乏隔离将导致以下三个异常。
+
+- 丢失更新：一个Saga没有读取更新，而是直接覆盖了另一个Saga所做的更改；
+- 脏读：一个事务或一个Saga读取了尚未完成的Saga所做的更新；
+- 模糊或不可重复读：一个Saga的两个不同步骤读取相同的数据却获得了不同的结果，因为另一个Saga已经进行了更新；
+
+#### 3.2 Saga模式下实现隔离的对策
+
+- 语义锁：应用程序级的锁；
+
+- - Saga的可补偿性事务会在其创建或更新的任何记录中设置标志，该标志表示该记录未提交且可能发生失败；
+  - 如：在可补偿性事务执行时给操作对象添加上*_PENDING状态，以告诉该对象的其他Saga，该对象当前正处于一个Saga的处理过程中；
+
+- 交换式更新：把更新操作设计成可以按任何顺序执行；
+
+- - 将更新操作设计为可交换的；
+  - 如：账户的debit()和credit()操作是可交换的；
+
+- 悲观视图：重新排序Saga的步骤，以最大限度地降低业务风险；
+
+- - 重新排序Saga的步骤，以最大限度地降低由于脏读而导致的业务风险；
+
+- 重读值：通过重写数据来防止脏写，以在覆盖数据之前验证它是否保持不变；
+
+- - 使用此对策的Saga在更新之前重新读取记录，验证它是否未更改，然后更新记录；如果记录已更改，则Saga将中止并可能重新启动。此对策是乐观脱机锁模式的一种形式；
+  - 如：可以用来处理Order在批准过程中被取消的情况；
+
+- 版本文件：将更新记录下来，以便可以对它们重新排序；
+
+- - 记录对数据执行的操作，以便可以对它们进行重新排序；
+  - 如：当Accounting Service先收到Cancel Authorization请求，再收到Authorize Card请求时，它会注意到它已经收到Cancel Authorization请求并跳过授权信用卡；
+
+- 业务风险评级（by value）：使用每个请求的业务风险来动态选择并发机制；
+
+- - 使用此对策的应用程序使用每个请求的属性来决定使用Saga和分布式事务；
+
+##### Saga的结构
+
+一个Saga包含三个类型的事务。
+
+- 可补偿性事务：可以使用补偿事务回滚的事务；
+- 关键性事务：Saga执行过程的关键节点。如果关键性事务成功，则Saga将一直运行到完成。关键性事务不见得是一个可补偿性事务，或者可重复性事务。但是它可以是最后一个可补偿的事务或第一个可重复的事务；
+- 可重复性事务：在关键性事务之后的事务，保证成功；
+
+![img](./4-5.png)
+
 
 
 ## 五、微服务架构中的业务逻辑设计
