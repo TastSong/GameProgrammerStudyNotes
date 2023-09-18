@@ -458,7 +458,7 @@
   * 第20章 安卓平台非托管内存分析方案
   * 第21章 过程化河流生成方法研究与应用
 
-# 日月神话
+# 人月神话
 
 <img src="./Pictures/MythicalManMonth.png" style="zoom: 200%;" />
 
