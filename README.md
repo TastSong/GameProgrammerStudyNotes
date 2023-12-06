@@ -354,7 +354,7 @@
 
 # 游戏服务器架构与优化
 
-<img src="./Pictures/TheGameServerArchitectureAndOptimization.png" style="zoom: 40%;" />
+<img src="./Pictures/TheGameServerArchitectureAndOptimization.png" style="zoom: 80%;" />
 
 [详细文档](./TheGameServerArchitectureAndOptimization/README.md)
 
