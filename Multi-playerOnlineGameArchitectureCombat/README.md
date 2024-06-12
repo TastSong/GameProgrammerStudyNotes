@@ -177,11 +177,16 @@
 
 ## 6.2 基于ECS框架的libserver
 
-### 6.2.1 通过字符串动态创建类
-
-### 6.2.2 提供多参变量来创建实例
-
-### 6.2.3 EntitySystem的工作原理
+1. ECS框架是一个整体，如果在本书之前的多线程框架中加入一个ECS框架就 必须加锁，加锁会引起工作量和效率的连锁反应，所以要将ECS框架思路引入线 程中，就需要每一个线程都有一个ECS架构，也就是说每个线程中都有一个 EntitySystem来管理线程中的对象。
+2. libserver修改为如上框架
+   1. 现在我们不再需要基类ThreadObject，而由Entity或者Component来 替代它。
+   2. 线程管理类ThreadMgr作为一个主线程的对象，它除了管理线程之 外，还需要继承EntitySystem类，在主线程中也有全局的Entity或者Component类需要管理。 
+   3. 线程类Thread需要集合EntitySystem类的功能，Thread管理std：： thread对象，而基类EntitySystem打理线程中的对象。 
+   4. 增加一些基础的System类，例如UpdateSystem和MessageSystem，用 于更新和处理消息
+3. 在新的ECS框架中，生成对象是由EntitySystem对象统一来生成的，生成对 象的同时需要对这些对象的特征进行分析，放置到不同的系统中，新对象是否 实现了IMessageSystem接口决定了它是否需要进行消息处理，实现了 IUpdateSystem接口决定了它需要每帧更新
+4. 通过字符串动态创建类:因为在新框架中有了EntitySystem，用于维护和创建对象，所有的类都在这里被创建和销毁，以方便管理。首 先，我们不希望这条规则被破坏，其次，如果需要跨线程创建对象，就存在加锁的问题。实际上，跨线程创建的对象 非常有限，为了一些有限的类，每帧都要加锁，显然是一个不值得的事情,C++中无法直接通过名字创建对象，只能通过工厂模式实现。
+5. 提供多参变量来创建实例
+6. EntitySystem的工作原理
 
 ## 6.3 基于ECS框架的login和robots工程
 
