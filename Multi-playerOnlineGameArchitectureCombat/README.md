@@ -164,15 +164,16 @@
 
 ## 6.1 一个简单的ECS工程
 
-### 6.1.1 组件类Component
+1. ECS的全称为Entity Component System，Entity是实体，Component是组件，System则指系统。Entity中可以包括无数个Component，具备某组件便具有某功能，而System是控制这些组件的动作。
 
-### 6.1.2 实体类Entity
+2. ECS和我们之前的框架有什么区别呢？在之前的框架中，线程或者进程上会存在很多Object（对象），这些Object都 是继承自ThreadObject，这带来了一个问题，并不是所有在线程上存在的实例 都需要Update帧操作，例如login工程中的Account类虽然继承了 ThreadObject，也实现了Update函数，但这个函数是空的。继承自 ThreadObject的类都需要实现Update函数，所以这里只能写一个空函数。
 
-### 6.1.3 系统类System
+   为了解决空函数的问题，提出了一个System框架，在System中定义了几种 类型的动作。例如InitializeSystem是初始化动作，UpdateSystem是更新系 统，每一个动作都是一个接口。这意味着一个对象可以实现按需定义，如果需 要初始化就实现InitializeSystem接口，如果需要Update就实现UpdateSystem 接口
 
-### 6.1.4 管理类EntitySystem
-
-### 6.1.5 测试
+3. Component作为一个基类，数据非常少，每个组件都有一个唯一标识SN 和一个父对象指针，这个指针并不一定赋值，也就是说组件也有可能没有父 类。组件的父类一定是一个实体，组件不能成为组件的父类，一个类有了组件则一定是实体。
+4. Entity类中实现了一个增加组件的函数AddComponent，它将一个组件绑 定到Entity中。Entity本身也是一个Component，也就是说它可以作为其他 Entity的组件。
+5. 如何判断一个类该定义为组件还是实体呢？简单来说， 如果一个类中还需要有组件，它就是一个实体，如果一个类中不需要再有更小 的组件，它就是一个基本的组件
+6. 为了维护Entity和Component类，需要一个管理类EntitySystem,在EntitySystem类中提供了CreateComponent函数来创建一个组件或实体，因 为每一个类的构造函数参数不同，所以这是一个多参的创建函数
 
 ## 6.2 基于ECS框架的libserver
 
