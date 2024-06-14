@@ -279,13 +279,38 @@
 
 ## 8.1 新的系统管理类SystemManager
 
-### 8.1.1 实体系统EntitySystem
+1. SystemManager在构造函数中初始化了3个系统，分别是EntitySystem（实 体系统）、MessageSystem（消息系统）和UpdateSystem（更新系统）。
 
-### 8.1.2 更新系统UpdateSystem
+   1.  EntitySystem，负责所有组件和实体的管理，所有组件实例在这个 类中都可以找到。如果是多线程，EntitySystem就只负责本线程中的组件。
+   2. MessageSystem，负责处理从网络层或从别的线程中发来的Packet消 息。 
+   3. UpdateSystem，处理需要不断更新的数据的组件
 
-### 8.1.3 消息系统MessageSystem
+2. 新的EntitySystem类中没有任何动作接口，现在它是一个纯数据类。在类中新增了一种ComponentCollections数 据，用来保存实体或组件，该类的作用是将一系列相似的组件放在一起，即所有更新组件UpdateComponent实例是放在 一个ComponentCollections实例中的，当需要取得更新组件时，取到对应的ComponentCollections实例即可
 
-### 8.1.4 测试执行效率
+3. 在EntitySystem：：Update中，现在只做了一件事情，就是对于每一个ComponentCollections类调用了Swap函 数。在ComponentCollections类定义中，可以看到它采用了CacheRefresh的方式，有3组数据：一组是当前正常运行有 效的组件集合，一组是新增的组件数据，另一组是需要删除的组件。Swap函数就是将新增与删除的组件合并到有效组 件集合中。之所以分成3组是为了不形成死循环。
+
+4. 实体和组件是一个相互循环的结构，实体可以创建无数个实体作为自己的组件，这些创建出来的实体也可以创建 无数个新的实体，这个逻辑可以无限地嵌套下去。
+
+5. 更新系统由两个类组成：一个是组件类UpdateComponent；另一个是系统类UpdateSystem。这两 个类的关系是，UpdateComponent相当于一个标记，它在某个实体上打上了一个需要更新的标记，而 UpdateSystem是通过EntitySystem找到这些有标记的实体进行更新操作
+
+   ```c++
+   void NetworkListen::AwakeFromPool(std::string ip, int port) { 
+       // update 
+       auto pUpdateComponent = AddComponent<UpdateComponent>(); 
+       pUpdateComponent->UpdataFunction = BindFunP0(this, &NetworkListen::Update); 
+       return; 
+   }
+   // 在NetworkListen被初始化时增加了UpdateComponent组件。这个组件加入之后，更新的操作就可以转移给该组件。NetworkListen类的更新函数被绑定到了这个新创建的组件上。
+   ```
+
+   先从EntitySystem中取出所有UpdateComponent组件进行遍历，执行其组件绑 定的更新函数，以达到每个组件更新的目的。图8-1展示了这个流程。最外层的调用入口只有一个， 也就是SystemManager：：Update函数。在SystemManager中，每一帧都会调用所有系统的Update函 数，而对于UpdateSystem而言，UpdateSystem：：Update的作用就是遍历所有UpdateComponent组件 绑定的更新函数。NetworkListen类的更新函数Update只是其中之一。
+
+   ![image-20240614092000522](./image-20240614092000522.png)
+
+6. 消息系统MessageSystem: 
+   1. 第一版：从网络底层读上来数据，将这些数据组织成一个Packet类，然后将这些类放到各个线程中，线程中的 每个对象继承自基类ThreadObject，每个对象都要实现处理消息的基础函数。
+   2.  第二版：在深入编码之后，我们发现并不是所有组件都需要处理消息。然后设计了一个IMessgaeSystem接口， 继承了该接口的组件可以收到Packet消息。
+   3. 现在，将IMessgaeSystem接口去掉了，只要有了MessageComponent组件就可以处理消息，这将产生一些非常灵活 而便捷的操作。例如，在某些条件下，实体A可以处理1、2号协议，当它的状态发生改变时，可以删除这个 MessageComponent组件，增加一个新的MessageComponent组件，这时可以处理3、4号协议。对于一些复杂的情况，也 可以更改1、2号协议的处理方式。
 
 ## 8.2 allinone工程
 
