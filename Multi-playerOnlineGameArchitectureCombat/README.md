@@ -354,11 +354,21 @@ Packet对象的销毁比较复杂，因为它会穿越多个线程。Packet对�
 
 ## 10.1 game与space的定位
 
-### 10.1.1 选择合适的game进程
-
-### 10.1.2 使用token登录game进程
-
-### 10.1.3 Player组件
+1. space进程     
+   1. 所有space进程都开放一个监听端口。     
+   2. 所有space进程都连接所有game进程，向其发送本进程的状态，也就是说，所有game进程上都有所有space进程的当前状态信息。
+2. game进程    
+   1.  所有game进程都自动连接所有space端口。    
+   2. 所有game进程都开放一个监听端口，用于客户端连接。    
+   3. 所有game进程都连接appmgr进程，向其发送本进程的状态。appmgr会将这些数据发送给login进程，以便任何login了解所有gam    
+   4. 所有game进程都连接dbmgr，用于数据读取。  
+3. login进程    
+   1. 所有login进程都开放一个监听端口，用于客户端连接。    
+   2. 所有login进程都连接appmgr，向其发送本进程的状态，以便HTTP请求时，appmgr了解所有login进程信息，择优进入。  
+4. appmgr进程    
+   1. appmgr只有一个唯一实例，提供HTTP端口，用于客户端HTTP请求。 
+5. dbmgr进程    
+   1. dbmgr只有一个唯一实例，提供DB存储。
 
 ## 10.2 Redis及其第三方库
 
