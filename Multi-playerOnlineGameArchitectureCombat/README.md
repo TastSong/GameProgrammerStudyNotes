@@ -370,29 +370,21 @@ Packet对象的销毁比较复杂，因为它会穿越多个线程。Packet对�
 5. dbmgr进程    
    1. dbmgr只有一个唯一实例，提供DB存储。
 
-## 10.2 Redis及其第三方库
-
-### 10.2.1 Redis的安装
-
-### 10.2.2 Redis命令行命令
-
-### 10.2.3 hireids库
-
-### 10.2.4 组件RedisConnector
-
-### 10.2.5 Redis在login中的应用
-
-### 10.2.6 Redis在game中的应用
-
-### 10.2.7 从Redis删除数据
-
 ## 10.3 性能瓶颈分析
 
 ### 10.3.1 使用日志查看瓶颈
 
 ### 10.3.2 优化MessageComponent组件
 
+1. MessageComponent组件维护 了一个字典，关联着MsgId和它的处理函数的对应关系。审视一下这个组件，我们可以发现，如果有1000个实体都关心 网络断开事件，在MessageSystem中就有1000个MessageComponent，在这1000个MessageComponent组件中存放着这1000 个实体对应网络断开事件的回调函数。
+
+2. MessageComponent组件阻隔了实体与MessageSystem之间的连接，它们彼此不知道对方的存在，但是 MessageComponent带来了性能上的问题，而且它显然是多余的。鉴于该组件的操作频次，在MessageSystem系统中将 MessageComponent取消，协议号MsgId直接注册到MessageSystem，这样做的好处一目了然，如图10-5的右图所示。对 于一个确定的协议来说，不再需要遍历所有的MessageComponent组件就可以拿到所有需要回调的处理函数。
+
+   ![image-20240614143931342](./image-20240614143931342.png)
+
 ### 10.3.3 ConnectObj内存组织
+
+sockets集合中存放着当前所有有效的Socket值，_connects组件以数据的方式提供 ConnectObj对象的访问。也就是说，不再使用字典，而是使用数组的方式来访问连接对象。
 
 ## 10.4 多进程登录协议回顾
 
