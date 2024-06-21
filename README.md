@@ -534,3 +534,9 @@
   * 2.4 多链结构
   * 2.5 动态存储分配
   * 2.6 历史和参考文献
+
+# 游戏引擎架构
+
+<img src="./Pictures/GameEngineArchitecture.png" alt="image-20240621100810518" style="zoom:50%;" />
+
+[详细文档](./GameEngineArchitecture/README.md)
