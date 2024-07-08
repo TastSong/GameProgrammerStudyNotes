@@ -573,3 +573,10 @@
 [详细文档](./GameProgrammingEssence1/README.md)
 
 ![image-20240704202449541](./Pictures/GameProgrammingEssence1.png)
+
+* 第1章  通用编程技术
+* 第2章　数学技巧
+* 第3章　人工智能
+* 第4章　多边形技术
+* 第5章　像素特效
+
