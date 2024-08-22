@@ -570,6 +570,25 @@
 
 # 游戏之旅---我的编程感悟
 
+[详细文档](./GameTrip/GameTrip.md)
+
+<img src="./Pictures/GameTrip.png" alt="image-20240704202449541" style="zoom:120%;" />
+
+- 第1章 计算机，游戏，我
+- 第2章 算法，程序的灵魂 
+- 第3章 编程语言 
+- 第4章 前Windows 时代 
+- 第5章 Windows 编程 
+- 第6章 汇编优化 
+- 第7章 SIMD 指令 
+- 第8章 引擎中的优化 
+- 第9章 C 和 C++ 
+- 第10章 调试 
+- 第11章 脚本 
+- 第12章 版本控制 
+- 第13章 开发方法
+- 第14章 编程和游戏
+
 # 游戏编程精粹 Ⅰ
 
 [详细文档](./GameProgrammingEssence1/README.md)
