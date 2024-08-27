@@ -30,11 +30,11 @@
 
 2.3.1 遗传算法（Genetic Algorithm） 
 
-2.3.2 [模拟退火算法](https://baike.baidu.com/item/模拟退火算法/355508?fromModule=lemma_inlink)（Simulated Annealing） 
+2.3.2 模拟退火算法
 
 2.3.3 禁忌搜索（Tabu Search） 
 
-2.3.4 [人工神经网络](https://baike.baidu.com/item/人工神经网络/382460?fromModule=lemma_inlink)
+2.3.4 人工神经网络
 
 （Artificial Neural Network） 
 
@@ -114,7 +114,7 @@
 
 4.4.8 小结 94
 
-4.5 cfido [中国惠多网](https://baike.baidu.com/item/中国惠多网/8802967?fromModule=lemma_inlink) 
+4.5 cfido
 
 第5章 Windows 编程 
 
@@ -350,7 +350,7 @@
 
 10.2.4 为内存分配加上一个壳 
 
-10.3 [RELEASE版本](https://baike.baidu.com/item/RELEASE版本/6497294?fromModule=lemma_inlink)的调试 
+10.3 RELEASE版本的调试 
 
 10.4 小结 
 
