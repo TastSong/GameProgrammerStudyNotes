@@ -603,3 +603,6 @@
 * 第4章　多边形技术
 * 第5章　像素特效
 
+## Star History
+
+![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
