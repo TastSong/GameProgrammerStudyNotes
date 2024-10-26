@@ -603,6 +603,26 @@
 * 第4章　多边形技术
 * 第5章　像素特效
 
+# 点石成金
+
+[详细文档](./DontMakeMeThink/README.md)
+
+![image-20241026193458090](./Pictures/DontMakeMeThink.png)
+
+* 第1章 别让我思考
+* 第2章 我们实际上是如何使用Web的
+* 第3章 广告牌设计101法则
+* 第4章 动物，植物，无机物
+* 第5章 省略多余的文字
+* 第6章 街头指示牌和面包屑
+* 第7章 Web设计中的大爆炸理论
+* 第8章 农场主和牧牛人应该是朋友
+* 第9章 一天10美分的可用性测试
+* 第10章 移动：不再只是亚拉巴马州的一个城市了
+* 第11章 可用性是基本礼貌
+* 第12章 可访问性和你
+* 第13章 指点迷津
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
