@@ -625,6 +625,23 @@
 * 第12章 可访问性和你
 * 第13章 指点迷津
 
+# 设计中的设计
+
+[详细文档](./DesignWithinDesign/README.md)
+
+<img src="./Pictures/DesignWithinDesign.png" alt="image-20241026193458090" style="zoom:67%;" />
+
+*它不仅仅是一本设计理论著作，更是一本关于生活、关于哲学的书籍。它能够帮助我们重新认识设计，并思考设计在未来的发展方向。*
+
+* 第一章　设计到底是什么？
+* 第二章　RE-DESIGN——二十一世纪的日常用品再设计
+* 第三章　信息建筑的思维方式
+* 第四章　无中生有
+* 第五章　对消费欲望的引导
+* 第六章　在日本的我
+* 第七章　有过这样的世界博览会吗？
+* 第八章　设计领域的再配置
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
