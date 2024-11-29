@@ -669,6 +669,14 @@
   * 第十四章：测验答案和建议
   * 第十五章：本书所用字体
 
+# 破茧成蝶
+
+[详细文档](./Butterfly/README.md)
+
+<img src="./Pictures/Butterfly.png" alt="image-20241026193458090" style="zoom:67%;" />
+
+*书中涵盖了用户体验设计基础知识、设计师的角色和职业困惑、工作流程、需求分析、设计规划和设计标准、项目跟进和成果检验、设计师职业修养以及需要具备的意识等内容。本书适用于产品经理、运营、开发等用户体验相关人员以及相关专业的学生阅读参考。*
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
