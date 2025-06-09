@@ -693,6 +693,23 @@
   * 11 设计师易忽略的工作意识
   * 12 设计师为了什么而设计
 
+# 冷启动
+
+[详细文档](./ColdStart/README.md)
+
+<img src="./Pictures/ColdStart.png" alt="image-20241026193458090" style="zoom:67%;" />
+
+*书中探讨了数字经济时代企业如何通过构建网络效应实现从零到亿的用户增长。*
+
+* 第一部分 网络效应
+* 第二部分 冷启动问题
+* 第三部分 临界点阶段
+* 第四部分 加速发展阶段
+* 第五部分 触达天花板阶段
+* 第六部分 打造护城河阶段
+
+
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
