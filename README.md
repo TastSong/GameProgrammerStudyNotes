@@ -697,7 +697,7 @@
 
 [详细文档](./ColdStart/README.md)
 
-<img src="./Pictures/ColdStart.png" alt="image-20241026193458090" style="zoom:20%;" />
+<img src="./Pictures/ColdStart.png" alt="image-20241026193458090" style="zoom:4%;" />
 
 *书中探讨了数字经济时代企业如何通过构建网络效应实现从零到亿的用户增长。*
 
@@ -713,4 +713,5 @@
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
+
 
