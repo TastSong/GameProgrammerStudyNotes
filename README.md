@@ -697,7 +697,7 @@
 
 [详细文档](./ColdStart/README.md)
 
-<img src="./Pictures/ColdStart.png" alt="image-20241026193458090" style="zoom:4%;" />
+<img src="./Pictures/ColdStart.png" alt="image-20241026193458090" style="zoom:30%;" />
 
 *书中探讨了数字经济时代企业如何通过构建网络效应实现从零到亿的用户增长。*
 
@@ -708,10 +708,30 @@
 * 第五部分 触达天花板阶段
 * 第六部分 打造护城河阶段
 
+# Unity性能调优宝典
+
+[详细文档](./UnityPerformanceTuningBible/README.md)
+
+<img src="./Pictures/UnityPerformanceTuningBible.png" alt="image-20241026193458090" style="zoom:60%;" />
+
+*提供系统化、可落地的性能调优方法论，工具和实践案例丰富，可作为移动端项目优化的标准参考手册。需结合官方最新文档补充版本相关更新。*
+
+* 第1章 性能调优入门
+* 第2章：基础
+* 第3章：性能分析工具
+* 第4章：调优实践-资源
+* 第5章：调优实践-资源包
+* 第6章：调优实践-物理
+* 第7章：调优实践-图形
+* 第8章：调优实践-用户界面
+* 第9章：调优实践-脚本(Unity)
+* 第10章：调优实践-脚本(C#)
+* 第11章：调优实践-玩家设置
+* 第12章：调优实践-第三方
+
 
 
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
-
 
