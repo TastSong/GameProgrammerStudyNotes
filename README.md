@@ -729,7 +729,13 @@
 * 第11章：调优实践-玩家设置
 * 第12章：调优实践-第三方
 
+# Agentic Design Patterns
 
+[详细文档](./AgenticDesignPatterns/README.md)
+
+<img src="./Pictures/AgenticDesignPatterns.png" alt="image-20241026193458090" style="zoom:60%;" />
+
+*通过 21 个“智能体设计模式”系统化地介绍如何构建具有自主性与协作能力的智能系统*；作者的理念为“*设计智能体的真正艺术，不在于掌握单一模式，而在于组合它们—— 就像画家在画布上调和色彩，让规划、工具使用、反思与协作交织，构建出有意识、有目标的智能系统。*”
 
 ## Star History
 
