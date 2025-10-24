@@ -743,6 +743,8 @@
 
 [详细文档](./TencentGameDevelopment3/README.md)
 
+***纯实战、可落地**：每章均来源于上线项目，非纸面算法；**时效性强**：涵盖可微渲染、全动态 GI、RayQuery、神经动画等新世代技术*
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
