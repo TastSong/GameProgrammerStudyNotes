@@ -737,6 +737,12 @@
 
 *通过 21 个“智能体设计模式”系统化地介绍如何构建具有自主性与协作能力的智能系统*；作者的理念为“*设计智能体的真正艺术，不在于掌握单一模式，而在于组合它们—— 就像画家在画布上调和色彩，让规划、工具使用、反思与协作交织，构建出有意识、有目标的智能系统。*”
 
+# 腾讯游戏开发精粹 Ⅲ
+
+<img src="./Pictures/TencentGame3.png" style="zoom: 67%;" />
+
+[详细文档](./TencentGameDevelopment3/README.md)
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
