@@ -759,6 +759,8 @@
 
 [详细文档](./MathematicsFor3DGameProgrammingAndComputerGraphics/README.md)
 
+*全面覆盖了构建3D游戏引擎与图形系统所需的核心数学知识。其内容从基础数学工具逐步深入到图形渲染、几何处理与物理仿真等高级主题，**理论与实践紧密结合**，是开发人员系统学习或快速查阅的实用参考。*
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
