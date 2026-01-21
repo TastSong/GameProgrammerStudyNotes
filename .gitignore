@@ -60,3 +60,5 @@ crashlytics-build.properties
 
 *.DS_Store
 
+/.claude/
+

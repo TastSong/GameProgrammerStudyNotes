@@ -745,6 +745,14 @@
 
 ***纯实战、可落地**：每章均来源于上线项目，非纸面算法；**时效性强**：涵盖可微渲染、全动态 GI、RayQuery、神经动画等新世代技术*
 
+# 数据密集型应用系统设计
+
+<img src="./Pictures/DesigningDataIntensiveApplications.png" style="zoom: 67%;" />
+
+[详细文档](./DesigningDataIntensiveApplications/README.md)
+
+***系统性强、可落地**：覆盖数据模型、存储引擎、复制、分区、事务与一致性；**面向实战**：聚焦高可用与可扩展的服务端架构与实时系统*
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
