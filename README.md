@@ -753,6 +753,12 @@
 
 *本书旨在系统性地探讨如何构建**可靠、可伸缩和可维护的数据密集型应用系统**，并将其定位为现代软件工程的核心挑战。作者 Martin Kleppmann 的核心理念是：成功的关键在于深入理解底层技术背后的**基本原则和权衡取舍**，而非盲目追随特定工具或潮流。本书为此提供了一个完整的思想框架和知识体系。*
 
+# 3D游戏与计算机图形学中的数学方法
+
+<img src="./Pictures/MathematicsFor3DGameProgrammingAndComputerGraphics.png" style="zoom: 67%;" />
+
+[详细文档](./MathematicsFor3DGameProgrammingAndComputerGraphics/README.md)
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=TastSong/GameProgrammerStudyNotes)
