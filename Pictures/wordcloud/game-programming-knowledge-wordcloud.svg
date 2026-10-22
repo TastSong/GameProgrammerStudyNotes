@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<title>游戏程序员学习知识图谱</title>
+<rect width="2400" height="1600" fill="#F4F7F8"/>
+<g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+<text x="124" y="154" font-size="78" font-weight="700" fill="#18272D">游戏程序员学习知识图谱</text>
+<text x="128" y="232" font-size="30" fill="#5E7078">基于 64 篇笔记 · 19,673 行内容的主题词云</text>
+<line x1="124" y1="274" x2="2276" y2="274" stroke="#D8E1E4" stroke-width="2"/>
+<text x="1078" y="791" font-size="122" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">模型</text>
+<text x="1344" y="781" font-size="121" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">渲染</text>
+<text x="821" y="796" font-size="116" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">内存</text>
+<text x="1004" y="932" font-size="111" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">客户端</text>
+<text x="973" y="669" font-size="111" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">Shader</text>
+<text x="1365" y="924" font-size="111" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">函数</text>
+<text x="1404" y="644" font-size="110" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">测试</text>
+<text x="672" y="933" font-size="108" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">Unity</text>
+<text x="728" y="665" font-size="108" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">纹理</text>
+<text x="1100" y="542" font-size="107" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">动画</text>
+<text x="591" y="793" font-size="103" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">网络</text>
+<text x="1095" y="1064" font-size="102" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">GPU</text>
+<text x="1608" y="774" font-size="101" font-weight="700" fill="#C2410C" dominant-baseline="text-before-edge">架构</text>
+<text x="1616" y="894" font-size="100" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">CPU</text>
+<text x="879" y="545" font-size="97" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">接口</text>
+<text x="1375" y="1056" font-size="95" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">光照</text>
+<text x="790" y="1075" font-size="94" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">服务端</text>
+<text x="1357" y="530" font-size="92" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">缓存</text>
+<text x="1615" y="994" font-size="89" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">物理</text>
+<text x="1650" y="663" font-size="88" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">重构</text>
+<text x="528" y="687" font-size="86" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">阴影</text>
+<text x="759" y="569" font-size="85" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">AI</text>
+<text x="391" y="922" font-size="84" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">数据库</text>
+<text x="1096" y="1165" font-size="82" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">矩阵</text>
+<text x="1571" y="540" font-size="82" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">相机</text>
+<text x="407" y="813" font-size="80" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">寻路</text>
+<text x="905" y="454" font-size="79" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">Draw Call</text>
+<text x="1832" y="799" font-size="78" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">TCP</text>
+<text x="1305" y="1174" font-size="78" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">批处理</text>
+<text x="524" y="583" font-size="76" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">HTTP</text>
+<text x="615" y="1073" font-size="75" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">异步</text>
+<text x="1859" y="883" font-size="74" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">数学</text>
+<text x="1587" y="1112" font-size="72" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">状态机</text>
+<text x="1861" y="707" font-size="72" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">调试</text>
+<text x="1321" y="437" font-size="72" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">一致性</text>
+<text x="834" y="1191" font-size="70" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">可用性</text>
+<text x="1815" y="994" font-size="69" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">GC</text>
+<text x="365" y="725" font-size="68" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">网关</text>
+<text x="571" y="469" font-size="66" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">Mipmap</text>
+<text x="1774" y="572" font-size="66" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">导航</text>
+<text x="385" y="1031" font-size="65" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">分布式</text>
+<text x="1575" y="456" font-size="63" font-weight="700" fill="#C2410C" dominant-baseline="text-before-edge">对象池</text>
+<text x="1041" y="370" font-size="62" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">渲染管线</text>
+<text x="1070" y="1272" font-size="61" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">骨骼动画</text>
+<text x="310" y="635" font-size="60" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">微服务</text>
+<text x="582" y="1169" font-size="60" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">多线程</text>
+<text x="1836" y="1073" font-size="60" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">搜索算法</text>
+<text x="1577" y="1205" font-size="60" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">Socket</text>
+<text x="1945" y="984" font-size="59" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">向量</text>
+<text x="2015" y="813" font-size="58" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">LOD</text>
+<text x="255" y="840" font-size="58" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">UDP</text>
+<text x="1936" y="622" font-size="58" font-weight="700" fill="#C2410C" dominant-baseline="text-before-edge">设计模式</text>
+<text x="1365" y="1271" font-size="56" font-weight="700" fill="#C2410C" dominant-baseline="text-before-edge">游戏感</text>
+<text x="2034" y="884" font-size="56" font-weight="700" fill="#C2410C" dominant-baseline="text-before-edge">反馈</text>
+<text x="2031" y="728" font-size="55" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">帧同步</text>
+<text x="793" y="376" font-size="55" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">消息代理</text>
+<text x="830" y="1284" font-size="54" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">碰撞检测</text>
+<text x="217" y="909" font-size="54" font-weight="700" fill="#BE123C" dominant-baseline="text-before-edge">Actor</text>
+<text x="382" y="1117" font-size="53" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">四元数</text>
+<text x="1798" y="512" font-size="48" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">HDRP</text>
+<text x="1338" y="367" font-size="47" font-weight="700" fill="#0F766E" dominant-baseline="text-before-edge">屏幕空间</text>
+<text x="395" y="567" font-size="47" font-weight="700" fill="#15803D" dominant-baseline="text-before-edge">协程</text>
+<text x="240" y="771" font-size="47" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">刚体</text>
+<text x="222" y="974" font-size="44" font-weight="700" fill="#5B5BD6" dominant-baseline="text-before-edge">行为树</text>
+<text x="1829" y="1154" font-size="43" font-weight="400" fill="#15803D" dominant-baseline="text-before-edge">命名</text>
+<text x="669" y="1256" font-size="43" font-weight="400" fill="#0F766E" dominant-baseline="text-before-edge">后处理</text>
+<text x="376" y="506" font-size="39" font-weight="400" fill="#15803D" dominant-baseline="text-before-edge">性能优化</text>
+<text x="1570" y="389" font-size="38" font-weight="400" fill="#BE123C" dominant-baseline="text-before-edge">状态同步</text>
+<text x="614" y="404" font-size="37" font-weight="400" fill="#C2410C" dominant-baseline="text-before-edge">用户体验</text>
+<text x="1966" y="562" font-size="37" font-weight="400" fill="#0F766E" dominant-baseline="text-before-edge">抗锯齿</text>
+<text x="2086" y="968" font-size="36" font-weight="400" fill="#BE123C" dominant-baseline="text-before-edge">热更新</text>
+<text x="1564" y="1283" font-size="35" font-weight="400" fill="#15803D" dominant-baseline="text-before-edge">单元测试</text>
+<text x="220" y="1053" font-size="35" font-weight="400" fill="#C2410C" dominant-baseline="text-before-edge">游戏循环</text>
+<text x="1794" y="450" font-size="34" font-weight="400" fill="#BE123C" dominant-baseline="text-before-edge">负载均衡</text>
+<text x="424" y="1196" font-size="33" font-weight="400" fill="#C2410C" dominant-baseline="text-before-edge">系统设计</text>
+<text x="199" y="718" font-size="33" font-weight="400" fill="#C2410C" dominant-baseline="text-before-edge">可维护性</text>
+<text x="2167" y="821" font-size="33" font-weight="400" fill="#0F766E" dominant-baseline="text-before-edge">PBR</text>
+<text x="1804" y="1226" font-size="30" font-weight="400" fill="#BE123C" dominant-baseline="text-before-edge">消息队列</text>
+<text x="1942" y="1156" font-size="29" font-weight="400" fill="#0F766E" dominant-baseline="text-before-edge">图形学</text>
+<text x="311" y="589" font-size="28" font-weight="400" fill="#BE123C" dominant-baseline="text-before-edge">RPC</text>
+<text x="2112" y="1028" font-size="27" font-weight="400" fill="#15803D" dominant-baseline="text-before-edge">版本控制</text>
+<text x="183" y="665" font-size="24" font-weight="400" fill="#15803D" dominant-baseline="text-before-edge">性能分析</text>
+<text x="1857" y="667" font-size="24" font-weight="400" fill="#BE123C" dominant-baseline="text-before-edge">ECS</text>
+<text x="544" y="1254" font-size="23" font-weight="400" fill="#C2410C" dominant-baseline="text-before-edge">类型对象</text>
+<rect x="500" y="1442" width="18" height="18" rx="4" fill="#0F766E"/>
+<text x="528" y="1458" font-size="24" fill="#18272D">引擎与图形</text>
+<rect x="780" y="1442" width="18" height="18" rx="4" fill="#C2410C"/>
+<text x="808" y="1458" font-size="24" fill="#18272D">架构与设计</text>
+<rect x="1060" y="1442" width="18" height="18" rx="4" fill="#BE123C"/>
+<text x="1088" y="1458" font-size="24" fill="#18272D">网络与服务端</text>
+<rect x="1340" y="1442" width="18" height="18" rx="4" fill="#15803D"/>
+<text x="1368" y="1458" font-size="24" fill="#18272D">工程质量</text>
+<rect x="1620" y="1442" width="18" height="18" rx="4" fill="#5B5BD6"/>
+<text x="1648" y="1458" font-size="24" fill="#18272D">数学与 AI</text>
+<line x1="124" y1="1512" x2="2276" y2="1512" stroke="#D8E1E4" stroke-width="1"/>
+<text x="126" y="1554" font-size="21" fill="#5E7078">按主题分类着色 · 字号表示内容权重 · 颜色仅用于区分类别</text>
+<text x="1688" y="1554" font-size="21" fill="#5E7078">TastSong / GameProgrammerStudyNotes</text>
+</g>
+</svg>

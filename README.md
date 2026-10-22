@@ -2,6 +2,12 @@
 
 > 各专题的内容状态、版本适用范围和待复核项见 [CONTENT_AUDIT.md](./CONTENT_AUDIT.md)。
 
+## 知识库词云
+
+[![游戏程序员学习知识图谱](./Pictures/wordcloud/game-programming-knowledge-wordcloud.png)](./Pictures/wordcloud/game-programming-knowledge-wordcloud.svg)
+
+按主题分类着色，字号表示内容权重。生成脚本见 [tools/wordcloud/generate.py](./tools/wordcloud/generate.py)。
+
 ## Game Programming Patterns 游戏编程模式
 
 ![](./Pictures/GameProgrammingPatterns.png)
