@@ -1,3 +1,5 @@
+> **状态：重复副本。** 本文件正文与 [UnityGameOptimization/README.md](../UnityGameOptimization/README.md) 相同，后续仅维护后者。保留此路径是为了兼容旧链接，建议审查后删除本副本。
+
 # 第1章 检测性能问题 
 
 1. 性能分析的最佳方法

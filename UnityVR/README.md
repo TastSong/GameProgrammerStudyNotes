@@ -35,24 +35,24 @@ HTC VIVE （HTC 使用Value公司的Steam VR技术）、Oculus Rift（被Faceboo
 
    HTC VIVE 基于 Valve 公司的 SteamVR 技术，SteamVR 定位由 Valve 自主研发，SteamVR定位器（即 Lighthouse）使用多重同步脉沖与激光线扫描房间，覆盖大约5 米的范围。SteamVR使用简单的三角学找到每个感应器的精确到毫米以内的位置，借助组合多个感应器 2个定位器，以及添加高速IMU（惯性测量单元）。SteamVR 也以 1000Hz 的刷新率计算被定位物品的方向、速度、角速度。
 
-2. Inside-Out 与 Out-Inside 位置跟踪技
+2. Inside-Out 与 Outside-In 位置跟踪技术
 
    VR技术中比较重要的技术是获取到头显、手柄等设备的位置信息，即位置追踪技术，目前存在两种实现方式，分别为由内而外的位置追踪(Inside-Out）和由外而内(Outside-In）的位置追踪。
 
    * Outside-In 跟踪技术
 
-     Ouside-In跟踪技术借助外部设备 （比如 HITC VIVE 中的 Liehthouse 基站），实现对头显、控制器等设备在场景中的位置跟踪。外部设各通常为摄像机、红外传感器等，它们被放在静止位置，朝向被跟踪物体。在外部设备所能感应的范国内，系统获得被跟踪设备的位置和朝向信息。使用这种跟踪技术的 VR 平台以 Oculus Rifi、 HTC VIVE、PS VR为代表，通过外部跟踪器实现硬件设备的位置追踪，其优势是跟踪精度较高，适合小范围跟踪：其劣势是需要使用外部设备进行跟踪，用户移动范围有限。
+     Outside-In 跟踪技术借助外部设备（例如 HTC VIVE 的 Lighthouse 基站）对头显、控制器等设备进行位置跟踪。外部设备通常为摄像机、红外传感器等，它们被放在固定位置并朝向被跟踪区域。在外部设备能够覆盖的范围内，系统获得被跟踪设备的位置和朝向信息。采用这种技术的 VR 平台包括 Oculus Rift、HTC VIVE 和 PS VR，其优势是跟踪精度较高，适合小范围跟踪；劣势是需要外部设备，用户移动范围有限。
 
    * Inside-Out 跟踪技术
 
-     Inside-Out 位置跟踪技术采用额外摄像机，通过光学或者计算机视觉的方法实现空问定位功能，可以实现较大空间内的定位。该定位技术中比较重要的是 SLAM (Simultaneous Localization and Mapping）算法，此算法也多应用在 AR 技术中。这种跟踪技术的优势是不受空间约束，能够显著提高 VR 设备的移动性，越来越被广泛应用在提供6自由度运动跟踪的 VR一体机中；其劣势是该技术受光照因素影响较大，在光照强烈的室外场景、光照较暗的室内场景，以及缺少足够特征(比如几乎没有任何特征的地面)的场景中，跟踪精度会降低，容易出现画面漂移的现象。
+     Inside-Out 位置跟踪技术通过设备自带摄像机，结合光学或计算机视觉方法实现空间定位，可覆盖较大空间。该技术中的关键算法之一是 SLAM（Simultaneous Localization and Mapping），也常用于 AR。其优势是不受固定外部基站约束，能够提高 VR 设备的移动性，广泛用于支持 6 自由度跟踪的 VR 一体机；劣势是受光照条件影响较大，在光照过强、过暗或缺少纹理特征的场景中，跟踪精度可能下降并出现画面漂移。
 
 # 第 7 章 VR 中的 UI
 
 一、将 UI 容器转换为世界空间坐标
 
 1. 新建一个 Canvas 游戏对象，在其 Canvas 组件中，将Render Mode 属性修改为 World Space。
-2. 此时 Canvas 便具有了世界空间坐标，Rect Trasform 组件为可修改状态，可以像3D物体一样在场景中设置位置、旋转、缩放等参数。我们一般需要根据 VR 场景的大小，修改Canvas 容器的外观，使其适应场景比例。有两种方式实现：一种方式是修改 RectTransform 组件的缩放 Scale 值，比如将其修改为 0.001;另外-一种方式是保持缩放不变，修改 Rect Transform 的Width 和 Height 属性。需要注意的是，对于修改比例的操作，尽量在 Canvas（即 UI 元素的容器）上完成，而不要修改容器的子物体。
+2. 此时 Canvas 具有世界空间坐标，RectTransform 组件变为可编辑状态，可以像 3D 物体一样设置位置、旋转和缩放。通常需要根据 VR 场景大小调整 Canvas 容器的外观，使其适应场景比例。一种方式是修改 RectTransform 的 Scale，例如设为 0.001；另一种方式是保持缩放不变，修改 RectTransform 的 Width 和 Height 属性。比例调整应尽量在 Canvas 容器上完成，而不要直接修改子物体。
 3. 为了能够在 VR 场景中比较清晰地观看 UI 元素，需要修改 Canvas 容器上 Canvas Scaler组件的 Dynamic Pixels Per Unit 属性值，一般为 2~5 之间的数值。下图左右侧文字分别在不同的 Canvas 中，左侧文字是 Dynamic Pixels Per Unit 属性值为默认时的表现，右侧文字是该值为3时的表现。
 
 二、VR 中的 UI 交互 
@@ -64,7 +64,7 @@ Unity 的 UI 系统主要由以下部分组成，它们互相配合，实现了�
 * Raycaster：射线投射器。
 * Graphic Components： 图形组件，如按钮、列表等。
 
-不同的 VR 硬件平台和SDK，与UI交互的实现机制不同，但它们都基于 Unity Ur 的事什系统流程，或者继示站文介绍的组件，或者模找相关的事件，例如在 Oculus Utilities 中，使用 OVR Physics Raycaster 类通过集成Unity 的 Basc Raycaster 类来实现Physics Raycaster的角色。
+不同 VR 硬件平台和 SDK 的 UI 交互实现机制不同，但通常都会复用 Unity UI 的事件系统流程。它们可能继承或替换本文介绍的组件，或扩展相关事件。例如，Oculus Utilities 中的 OVR Physics Raycaster 通过继承 Unity 的 Base Raycaster 来实现物理射线检测。
 
 # 第 9 章 SteamVR
 
@@ -134,7 +134,7 @@ Start-->初始化VR交互-->Player的移植-->设置道具为可交互对象-->�
 
 在VR 交互方式中，手势输入也是 VR 交互中的一种重要手段。通过计算机视觉，识别用户的手部动作，从而实现与虚拟物体的交互，比较普遍应用的设备是 Leap Motion。该设备早期定位于桌面计算平台，试图取代鼠标的交互输入方式，随着 VR 技术的兴起，其逐渐过渡到为 VR硬件设备提供手势输入，Leap Motion 能够提供非常精确且低延时的手部动作追踪数据，适用于VR技术操作教学应用、医疗手术等领域。
 
-通过手势输入，用户不再局限于有限的拴制器按键输入，而是以更加接近自然的手势输入与虚拟物体进行交互。Leap Motion 不只作为一个独立的硬件实体为 VR 设各提供交互输入，在未来还将以输入模块的形式集成到 VR 头显中，尤其是VR一体机设备。
+通过手势输入，用户不再局限于有限的控制器按键输入，而是能够以更自然的方式与虚拟物体交互。Leap Motion 不仅能作为独立硬件为 VR 设备提供交互输入，也可以以输入模块的形式集成到 VR 头显中，尤其是 VR 一体机设备。
 
 # 第 13 章 VIVE Tracker 的使用
 

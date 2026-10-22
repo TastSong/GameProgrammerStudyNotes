@@ -46,18 +46,15 @@
 
 
 
-## SOLID **设计模式的六大原则有：**
+## SOLID 设计原则
 
 - Single Responsibility Principle：单一职责原则
 - Open Closed Principle：开闭原则
 - Liskov Substitution Principle：里氏替换原则
-- Law of Demeter：迪米特法则
 - Interface Segregation Principle：接口隔离原则
-- Dependence Inversion Principle：依赖倒置原则
+- Dependency Inversion Principle：依赖倒置原则
 
-
-
-把这六个原则的首字母联合起来（两个 L 算做一个）就是 SOLID （solid，稳定的），其代表的含义就是这六个原则结合使用的好处：建立稳定、灵活、健壮的设计。下面我们来分别看一下这六大设计原则。
+SOLID 由上述五个原则的首字母组成，代表通过组合这些原则构建稳定、灵活、健壮的设计。下面分别说明这五个原则。
 
 
 
@@ -129,7 +126,7 @@ T负责两个不同的职责：职责P1，职责P2。当由于职责P1需求发�
 
 所有引用基类的地方必须能透明地使用其子类的对象
 
-C#不支持多继承
+LSP 关注的是子类型能否在不破坏调用方预期的前提下替换父类型，与语言是否支持多继承无关。下面用集合接口演示依赖抽象的效果。
 
 ```java
 public String getFirst(List<String> values) {
@@ -137,16 +134,16 @@ public String getFirst(List<String> values) {
 }
 
 // 对于getFirst方法，接受一个List接口类型的参数，那既可以传递一个ArrayList类型的参数：
-List<String> values = new ArrayList<>();
-values.add("a");
-values.add("b");
-String firstValue = getFirst(values);
+List<String> arrayList = new ArrayList<>();
+arrayList.add("a");
+arrayList.add("b");
+String firstFromArrayList = getFirst(arrayList);
 
 // 又可以接收一个LinkedList参数：
-List<String> values = new LinkedList<>();
-values.add("a");
-values.add("b");
-String firstValue = getFirst(values);
+List<String> linkedList = new LinkedList<>();
+linkedList.add("a");
+linkedList.add("b");
+String firstFromLinkedList = getFirst(linkedList);
 
 // 错误示例，并没有返回值CustomList
 class CustomList<T> extends ArrayList<T> {
@@ -157,15 +154,17 @@ class CustomList<T> extends ArrayList<T> {
 }
 ```
 
-## 4. 迪米特法则（Law of Demeter）
+## 补充原则：迪米特法则（Law of Demeter）
 
 只与你的直接朋友交谈，不跟“陌生人”说话
 
 其含义是：如果两个软件实体无须直接通信，那么就不应当发生直接的相互调用，可以通过第三方转发该调用。其目的是降低类之间的耦合度，提高模块的相对独立性。
 
+迪米特法则不属于 SOLID 的五个原则，但常与 SOLID 一起用于讨论模块解耦。
+
 **TinyMessage 已经改善现状**
 
-## 5. 接口隔离原则（Interface Segregation Principle）
+## 4. 接口隔离原则（Interface Segregation Principle）
 
 1、客户端不应该依赖它不需要的接口。
 2、类间的依赖关系应该建立在最小的接口上。
@@ -194,7 +193,7 @@ public class EquipBtns : MonoBehaviour, SettingInterface {
 // 再好的架构，也很难满足UI的快速变化
 ```
 
-## 6. 依赖倒置原则（Dependence Inversion Principle）
+## 5. 依赖倒置原则（Dependency Inversion Principle）
 
 1、上层模块不应该依赖底层模块，它们都应该依赖于抽象。
 2、抽象不应该依赖于细节，细节应该依赖于抽象。
