@@ -1,14 +1,10 @@
-
-
 # QFramework
 
 # 一、框架目的
 
-
-
 1. 难维护
 
-   由于拖拽的时候，对象之间的引用关系是随机的没有规律可循的，所以当时间久了或者比 人来接手次项目时要理清其中的逻辑所花费的时间会很多。
+   由于拖拽的时候，对象之间的引用关系是随机的没有规律可循的，所以当时间久了或者比人来接手次项目时要理清其中的逻辑所花费的时间会很多。
 
 2. 团队难以协作
 
@@ -16,13 +12,13 @@
 
 3. 可扩展性差
 
-   这个原因和第一条一样，拖拽的时候，对象之间的引用关系是随机的没有规律可循的，这 样会造成大量的耦合（牵一发动全身），后边当扩展功能的时候，花的时间越来越久。 而接下来的架构演化的方向就是针对以上的这些缺点针对性地进行解决。 
+   这个原因和第一条一样，拖拽的时候，对象之间的引用关系是随机的没有规律可循的，这样会造成大量的耦合（牵一发动全身），后边当扩展功能的时候，花的时间越来越久。而接下来的架构演化的方向就是针对以上的这些缺点针对性地进行解决。
 
 **而解决这三个的问题的途径-------低耦合、高内聚。**
 
 **什么是耦合、内聚？**
 
-耦合就是对象、类的双向引用、循环引用；内聚就是同样类型的代码放 在一起。
+耦合就是对象、类的双向引用、循环引用；内聚就是同样类型的代码放在一起。
 
 **低耦合：使对象之间的交互合理**
 
@@ -40,11 +36,7 @@
 
 • 分层，例如：MVC、三层架构、领域驱动分层等等
 
-
-
 # 二、设计原则
-
-
 
 ## SOLID 设计原则
 
@@ -55,8 +47,6 @@
 - Dependency Inversion Principle：依赖倒置原则
 
 SOLID 由上述五个原则的首字母组成，代表通过组合这些原则构建稳定、灵活、健壮的设计。下面分别说明这五个原则。
-
-
 
 ## 1. 单一职责原则（Single Responsibility Principle）
 
@@ -269,34 +259,34 @@ public class AppearanceUI : MonoBehaviour, JsonDataInterface, SettingInterface
 
 ## QFramework系统设计架构分为四层及其规则：
 
--  表现层：ViewController层。IController接口，负责接收输入和状态变化时的表现，一般情况下，MonoBehaviour 均为表现层 
+-  表现层：ViewController层。IController接口，负责接收输入和状态变化时的表现，一般情况下，MonoBehaviour 均为表现层
 
 - - 可以获取System
   - 可以获取Model
   - 可以发送Command
   - 可以监听Event
 
--  系统层：System层。ISystem接口，帮助IController承担一部分逻辑，在多个表现层共享的逻辑，比如计时系统、商城系统、成就系统等 
+-  系统层：System层。ISystem接口，帮助IController承担一部分逻辑，在多个表现层共享的逻辑，比如计时系统、商城系统、成就系统等
 
 - - 可以获取System
   - 可以获取Model
   - 可以监听Event
   - 可以发送Event
 
--  数据层：Model层。IModel接口，负责数据的定义、数据的增删查改方法的提供 
+-  数据层：Model层。IModel接口，负责数据的定义、数据的增删查改方法的提供
 
 - - 可以获取Utility
   - 可以发送Event
 
--  工具层：Utility层。IUtility接口，负责提供基础设施，比如存储方法、序列化方法、网络连接方法、蓝牙方法、SDK、框架继承等。啥都干不了，可以集成第三方库，或者封装API 
--  除了四个层级，还有一个核心概念——Command 
+-  工具层：Utility层。IUtility接口，负责提供基础设施，比如存储方法、序列化方法、网络连接方法、蓝牙方法、SDK、框架继承等。啥都干不了，可以集成第三方库，或者封装API
+-  除了四个层级，还有一个核心概念——Command
 
 - - 可以获取System
   - 可以获取Model
   - 可以发送Event
   - 可以发送Command
 
--  层级规则： 
+-  层级规则：
 
 - - IController 更改 ISystem、IModel 的状态必须用Command
   - ISystem、IModel状态发生变更后通知IController必须用事件或BindableProperty
@@ -520,7 +510,7 @@ namespace CounterApp {
 
 # 五、实现细节
 
-1. BindableProperty   响应式数据  
+1. BindableProperty   响应式数据
 
 ```csharp
 public static class CounterModel
@@ -543,11 +533,11 @@ public static class CounterModel
  }
 ```
 
-2. 交互逻辑：View -> Model ； 表现逻辑: Model -> View  
+2. 交互逻辑：View -> Model ；表现逻辑: Model -> View
 
 ![img](./image.png)
 
-3. IOC 容器  
+3. IOC 容器
 
 ```csharp
 using System;
@@ -601,8 +591,8 @@ namespace FrameworkDesign
 }
 ```
 
-4. 接口的阉割技术  
-- 接口的显式与隐式实现 
+4. 接口的阉割技术
+- 接口的显式与隐式实现
 
 ```csharp
 using UnityEngine;
@@ -843,6 +833,3 @@ namespace FrameworkDesign.Example
       }
   }
 ```
-
-  
-

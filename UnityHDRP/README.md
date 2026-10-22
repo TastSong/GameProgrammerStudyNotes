@@ -1,3 +1,5 @@
+# Unity HDRP 高清渲染管线实战
+
 ## 第1章　HDRP入门
 
 介绍HDRP场景组成
@@ -106,7 +108,7 @@
    * Reflection.Probe（反射探针）
    * Sky.reflection（天空反射）
 
-6. 阴影 
+6. 阴影
 
    * 阴影的种类
 
@@ -130,7 +132,7 @@
 2. UV之间有足够的间距以避免“渗色”现象。
 3. 光照贴图只用烘培静态物体。
 
-### 二、渐进式光照贴图烘焙对硬件的要求是什么？支持Unity的哪些渲染管线 
+### 二、渐进式光照贴图烘焙对硬件的要求是什么？支持Unity的哪些渲染管线
 
 硬件要求：
 
@@ -142,13 +144,13 @@
 
 1. 内置渲染管线（Built-in Render Pipeline ），支持
 2. 通用渲染管线(Universal Render Pipeline, 简称URP），支持Baked Indirect、Subtractive和Shadowmask光照模式。
-3. 高清渲染管线 (High Definition Render Pipeline， 简称HIDRP），支持Baked Indirect和Shadowmask光照模式。
+3. 高清渲染管线 (High Definition Render Pipeline，简称HIDRP），支持Baked Indirect和Shadowmask光照模式。
 
 ### 三、进行渐进式光照贴图烘焙时烘焙出来的是什么？
 
 光照贴图、光照探针、反射探针
 
-### 四、渐进式光照贴图烘焙的CPU版本和GPU版本有什么区别 
+### 四、渐进式光照贴图烘焙的CPU版本和GPU版本有什么区别
 
 cpu版本是cpu 和内存，gpu是gpu和显存
 
@@ -161,7 +163,7 @@ cpu版本是cpu 和内存，gpu是gpu和显存
 5. Compress Lightmaps
 6. Ambient Occlusion相关
 
-### 六、不同显卡对GPU版本的烘焙效率有什么影响 
+### 六、不同显卡对GPU版本的烘焙效率有什么影响
 
 成倍影响
 
@@ -173,14 +175,14 @@ cpu版本是cpu 和内存，gpu是gpu和显存
 
 显存不足
 
-### 九、如何避免GPU烘焙自动切换成CPU烘焙 
+### 九、如何避免GPU烘焙自动切换成CPU烘焙
 
 1. 不能完全避免
 2. Edit -> Project Settings -> Quality -> Texture Quality = Eighth Res
 3. 烘培过程隐藏Scene 和 Game 窗口
 4. 切分成小场景
 
-### 十、如何解决光照贴图接缝问题 
+### 十、如何解决光照贴图接缝问题
 
 这是由于GPU无法将分开光照贴图进行混合，启用Mesh Renderer 中的Stitch Seams，渲染时间会加长
 
@@ -214,15 +216,15 @@ Scene面板中有个UV Charts选项
 
 1. 为场景添加后处理效果的步骤
 
-   步骤1：在场景中创建一个空的GameObject， 并为它添加一个Volume组件。
+   步骤1：在场景中创建一个空的GameObject，并为它添加一个Volume组件。
 
    步骤2：创建一个Volume Profile并关联到Volume组件。
 
-   步骤3：添加Volume Override中 与Post-processing相关的Override，如图7.1所示。
+   步骤3：添加Volume Override中与Post-processing相关的Override，如图7.1所示。
 
    除了上述通过Volume添加的后处理效果，我们之前也介绍过可以通过Camera组件控制画面的抗锯齿（Anti-aliasing ）效果，这也属于后处理的范畴。不过因为之前已经详细讲解过，所以本章不再介绍它了。
 
-   步骤4：在Project Settings 窗口的HDRP Default Setings中可能己经存在一些默认的后处理效果。为了不影响为场景中添加的后处理效果，我们可以把默认的后处理效果禁用。
+   步骤 4：在 Project Settings 窗口的 HDRP Default Settings 中可能已经存在一些默认后处理效果。为了不影响为场景添加的后处理效果，可以禁用这些默认效果。
 
 2. 后处理效果应用顺序和效果组合
 
@@ -265,8 +267,8 @@ Scene面板中有个UV Charts选项
 ## 第8章　HDRP.Debug窗口介绍
 
 1. Material（材质）相关的Debug窗口
-2. Lighting（光照）相关的Debug窗口 
-3. Camera（相机）相关的Debug窗口 
+2. Lighting（光照）相关的Debug窗口
+3. Camera（相机）相关的Debug窗口
 4. MatCap显示模式的使用方法
 
 ## 第9章　HDRP在VR中的应用
