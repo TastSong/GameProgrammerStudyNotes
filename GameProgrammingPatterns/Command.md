@@ -49,9 +49,9 @@
   JumpCommand jumpCommand = new JumpCommand(jumpCommandReciever, direction, jumpDistance, objectToMove);
   Command command;
   if (isMove){
-      command = moveCommand；
+      command = moveCommand;
   } else {
-      command = jumpCommand；
+      command = jumpCommand;
   }
   command.Execute();
   ```

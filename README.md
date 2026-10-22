@@ -1,37 +1,39 @@
 # Game Programmer Study Notes 游戏编程学习笔记 
 
+> 各专题的内容状态、版本适用范围和待复核项见 [CONTENT_AUDIT.md](./CONTENT_AUDIT.md)。
+
 # Game Programming Patterns 游戏编程模式
 
 ![](./Pictures/GameProgrammingPatterns.png)
 
-[代码示例](./GameProgrammingPatterns)	
+[代码示例](./GameProgrammingPatterns/README_GameProgrammingPatterns.md)
 
 - 重访设计模式
-  - [命令模式](./GameProgrammingPatterns/Command.md)：*将“请求〞封装成对象，以便使用不同的清求，队列或者日志来参数化其他对象，同时支持可撤消的操作*
-  - [享元模式](./GameProgrammingPatterns/Flyweight.md)：*以共享的方式高效地支持大量的细粒度的对象。通过复用内存中已存在的对象，降低系络创建对象实例的性能消耗*
-  - [观察者模式](./GameProgrammingPatterns/Observer.md)：*定义对象间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并被白动更新*
+  - [命令模式](./GameProgrammingPatterns/Command.md)：*将“请求”封装成对象，以便使用不同的请求、队列或者日志来参数化其他对象，同时支持可撤销的操作*
+  - [享元模式](./GameProgrammingPatterns/Flyweight.md)：*以共享的方式高效地支持大量细粒度对象。通过复用内存中已存在的对象，降低系统创建对象实例的性能消耗*
+  - [观察者模式](./GameProgrammingPatterns/Observer.md)：*定义对象间的一种一对多依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都会得到通知并被自动更新*
   - [原型模式](./GameProgrammingPatterns/Prototype.md)：*用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象*
   - [单例模式](./GameProgrammingPatterns/Singleton.md)：*保证一个类只有一个实例，并且提供了访问该实例的全局访问点*
-  - [状态模式](./GameProgrammingPatterns/State.md)：*允许对象在当内部状态改交时改交其行为，就好像此对象改变了自己的类一样*
+  - [状态模式](./GameProgrammingPatterns/State.md)：*允许对象在内部状态改变时改变其行为，就好像对象改变了自己的类一样*
 - 序列模式
   - [双缓冲模式](./GameProgrammingPatterns/DoubleBuffer.md)：*使用序列操作来模拟瞬间或者同时发生的事情*
-  - [游戏循环](./GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop)：*实现游戏运行过程中对用户输入处理和时间处理的解耦*
+  - [游戏循环](./GameProgrammingPatterns/DoubleBuffer.md#游戏循环)：*实现游戏运行过程中对用户输入处理和时间处理的解耦*
   - [更新方法](./GameProgrammingPatterns/UpdateMethod.md)：*通过每次处理一帧的行为来模拟一系列独立对象*
 - 行为模式
-  - [字节码](./GameProgrammingPatterns/Bytecode.md)：*将行为编码为虚拟机器上的指令，来赋予其数据的灵活性。从而让数据易于修改，易手加载，并与其他可执行部分相隔离*
+  - [字节码](./GameProgrammingPatterns/Bytecode.md)：*将行为编码为虚拟机上的指令，赋予数据灵活性，使行为易于修改和加载，并与其他可执行部分相隔离*
   - [子类沙箱](./GameProgrammingPatterns/SubclassSandbox.md)：*用一系列由基类提供的操作定义子类中的行为*
   - [类型对象](./GameProgrammingPatterns/TypeObject.md)：*创造一个类A来允许灵活的创造新的类，而类A的每个实例都代表了不同类型的对象*
 - 解耦模式
   - [组件模式](./GameProgrammingPatterns/Component.md)：*允许单一的实体跨越多个领域，无需这些领域彼此耦合*
   - [事件队列](./GameProgrammingPatterns/EventQueue.md)：*事件队列模式，对消息或事件的发送与处理进行时间上的解耦*
-  - [服务定位器](./GameProgrammingPatterns/ServiceLocator.md)：*提供服务的全局接入点，而不心让用户和实现它的具体类解耦*
+  - [服务定位器](./GameProgrammingPatterns/ServiceLocator.md)：*提供服务访问的全局入口，同时避免让使用方依赖具体实现类*
 - 优化模式
-  - [数据局部性](./GameProgrammingPatterns/DataLocality.md)：*合理组织数据，充分使用CPU的级存来加速内行读取*
-  - [脏标识模式](./GameProgrammingPatterns/DirtyFlag.md)：*将工作延期至需要其结果时才去执行，以避免不心要的工作*
+  - [数据局部性](./GameProgrammingPatterns/DataLocality.md)：*合理组织数据，充分利用 CPU 缓存来加速内存读取*
+  - [脏标识模式](./GameProgrammingPatterns/DirtyFlag.md)：*将工作延期至需要其结果时才执行，以避免不必要的工作*
   - [对象池模式](./GameProgrammingPatterns/ObjectPool.md)：*放弃单独地分配和释放对象，从固定的池中重用对象，以提高性能和内存使用率*
-  - [空间分区](./GameProgrammingPatterns/SpatialPartition.md)：*将对条存储在基于位置组织的数据结构中，来有效的定位对象*
+  - [空间分区](./GameProgrammingPatterns/SpatialPartition.md)：*将对象存储在按位置组织的数据结构中，以高效定位对象*
 
-**重访设计模式的六种设计方法为经典23种设计模式的之六，这六种设计模式也是游戏中常用的设计模式；序列模式、行为模式和优化模式适用与游戏引擎设计；解耦模式适用于游戏UI部分的设计-------自定义组件和消息机制的设计；是一本不错的学习游戏设计模式的书籍**
+**“重访设计模式”中的六种模式取自经典 23 种设计模式，也是游戏中常用的设计模式。序列模式、行为模式和优化模式适用于游戏引擎设计；解耦模式适用于游戏 UI、自定义组件和消息机制的设计。**
 
 # QFramework Unity框架
 
@@ -40,12 +42,12 @@
 [详细文档](./QFramework/README.md)
 
 - 架构目的：使用框架的目的与意义
-- 设计原则：SOLID设计模式的六大原则
+- 设计原则：SOLID 设计原则
 - 总体架构：框架的分层以及层级之间的规则
 - 代码示例：如何使用此框架
 - 实现细节：框架实现过程中的技术要点
 
-**此框架相较于流行的框架[ET](https://github.com/egametang/ET)、[JEngine](https://github.com/JasonXuDeveloper/JEngine)等框架，QFormwork更专注于逻辑层的架构，在工具层实现组件化做到即用即安装，更佳纯粹；此教程在Unity学堂可以学习，重点不应该放在框架的使用，而是放在框架的搭建过程**
+**与 [ET](https://github.com/egametang/ET)、[JEngine](https://github.com/JasonXuDeveloper/JEngine) 等框架相比，QFramework 更专注于逻辑层架构，并在工具层实现组件化。学习重点不应只放在框架的使用上，还应关注框架的搭建过程。**
 
 # Unity 3D高级编程
 
@@ -62,7 +64,7 @@
 * [第九章 渲染管线与图形学](./ProfessionalUnity3D/第九章渲染管线与图形学.md) ：图形数学、图形学常用算法、渲染管线的相关知识
 * [第十章 渲染原理与知识](./ProfessionalUnity3D/第十章渲染原理与知识.md) ：客户端各类渲染技术的渲染原理
 
-**整本书讲解的为Unity的底层原理，核心思想是优化游戏性能，主要的围绕提高游戏运行速度与降低内存消耗展开，优化的本质其实就是减少GC和降低drewcall，进而分别从C#技术要点、UI、模型等模块进行讲解，适合有一定Unity开发经验的学习者**
+**本书重点讲解 Unity 底层原理与性能优化，围绕提高运行速度、降低内存消耗、减少 GC 和降低 draw call 展开，并从 C# 技术要点、UI、模型等模块进行分析，适合有一定 Unity 开发经验的学习者。**
 
 # Clean Code 
 
@@ -99,12 +101,10 @@
   * 润色 (Polish)
 * 游戏感的体验
   * 操作的美感
-  * 学习、练习和掌握一项技能的榆
-  * 悦感
+  * 学习、练习和掌握一项技能的愉悦感
   * 感觉的延伸
   * 个体的延伸
-  * 与游戏里一个独特的物理实体的
-  * 交互感
+  * 与游戏里一个独特物理实体的交互感
 * 创造游戏感
 * 游戏感测量维度
   * 输入
@@ -192,13 +192,13 @@
 [详细文档](./UnityNetworkGame/README.md)
 
 * 第一章 网络游戏的开端
-* 第二章 分身有术：异步和安路复用
-* 第三章 文践出真知：大乱斗游戏
-* 第四章 正砷收发数据流
+* 第二章 分身有术：异步和多路复用
+* 第三章 实践出真知：大乱斗游戏
+* 第四章 正确收发数据流
 * 第五章 深入了解TCP，解决暗藏问题
 * 第六章 通用客户端网络模块
 * 第七章 通用服务端框架
-* 第八章 完整大项目《坦克克大战》
+* 第八章 完整大项目《坦克大战》
 * 第九章 UI界面模块
 * 第十章 游戏大厅和房间
 * 第十一章 战斗和胜负判定
