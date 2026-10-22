@@ -1,0 +1,51 @@
+# Unity generated directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset metadata should be committed with its asset
+!/[Aa]ssets/**/*.meta
+
+# IDE and generated project files
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity-generated plugin directories
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Builds and crash reports
+*.apk
+*.aab
+*.unitypackage
+*.app
+sysinfo.txt
+crashlytics-build.properties
+
+# OS files
+.DS_Store
