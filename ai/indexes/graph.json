@@ -1,0 +1,3868 @@
+{
+  "edges": [
+    {
+      "from": "doc:gameprogrammingpatterns-bytecode",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-command",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-command",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-command",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-command",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-component",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-datalocality",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-dirtyflag",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-doublebuffer",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-eventqueue",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-flyweight",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-objectpool",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-objectpool",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolObject.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-objectpool",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-objectpool",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-observer",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-prototype",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-servicelocator",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-singleton",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-state",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-subclasssandbox",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-subclasssandbox",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-subclasssandbox",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-subclasssandbox",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-subclasssandbox",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-typeobject",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "documents"
+    },
+    {
+      "from": "doc:gameprogrammingpatterns-updatemethod",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "documents"
+    },
+    {
+      "from": "symbol:csharp:Breed.Breed:L64",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Breed.GetAttack:L99",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Breed.GetHealth:L94",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Breed.NewMonster:L89",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Breed:L52",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Bytecode.Interpret:L14",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Bytecode:L13",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Command.Execute:L3",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Command.UnExecute:L4",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Command:L1",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.BaseComponent.Update:L124",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.BaseComponent:L123",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.ComponentPattern.Start:L10",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.ComponentPattern.Update:L14",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.ComponentPattern:L7",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.GraphicsComponent.Update:L128",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.GraphicsComponent:L127",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.GraphicsX.Draw:L145",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.GraphicsX:L144",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.InputComponent.Update:L136",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.InputComponent:L135",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PhysicsComponent.Update:L132",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PhysicsComponent:L131",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PlayerGraphicsComponent.Update:L100",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PlayerGraphicsComponent:L99",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PlayerInputComponent.Update:L68",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PlayerInputComponent:L67",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PlayerPhysicsComponent.Update:L87",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.PlayerPhysicsComponent:L86",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.RPGGame.Start:L40",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.RPGGame.Update:L53",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.RPGGame:L22",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ComponentPattern.WorldX:L140",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcreteObserver.Update:L91",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcreteObserver:L77",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcretePrototype1.Clone:L56",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcretePrototype1.ConcretePrototype1:L50",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcretePrototype1:L47",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcretePrototype2.Clone:L74",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcretePrototype2.ConcretePrototype2:L68",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcretePrototype2:L65",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ConcreteSubject:L54",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.AIComponent.Update:L105",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.AIComponent:L103",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.DataLocalityPattern.Start:L15",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.DataLocalityPattern.Update:L21",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.DataLocalityPattern:L11",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Render:L133",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Start:L46",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Update:L105",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Update:L116",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Update:L127",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Update:L59",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX.Update:L97",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.GameX:L33",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.IComponent.Update:L97",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.IComponent:L95",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.PhysicsComponent.Update:L116",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.PhysicsComponent:L114",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.RenderComponent.Render:L133",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.RenderComponent.Update:L127",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DataLocalityPattern.RenderComponent:L125",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.DirtyFlagPattern.Start:L15",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.DirtyFlagPattern.Update:L26",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.DirtyFlagPattern:L11",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.GraphNode.GraphNode:L109",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.GraphNode.render:L129",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.GraphNode.renderMesh:L161",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.GraphNode.setTransform:L120",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.GraphNode:L79",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.MeshEX:L44",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.TransformEX.combine:L63",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DirtyFlagPattern.TransformEX:L52",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DoubleBuffer.Draw:L18",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DoubleBuffer.Start:L10",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DoubleBuffer.Swap:L29",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:DoubleBuffer:L5",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity.Entity:L19",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity.SetX:L29",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity.SetY:L30",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity.Update:L24",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity.x:L26",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity.y:L27",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Entity:L18",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.EventQueuePattern.OnReceiveCustomMessageHandler:L67",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.EventQueuePattern.OnReceiveMessageHandler:L61",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.EventQueuePattern.Start:L11",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.EventQueuePattern.Update:L24",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.EventQueuePattern:L8",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.IMessage.Reset:L119",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.IMessage:L89",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.Message.Reset:L164",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.Message:L127",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcher.AddListener:L227",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcher.ClearMessages:L216",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcher.SendMessage:L257",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcher.Update:L312",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcher:L190",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcherStub.Awake:L335",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcherStub.OnDisable:L345",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcherStub.Update:L340",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MessageDispatcherStub:L333",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:EventQueuePattern.MyCustomMessage:L77",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlashSpeed.Activate:L11",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlashSpeed:L8",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.Character.Display:L65",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.Character:L56",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterA.CharacterA:L70",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterA.Display:L80",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterA:L68",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterB.CharacterB:L90",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterB.Display:L100",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterB:L88",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterFactory.GetCharacter:L33",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterFactory:L28",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterZ.CharacterZ:L113",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterZ.Display:L123",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.CharacterZ:L111",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.FlyweightPattern.Start:L9",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:FlyweightPattern.FlyweightPattern:L7",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Framebuffer.Clear:L46",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Framebuffer.Draw:L52",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Framebuffer.Framebuffer:L42",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Framebuffer.GetPixels:L56",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Framebuffer:L36",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopManager.DoGameLoop:L54",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopManager.ProcessInput:L86",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopManager.Render:L97",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopManager.Update:L105",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopManager:L43",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopPattern.DoGameLoop:L28",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopPattern.Start:L13",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopPattern.Update:L20",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GameLoopPatternExample.GameLoopPattern:L9",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GroundDive.Activate:L11",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:GroundDive:L8",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.Move:L45",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.MoveDown:L56",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.MoveLeft:L57",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.MoveRight:L58",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.MoveUp:L55",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.OnGUI:L61",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.Redo:L35",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.Start:L13",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.Undo:L25",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler.Update:L81",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:InputHandler:L4",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Instruction:L5",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Monster.GetAttack:L123",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Monster.Monster:L116",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Monster.ShowAttack:L128",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Monster:L110",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand.Execute:L25",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand.InverseDirection:L39",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand.MoveCommand:L15",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand.MoveDirectionString:L66",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand.ToString:L59",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand.UnExecute:L32",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommand:L6",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommandReceiver.MoveOperation:L5",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommandReceiver.MoveX:L31",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommandReceiver.MoveY:L24",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveCommandReceiver:L3",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:MoveDirection:L4",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.ObjectPool.GetObjectFromPool:L28",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.ObjectPool.ReturnAllObjectToPool:L65",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.ObjectPool.ReturnOneObjectToPool:L51",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.ObjectPool.Start:L16",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.ObjectPool:L8",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.Pool.AddObjectToPool:L48",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.Pool.NewObjectInstance:L60",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.Pool.NextAvailableObject:L80",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.Pool.Pool:L31",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.Pool.ReturnObjectToPool:L122",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.Pool:L18",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolInfo:L302",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager.CheckForDuplicatePoolNames:L206",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager.CreatePools:L228",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager.GetObjectFromPool:L251",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager.Init:L194",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager.PoolManager:L185",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager.ReturnObjectToPool:L275",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolManager:L150",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolObject:L16",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolObject.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolObjectBehaviour.OnEnable:L13",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObjectPoolPattern.PoolObjectBehaviour:L7",
+      "to": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Observer.Update:L71",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Observer:L69",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObserverPattern.Start:L8",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ObserverPattern:L6",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Prototype.Clone:L41",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Prototype.Prototype:L30",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Prototype:L25",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:PrototypePattern.Start:L7",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:PrototypePattern:L4",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.IAudio.PlaySound:L113",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.IAudio.StopAllSounds:L115",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.IAudio.StopSound:L114",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.IAudio:L111",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.Log:L182",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.LoggedAudio:L159",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.PlaySound:L164",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.StopAllSounds:L176",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.StopSound:L170",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.LoggedAudio:L155",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.NullAudio.PlaySound:L147",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.NullAudio.StopAllSounds:L149",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.NullAudio.StopSound:L148",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.NullAudio:L145",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocator.EnableAudioLogging:L95",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocator.GetAudioService:L72",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocator.RegisterService:L78",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocator:L67",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocatorPattern.Start:L13",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocatorPattern.Update:L20",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.ServiceLocatorPattern:L11",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer.PlaySound:L123",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer.StopAllSounds:L135",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer.StopSound:L129",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer:L121",
+      "to": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Singleton.Instance:L38",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Singleton.Singleton:L34",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Singleton:L29",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SingletonPattern.Start:L12",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SingletonPattern:L9",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SkyLaunch.Activate:L12",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SkyLaunch:L9",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateA.ConcreteStateA:L70",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateA.Handle:L73",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateA:L68",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateB.ConcreteStateB:L87",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateB.Handle:L90",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateB:L85",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateC.ConcreteStateC:L104",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateC.Handle:L107",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.ConcreteStateC:L102",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.Context.Request:L39",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.Context.SetState:L44",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.Context:L35",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.State.Handle:L62",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.State.State:L58",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.State:L54",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.StatePattern.Start:L15",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.StatePattern.UnitTest:L20",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:StatePattern.StatePattern:L13",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Subject.Attach:L32",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Subject.Detach:L37",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Subject.Notify:L42",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:Subject:L28",
+      "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SuperPower.Activate:L12",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SuperPower.Move:L15",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SuperPower.PlaySound:L20",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SuperPower.SpawnParticles:L25",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:SuperPower:L9",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:TestSubclassSandbox.Start:L16",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:TestSubclassSandbox.Update:L24",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:TestSubclassSandbox:L9",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:TypeObjectPattern.Start:L25",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:TypeObjectPattern:L4",
+      "to": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:UpdateMethod.Start:L9",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:UpdateMethod.Update:L13",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:UpdateMethod:L5",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:World.GameLoop:L38",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    },
+    {
+      "from": "symbol:csharp:World:L36",
+      "to": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "defined_in"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "doc:agenticdesignpatterns-readme",
+      "label": "Agentic Design Patterns",
+      "path": "AgenticDesignPatterns/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:biggameserverdevelopment-readme",
+      "label": "百万在线---大型游戏服务端开发",
+      "path": "BigGameServerDevelopment/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:butterfly-readme",
+      "label": "第1篇 成为用户体验设计师的信念",
+      "path": "Butterfly/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:cleancode-cleancode",
+      "label": "Clean Code",
+      "path": "CleanCode/CleanCode.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:coldstart-readme",
+      "label": "冷启动",
+      "path": "ColdStart/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:content-audit",
+      "label": "内容状态与质量清单",
+      "path": "CONTENT_AUDIT.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:designingdataintensiveapplications-readme",
+      "label": "《数据密集型应用系统设计》",
+      "path": "DesigningDataIntensiveApplications/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:designwithindesign-readme",
+      "label": "第一章　设计到底是什么？",
+      "path": "DesignWithinDesign/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:dontmakemethink-readme",
+      "label": "第1章 别让我思考",
+      "path": "DontMakeMeThink/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameenginearchitecture-readme",
+      "label": "第一部分 基础",
+      "path": "GameEngineArchitecture/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gamefell-gamefell",
+      "label": "游戏感",
+      "path": "GameFell/GameFell.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingessence1-readme",
+      "label": "第1章  通用编程技术",
+      "path": "GameProgrammingEssence1/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-assets-optimizationpatterns-objectpool-script-readme",
+      "label": "Reference",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-bytecode",
+      "label": "字节码",
+      "path": "GameProgrammingPatterns/Bytecode.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-command",
+      "label": "命令模式",
+      "path": "GameProgrammingPatterns/Command.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-component",
+      "label": "组件模式",
+      "path": "GameProgrammingPatterns/Component.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-datalocality",
+      "label": "数据局部性",
+      "path": "GameProgrammingPatterns/DataLocality.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-dirtyflag",
+      "label": "脏标识模式",
+      "path": "GameProgrammingPatterns/DirtyFlag.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-doublebuffer",
+      "label": "双缓冲模式",
+      "path": "GameProgrammingPatterns/DoubleBuffer.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-eventqueue",
+      "label": "事件队列",
+      "path": "GameProgrammingPatterns/EventQueue.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-flyweight",
+      "label": "享元模式",
+      "path": "GameProgrammingPatterns/Flyweight.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-objectpool",
+      "label": "对象池模式",
+      "path": "GameProgrammingPatterns/ObjectPool.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-observer",
+      "label": "观察者模式",
+      "path": "GameProgrammingPatterns/Observer.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-prototype",
+      "label": "原型模式",
+      "path": "GameProgrammingPatterns/Prototype.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-readme",
+      "label": "Game Programming Patterns 游戏编程模式",
+      "path": "GameProgrammingPatterns/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-servicelocator",
+      "label": "服务定位器",
+      "path": "GameProgrammingPatterns/ServiceLocator.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-singleton",
+      "label": "单例模式",
+      "path": "GameProgrammingPatterns/Singleton.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-spatialpartition",
+      "label": "空间分区",
+      "path": "GameProgrammingPatterns/SpatialPartition.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-state",
+      "label": "状态模式",
+      "path": "GameProgrammingPatterns/State.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-subclasssandbox",
+      "label": "子类沙箱",
+      "path": "GameProgrammingPatterns/SubclassSandbox.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-typeobject",
+      "label": "类型对象",
+      "path": "GameProgrammingPatterns/TypeObject.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gameprogrammingpatterns-updatemethod",
+      "label": "更新方法",
+      "path": "GameProgrammingPatterns/UpdateMethod.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:gametrip-gametrip",
+      "label": "第1章 计算机，游戏，我",
+      "path": "GameTrip/GameTrip.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:javagameserverarchitectureofactualcombat-readme",
+      "label": "模块零 概论",
+      "path": "JavaGameServerArchitectureOfActualCombat/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:mathematicsfor3dgameprogrammingandcomputergraphics-readme",
+      "label": "3D游戏与计算机图形学中的数学方法",
+      "path": "MathematicsFor3DGameProgrammingAndComputerGraphics/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:microservicespatterns-readme",
+      "label": "微服务架构设计模式",
+      "path": "MicroservicesPatterns/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:multi-playeronlinegamearchitecturecombat-readme",
+      "label": "第1章 网络编程基础",
+      "path": "Multi-playerOnlineGameArchitectureCombat/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:mythicalmanmonth-readme",
+      "label": "第1章 焦油坑",
+      "path": "MythicalManMonth/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第一章架构",
+      "label": "第一章 架构",
+      "path": "ProfessionalUnity3D/第一章架构.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第七章游戏中的ai",
+      "label": "第七章 游戏中的 AI",
+      "path": "ProfessionalUnity3D/第七章游戏中的AI.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第三章数据表",
+      "label": "第三章 数据表",
+      "path": "ProfessionalUnity3D/第三章数据表.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第九章渲染管线与图形学",
+      "label": "第九章 渲染管线与图形学",
+      "path": "ProfessionalUnity3D/第九章渲染管线与图形学.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第二章技术要点",
+      "label": "第二章 C# 技术要点",
+      "path": "ProfessionalUnity3D/第二章技术要点.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第五章3d模型与动画",
+      "label": "第五章 3D 模型与动画",
+      "path": "ProfessionalUnity3D/第五章3D模型与动画.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第八章地图与寻路",
+      "label": "第八章 地图与寻路",
+      "path": "ProfessionalUnity3D/第八章地图与寻路.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第六章网络层",
+      "label": "第六章 网络层",
+      "path": "ProfessionalUnity3D/第六章网络层.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第十章渲染原理与知识",
+      "label": "第十章 渲染原理与知识",
+      "path": "ProfessionalUnity3D/第十章渲染原理与知识.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:professionalunity3d-第四章用户界面",
+      "label": "第四章 用户界面",
+      "path": "ProfessionalUnity3D/第四章用户界面.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:qframework-readme",
+      "label": "QFramework",
+      "path": "QFramework/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:readme",
+      "label": "Game Programmer Study Notes 游戏编程学习笔记",
+      "path": "README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:reconsitution-readme",
+      "label": "Unity 游戏程序优化设计实战",
+      "path": "Reconsitution/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:refactoring-readme",
+      "label": "重构：改善既有代码的设计",
+      "path": "Refactoring/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:tencentgamedevelopment1-readme",
+      "label": "第一部分 游戏数学",
+      "path": "TencentGameDevelopment1/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:tencentgamedevelopment2-readme",
+      "label": "腾讯游戏开发精粹 II",
+      "path": "TencentGameDevelopment2/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:tencentgamedevelopment3-readme",
+      "label": "腾讯游戏开发精粹 III",
+      "path": "TencentGameDevelopment3/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:theartofcomputerprogramming-readme",
+      "label": "计算机程序设计艺术",
+      "path": "TheArtofComputerProgramming/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:thegameserverarchitectureandoptimization-readme",
+      "label": "游戏服务器架构与优化",
+      "path": "TheGameServerArchitectureAndOptimization/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:thenon-designersdesignbook-readme",
+      "label": "第一部分：设计原则",
+      "path": "TheNon-Designer'sDesignBook/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unityai-readme",
+      "label": "第1章 行为——智能移动",
+      "path": "UnityAI/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unitygameoptimization-readme",
+      "label": "第1章 检测性能问题",
+      "path": "UnityGameOptimization/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unityhdrp-readme",
+      "label": "Unity HDRP 高清渲染管线实战",
+      "path": "UnityHDRP/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unitynetworkgame-readme",
+      "label": "第一章 网络游戏的开端",
+      "path": "UnityNetworkGame/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unityperformancetuningbible-readme",
+      "label": "Unity 性能调优宝典",
+      "path": "UnityPerformanceTuningBible/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unityshader-readme",
+      "label": "第1篇 基础篇",
+      "path": "UnityShader/README.md",
+      "type": "note"
+    },
+    {
+      "id": "doc:unityvr-readme",
+      "label": "Unity VR虚拟现实完全自学教程",
+      "path": "UnityVR/README.md",
+      "type": "note"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "label": "Bytecode.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "label": "FlashSpeed.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "label": "GroundDive.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "label": "SkyLaunch.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "label": "SuperPower.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "label": "TestSubclassSandbox.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "label": "TypeObjectPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "label": "ComponentPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "label": "EventQueuePattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "label": "ServiceLocatorPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "label": "Command.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "label": "InputHandler.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "label": "MoveCommand.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "label": "MoveCommandReceiver.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "label": "FlyweightPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "label": "ObserverPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "label": "PrototypePattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "label": "SingletonPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "label": "StatePattern.cs",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "label": "DataLocalityPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "label": "DirtyFlagPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "label": "PoolManager.cs",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolObject.cs",
+      "label": "PoolObject.cs",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolObject.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "label": "ObjectPool.cs",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "label": "PoolObjectBehaviour.cs",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "label": "DoubleBuffer.cs",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "label": "GameLoopPattern.cs",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "code"
+    },
+    {
+      "id": "file:GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "label": "UpdateMethod.cs",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "code"
+    },
+    {
+      "id": "symbol:csharp:Breed.Breed:L64",
+      "kind": "method",
+      "label": "Breed.Breed",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Breed.GetAttack:L99",
+      "kind": "method",
+      "label": "Breed.GetAttack",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Breed.GetHealth:L94",
+      "kind": "method",
+      "label": "Breed.GetHealth",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Breed.NewMonster:L89",
+      "kind": "method",
+      "label": "Breed.NewMonster",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Breed:L52",
+      "kind": "class",
+      "label": "Breed",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Bytecode.Interpret:L14",
+      "kind": "method",
+      "label": "Bytecode.Interpret",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Bytecode:L13",
+      "kind": "class",
+      "label": "Bytecode",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Command.Execute:L3",
+      "kind": "method",
+      "label": "Command.Execute",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Command.UnExecute:L4",
+      "kind": "method",
+      "label": "Command.UnExecute",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Command:L1",
+      "kind": "interface",
+      "label": "Command",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/Command.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.BaseComponent.Update:L124",
+      "kind": "method",
+      "label": "ComponentPattern.BaseComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.BaseComponent:L123",
+      "kind": "interface",
+      "label": "ComponentPattern.BaseComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.ComponentPattern.Start:L10",
+      "kind": "method",
+      "label": "ComponentPattern.ComponentPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.ComponentPattern.Update:L14",
+      "kind": "method",
+      "label": "ComponentPattern.ComponentPattern.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.ComponentPattern:L7",
+      "kind": "class",
+      "label": "ComponentPattern.ComponentPattern",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.GraphicsComponent.Update:L128",
+      "kind": "method",
+      "label": "ComponentPattern.GraphicsComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.GraphicsComponent:L127",
+      "kind": "interface",
+      "label": "ComponentPattern.GraphicsComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.GraphicsX.Draw:L145",
+      "kind": "method",
+      "label": "ComponentPattern.GraphicsX.Draw",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.GraphicsX:L144",
+      "kind": "class",
+      "label": "ComponentPattern.GraphicsX",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.InputComponent.Update:L136",
+      "kind": "method",
+      "label": "ComponentPattern.InputComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.InputComponent:L135",
+      "kind": "interface",
+      "label": "ComponentPattern.InputComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PhysicsComponent.Update:L132",
+      "kind": "method",
+      "label": "ComponentPattern.PhysicsComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PhysicsComponent:L131",
+      "kind": "interface",
+      "label": "ComponentPattern.PhysicsComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PlayerGraphicsComponent.Update:L100",
+      "kind": "method",
+      "label": "ComponentPattern.PlayerGraphicsComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PlayerGraphicsComponent:L99",
+      "kind": "class",
+      "label": "ComponentPattern.PlayerGraphicsComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PlayerInputComponent.Update:L68",
+      "kind": "method",
+      "label": "ComponentPattern.PlayerInputComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PlayerInputComponent:L67",
+      "kind": "class",
+      "label": "ComponentPattern.PlayerInputComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PlayerPhysicsComponent.Update:L87",
+      "kind": "method",
+      "label": "ComponentPattern.PlayerPhysicsComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.PlayerPhysicsComponent:L86",
+      "kind": "class",
+      "label": "ComponentPattern.PlayerPhysicsComponent",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.RPGGame.Start:L40",
+      "kind": "method",
+      "label": "ComponentPattern.RPGGame.Start",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.RPGGame.Update:L53",
+      "kind": "method",
+      "label": "ComponentPattern.RPGGame.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.RPGGame:L22",
+      "kind": "class",
+      "label": "ComponentPattern.RPGGame",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ComponentPattern.WorldX:L140",
+      "kind": "class",
+      "label": "ComponentPattern.WorldX",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/Component/ComponentPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcreteObserver.Update:L91",
+      "kind": "method",
+      "label": "ConcreteObserver.Update",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcreteObserver:L77",
+      "kind": "class",
+      "label": "ConcreteObserver",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcretePrototype1.Clone:L56",
+      "kind": "method",
+      "label": "ConcretePrototype1.Clone",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcretePrototype1.ConcretePrototype1:L50",
+      "kind": "method",
+      "label": "ConcretePrototype1.ConcretePrototype1",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcretePrototype1:L47",
+      "kind": "class",
+      "label": "ConcretePrototype1",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcretePrototype2.Clone:L74",
+      "kind": "method",
+      "label": "ConcretePrototype2.Clone",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcretePrototype2.ConcretePrototype2:L68",
+      "kind": "method",
+      "label": "ConcretePrototype2.ConcretePrototype2",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcretePrototype2:L65",
+      "kind": "class",
+      "label": "ConcretePrototype2",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ConcreteSubject:L54",
+      "kind": "class",
+      "label": "ConcreteSubject",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.AIComponent.Update:L105",
+      "kind": "method",
+      "label": "DataLocalityPattern.AIComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.AIComponent:L103",
+      "kind": "class",
+      "label": "DataLocalityPattern.AIComponent",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.DataLocalityPattern.Start:L15",
+      "kind": "method",
+      "label": "DataLocalityPattern.DataLocalityPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.DataLocalityPattern.Update:L21",
+      "kind": "method",
+      "label": "DataLocalityPattern.DataLocalityPattern.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.DataLocalityPattern:L11",
+      "kind": "class",
+      "label": "DataLocalityPattern.DataLocalityPattern",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Render:L133",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Render",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Start:L46",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Start",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Update:L105",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Update:L116",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Update:L127",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Update:L59",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX.Update:L97",
+      "kind": "method",
+      "label": "DataLocalityPattern.GameX.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.GameX:L33",
+      "kind": "class",
+      "label": "DataLocalityPattern.GameX",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.IComponent.Update:L97",
+      "kind": "method",
+      "label": "DataLocalityPattern.IComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.IComponent:L95",
+      "kind": "interface",
+      "label": "DataLocalityPattern.IComponent",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.PhysicsComponent.Update:L116",
+      "kind": "method",
+      "label": "DataLocalityPattern.PhysicsComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.PhysicsComponent:L114",
+      "kind": "class",
+      "label": "DataLocalityPattern.PhysicsComponent",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.RenderComponent.Render:L133",
+      "kind": "method",
+      "label": "DataLocalityPattern.RenderComponent.Render",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.RenderComponent.Update:L127",
+      "kind": "method",
+      "label": "DataLocalityPattern.RenderComponent.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DataLocalityPattern.RenderComponent:L125",
+      "kind": "class",
+      "label": "DataLocalityPattern.RenderComponent",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality/DataLocalityPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.DirtyFlagPattern.Start:L15",
+      "kind": "method",
+      "label": "DirtyFlagPattern.DirtyFlagPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.DirtyFlagPattern.Update:L26",
+      "kind": "method",
+      "label": "DirtyFlagPattern.DirtyFlagPattern.Update",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.DirtyFlagPattern:L11",
+      "kind": "class",
+      "label": "DirtyFlagPattern.DirtyFlagPattern",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.GraphNode.GraphNode:L109",
+      "kind": "method",
+      "label": "DirtyFlagPattern.GraphNode.GraphNode",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.GraphNode.render:L129",
+      "kind": "method",
+      "label": "DirtyFlagPattern.GraphNode.render",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.GraphNode.renderMesh:L161",
+      "kind": "method",
+      "label": "DirtyFlagPattern.GraphNode.renderMesh",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.GraphNode.setTransform:L120",
+      "kind": "method",
+      "label": "DirtyFlagPattern.GraphNode.setTransform",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.GraphNode:L79",
+      "kind": "class",
+      "label": "DirtyFlagPattern.GraphNode",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.MeshEX:L44",
+      "kind": "class",
+      "label": "DirtyFlagPattern.MeshEX",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.TransformEX.combine:L63",
+      "kind": "method",
+      "label": "DirtyFlagPattern.TransformEX.combine",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DirtyFlagPattern.TransformEX:L52",
+      "kind": "class",
+      "label": "DirtyFlagPattern.TransformEX",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag/DirtyFlagPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DoubleBuffer.Draw:L18",
+      "kind": "method",
+      "label": "DoubleBuffer.Draw",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DoubleBuffer.Start:L10",
+      "kind": "method",
+      "label": "DoubleBuffer.Start",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DoubleBuffer.Swap:L29",
+      "kind": "method",
+      "label": "DoubleBuffer.Swap",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:DoubleBuffer:L5",
+      "kind": "class",
+      "label": "DoubleBuffer",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity.Entity:L19",
+      "kind": "method",
+      "label": "Entity.Entity",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity.SetX:L29",
+      "kind": "method",
+      "label": "Entity.SetX",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity.SetY:L30",
+      "kind": "method",
+      "label": "Entity.SetY",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity.Update:L24",
+      "kind": "method",
+      "label": "Entity.Update",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity.x:L26",
+      "kind": "method",
+      "label": "Entity.x",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity.y:L27",
+      "kind": "method",
+      "label": "Entity.y",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Entity:L18",
+      "kind": "class",
+      "label": "Entity",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.EventQueuePattern.OnReceiveCustomMessageHandler:L67",
+      "kind": "method",
+      "label": "EventQueuePattern.EventQueuePattern.OnReceiveCustomMessageHandler",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.EventQueuePattern.OnReceiveMessageHandler:L61",
+      "kind": "method",
+      "label": "EventQueuePattern.EventQueuePattern.OnReceiveMessageHandler",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.EventQueuePattern.Start:L11",
+      "kind": "method",
+      "label": "EventQueuePattern.EventQueuePattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.EventQueuePattern.Update:L24",
+      "kind": "method",
+      "label": "EventQueuePattern.EventQueuePattern.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.EventQueuePattern:L8",
+      "kind": "class",
+      "label": "EventQueuePattern.EventQueuePattern",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.IMessage.Reset:L119",
+      "kind": "method",
+      "label": "EventQueuePattern.IMessage.Reset",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.IMessage:L89",
+      "kind": "interface",
+      "label": "EventQueuePattern.IMessage",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.Message.Reset:L164",
+      "kind": "method",
+      "label": "EventQueuePattern.Message.Reset",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.Message:L127",
+      "kind": "class",
+      "label": "EventQueuePattern.Message",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcher.AddListener:L227",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcher.AddListener",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcher.ClearMessages:L216",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcher.ClearMessages",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcher.SendMessage:L257",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcher.SendMessage",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcher.Update:L312",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcher.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcher:L190",
+      "kind": "class",
+      "label": "EventQueuePattern.MessageDispatcher",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcherStub.Awake:L335",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcherStub.Awake",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcherStub.OnDisable:L345",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcherStub.OnDisable",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcherStub.Update:L340",
+      "kind": "method",
+      "label": "EventQueuePattern.MessageDispatcherStub.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MessageDispatcherStub:L333",
+      "kind": "class",
+      "label": "EventQueuePattern.MessageDispatcherStub",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:EventQueuePattern.MyCustomMessage:L77",
+      "kind": "class",
+      "label": "EventQueuePattern.MyCustomMessage",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/EventQueue/EventQueuePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlashSpeed.Activate:L11",
+      "kind": "method",
+      "label": "FlashSpeed.Activate",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlashSpeed:L8",
+      "kind": "class",
+      "label": "FlashSpeed",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/FlashSpeed.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.Character.Display:L65",
+      "kind": "method",
+      "label": "FlyweightPattern.Character.Display",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.Character:L56",
+      "kind": "class",
+      "label": "FlyweightPattern.Character",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterA.CharacterA:L70",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterA.CharacterA",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterA.Display:L80",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterA.Display",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterA:L68",
+      "kind": "class",
+      "label": "FlyweightPattern.CharacterA",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterB.CharacterB:L90",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterB.CharacterB",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterB.Display:L100",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterB.Display",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterB:L88",
+      "kind": "class",
+      "label": "FlyweightPattern.CharacterB",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterFactory.GetCharacter:L33",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterFactory.GetCharacter",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterFactory:L28",
+      "kind": "class",
+      "label": "FlyweightPattern.CharacterFactory",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterZ.CharacterZ:L113",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterZ.CharacterZ",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterZ.Display:L123",
+      "kind": "method",
+      "label": "FlyweightPattern.CharacterZ.Display",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.CharacterZ:L111",
+      "kind": "class",
+      "label": "FlyweightPattern.CharacterZ",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.FlyweightPattern.Start:L9",
+      "kind": "method",
+      "label": "FlyweightPattern.FlyweightPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:FlyweightPattern.FlyweightPattern:L7",
+      "kind": "class",
+      "label": "FlyweightPattern.FlyweightPattern",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/FlyweightPattern/FlyweightPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Framebuffer.Clear:L46",
+      "kind": "method",
+      "label": "Framebuffer.Clear",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Framebuffer.Draw:L52",
+      "kind": "method",
+      "label": "Framebuffer.Draw",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Framebuffer.Framebuffer:L42",
+      "kind": "method",
+      "label": "Framebuffer.Framebuffer",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Framebuffer.GetPixels:L56",
+      "kind": "method",
+      "label": "Framebuffer.GetPixels",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Framebuffer:L36",
+      "kind": "class",
+      "label": "Framebuffer",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/DoubleBuffer/DoubleBuffer.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopManager.DoGameLoop:L54",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopManager.DoGameLoop",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopManager.ProcessInput:L86",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopManager.ProcessInput",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopManager.Render:L97",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopManager.Render",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopManager.Update:L105",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopManager.Update",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopManager:L43",
+      "kind": "class",
+      "label": "GameLoopPatternExample.GameLoopManager",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopPattern.DoGameLoop:L28",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopPattern.DoGameLoop",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopPattern.Start:L13",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopPattern.Update:L20",
+      "kind": "method",
+      "label": "GameLoopPatternExample.GameLoopPattern.Update",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GameLoopPatternExample.GameLoopPattern:L9",
+      "kind": "class",
+      "label": "GameLoopPatternExample.GameLoopPattern",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/GameLoop/GameLoopPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GroundDive.Activate:L11",
+      "kind": "method",
+      "label": "GroundDive.Activate",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:GroundDive:L8",
+      "kind": "class",
+      "label": "GroundDive",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/GroundDive.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.Move:L45",
+      "kind": "method",
+      "label": "InputHandler.Move",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.MoveDown:L56",
+      "kind": "method",
+      "label": "InputHandler.MoveDown",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.MoveLeft:L57",
+      "kind": "method",
+      "label": "InputHandler.MoveLeft",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.MoveRight:L58",
+      "kind": "method",
+      "label": "InputHandler.MoveRight",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.MoveUp:L55",
+      "kind": "method",
+      "label": "InputHandler.MoveUp",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.OnGUI:L61",
+      "kind": "method",
+      "label": "InputHandler.OnGUI",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.Redo:L35",
+      "kind": "method",
+      "label": "InputHandler.Redo",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.Start:L13",
+      "kind": "method",
+      "label": "InputHandler.Start",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.Undo:L25",
+      "kind": "method",
+      "label": "InputHandler.Undo",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler.Update:L81",
+      "kind": "method",
+      "label": "InputHandler.Update",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:InputHandler:L4",
+      "kind": "class",
+      "label": "InputHandler",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Instruction:L5",
+      "kind": "enum",
+      "label": "Instruction",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode/Bytecode.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Monster.GetAttack:L123",
+      "kind": "method",
+      "label": "Monster.GetAttack",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Monster.Monster:L116",
+      "kind": "method",
+      "label": "Monster.Monster",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Monster.ShowAttack:L128",
+      "kind": "method",
+      "label": "Monster.ShowAttack",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Monster:L110",
+      "kind": "class",
+      "label": "Monster",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand.Execute:L25",
+      "kind": "method",
+      "label": "MoveCommand.Execute",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand.InverseDirection:L39",
+      "kind": "method",
+      "label": "MoveCommand.InverseDirection",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand.MoveCommand:L15",
+      "kind": "method",
+      "label": "MoveCommand.MoveCommand",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand.MoveDirectionString:L66",
+      "kind": "method",
+      "label": "MoveCommand.MoveDirectionString",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand.ToString:L59",
+      "kind": "method",
+      "label": "MoveCommand.ToString",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand.UnExecute:L32",
+      "kind": "method",
+      "label": "MoveCommand.UnExecute",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommand:L6",
+      "kind": "class",
+      "label": "MoveCommand",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommandReceiver.MoveOperation:L5",
+      "kind": "method",
+      "label": "MoveCommandReceiver.MoveOperation",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommandReceiver.MoveX:L31",
+      "kind": "method",
+      "label": "MoveCommandReceiver.MoveX",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommandReceiver.MoveY:L24",
+      "kind": "method",
+      "label": "MoveCommandReceiver.MoveY",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveCommandReceiver:L3",
+      "kind": "class",
+      "label": "MoveCommandReceiver",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommandReceiver.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:MoveDirection:L4",
+      "kind": "enum",
+      "label": "MoveDirection",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/MoveCommand.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.ObjectPool.GetObjectFromPool:L28",
+      "kind": "method",
+      "label": "ObjectPoolPattern.ObjectPool.GetObjectFromPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.ObjectPool.ReturnAllObjectToPool:L65",
+      "kind": "method",
+      "label": "ObjectPoolPattern.ObjectPool.ReturnAllObjectToPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.ObjectPool.ReturnOneObjectToPool:L51",
+      "kind": "method",
+      "label": "ObjectPoolPattern.ObjectPool.ReturnOneObjectToPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.ObjectPool.Start:L16",
+      "kind": "method",
+      "label": "ObjectPoolPattern.ObjectPool.Start",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.ObjectPool:L8",
+      "kind": "class",
+      "label": "ObjectPoolPattern.ObjectPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.Pool.AddObjectToPool:L48",
+      "kind": "method",
+      "label": "ObjectPoolPattern.Pool.AddObjectToPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.Pool.NewObjectInstance:L60",
+      "kind": "method",
+      "label": "ObjectPoolPattern.Pool.NewObjectInstance",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.Pool.NextAvailableObject:L80",
+      "kind": "method",
+      "label": "ObjectPoolPattern.Pool.NextAvailableObject",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.Pool.Pool:L31",
+      "kind": "method",
+      "label": "ObjectPoolPattern.Pool.Pool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.Pool.ReturnObjectToPool:L122",
+      "kind": "method",
+      "label": "ObjectPoolPattern.Pool.ReturnObjectToPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.Pool:L18",
+      "kind": "class",
+      "label": "ObjectPoolPattern.Pool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolInfo:L302",
+      "kind": "class",
+      "label": "ObjectPoolPattern.PoolInfo",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager.CheckForDuplicatePoolNames:L206",
+      "kind": "method",
+      "label": "ObjectPoolPattern.PoolManager.CheckForDuplicatePoolNames",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager.CreatePools:L228",
+      "kind": "method",
+      "label": "ObjectPoolPattern.PoolManager.CreatePools",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager.GetObjectFromPool:L251",
+      "kind": "method",
+      "label": "ObjectPoolPattern.PoolManager.GetObjectFromPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager.Init:L194",
+      "kind": "method",
+      "label": "ObjectPoolPattern.PoolManager.Init",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager.PoolManager:L185",
+      "kind": "constructor",
+      "label": "ObjectPoolPattern.PoolManager.PoolManager",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager.ReturnObjectToPool:L275",
+      "kind": "method",
+      "label": "ObjectPoolPattern.PoolManager.ReturnObjectToPool",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolManager:L150",
+      "kind": "class",
+      "label": "ObjectPoolPattern.PoolManager",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolObject:L16",
+      "kind": "class",
+      "label": "ObjectPoolPattern.PoolObject",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolObject.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolObjectBehaviour.OnEnable:L13",
+      "kind": "method",
+      "label": "ObjectPoolPattern.PoolObjectBehaviour.OnEnable",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObjectPoolPattern.PoolObjectBehaviour:L7",
+      "kind": "class",
+      "label": "ObjectPoolPattern.PoolObjectBehaviour",
+      "path": "GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/Example/PoolObjectBehaviour.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Observer.Update:L71",
+      "kind": "method",
+      "label": "Observer.Update",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Observer:L69",
+      "kind": "class",
+      "label": "Observer",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObserverPattern.Start:L8",
+      "kind": "method",
+      "label": "ObserverPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ObserverPattern:L6",
+      "kind": "class",
+      "label": "ObserverPattern",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Prototype.Clone:L41",
+      "kind": "method",
+      "label": "Prototype.Clone",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Prototype.Prototype:L30",
+      "kind": "method",
+      "label": "Prototype.Prototype",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Prototype:L25",
+      "kind": "class",
+      "label": "Prototype",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:PrototypePattern.Start:L7",
+      "kind": "method",
+      "label": "PrototypePattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:PrototypePattern:L4",
+      "kind": "class",
+      "label": "PrototypePattern",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern/PrototypePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.IAudio.PlaySound:L113",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.IAudio.PlaySound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.IAudio.StopAllSounds:L115",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.IAudio.StopAllSounds",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.IAudio.StopSound:L114",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.IAudio.StopSound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.IAudio:L111",
+      "kind": "interface",
+      "label": "ServiceLocatorPattern.IAudio",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.Log:L182",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.LoggedAudio.Log",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.LoggedAudio:L159",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.LoggedAudio.LoggedAudio",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.PlaySound:L164",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.LoggedAudio.PlaySound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.StopAllSounds:L176",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.LoggedAudio.StopAllSounds",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.LoggedAudio.StopSound:L170",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.LoggedAudio.StopSound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.LoggedAudio:L155",
+      "kind": "class",
+      "label": "ServiceLocatorPattern.LoggedAudio",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.NullAudio.PlaySound:L147",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.NullAudio.PlaySound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.NullAudio.StopAllSounds:L149",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.NullAudio.StopAllSounds",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.NullAudio.StopSound:L148",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.NullAudio.StopSound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.NullAudio:L145",
+      "kind": "class",
+      "label": "ServiceLocatorPattern.NullAudio",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocator.EnableAudioLogging:L95",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.ServiceLocator.EnableAudioLogging",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocator.GetAudioService:L72",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.ServiceLocator.GetAudioService",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocator.RegisterService:L78",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.ServiceLocator.RegisterService",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocator:L67",
+      "kind": "class",
+      "label": "ServiceLocatorPattern.ServiceLocator",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocatorPattern.Start:L13",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.ServiceLocatorPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocatorPattern.Update:L20",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.ServiceLocatorPattern.Update",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.ServiceLocatorPattern:L11",
+      "kind": "class",
+      "label": "ServiceLocatorPattern.ServiceLocatorPattern",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer.PlaySound:L123",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.TheAudioPlayer.PlaySound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer.StopAllSounds:L135",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.TheAudioPlayer.StopAllSounds",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer.StopSound:L129",
+      "kind": "method",
+      "label": "ServiceLocatorPattern.TheAudioPlayer.StopSound",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:ServiceLocatorPattern.TheAudioPlayer:L121",
+      "kind": "class",
+      "label": "ServiceLocatorPattern.TheAudioPlayer",
+      "path": "GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator/ServiceLocatorPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Singleton.Instance:L38",
+      "kind": "method",
+      "label": "Singleton.Instance",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Singleton.Singleton:L34",
+      "kind": "method",
+      "label": "Singleton.Singleton",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Singleton:L29",
+      "kind": "class",
+      "label": "Singleton",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SingletonPattern.Start:L12",
+      "kind": "method",
+      "label": "SingletonPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SingletonPattern:L9",
+      "kind": "class",
+      "label": "SingletonPattern",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern/SingletonPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SkyLaunch.Activate:L12",
+      "kind": "method",
+      "label": "SkyLaunch.Activate",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SkyLaunch:L9",
+      "kind": "class",
+      "label": "SkyLaunch",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SkyLaunch.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateA.ConcreteStateA:L70",
+      "kind": "method",
+      "label": "StatePattern.ConcreteStateA.ConcreteStateA",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateA.Handle:L73",
+      "kind": "method",
+      "label": "StatePattern.ConcreteStateA.Handle",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateA:L68",
+      "kind": "class",
+      "label": "StatePattern.ConcreteStateA",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateB.ConcreteStateB:L87",
+      "kind": "method",
+      "label": "StatePattern.ConcreteStateB.ConcreteStateB",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateB.Handle:L90",
+      "kind": "method",
+      "label": "StatePattern.ConcreteStateB.Handle",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateB:L85",
+      "kind": "class",
+      "label": "StatePattern.ConcreteStateB",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateC.ConcreteStateC:L104",
+      "kind": "method",
+      "label": "StatePattern.ConcreteStateC.ConcreteStateC",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateC.Handle:L107",
+      "kind": "method",
+      "label": "StatePattern.ConcreteStateC.Handle",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.ConcreteStateC:L102",
+      "kind": "class",
+      "label": "StatePattern.ConcreteStateC",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.Context.Request:L39",
+      "kind": "method",
+      "label": "StatePattern.Context.Request",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.Context.SetState:L44",
+      "kind": "method",
+      "label": "StatePattern.Context.SetState",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.Context:L35",
+      "kind": "class",
+      "label": "StatePattern.Context",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.State.Handle:L62",
+      "kind": "method",
+      "label": "StatePattern.State.Handle",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.State.State:L58",
+      "kind": "method",
+      "label": "StatePattern.State.State",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.State:L54",
+      "kind": "class",
+      "label": "StatePattern.State",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.StatePattern.Start:L15",
+      "kind": "method",
+      "label": "StatePattern.StatePattern.Start",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.StatePattern.UnitTest:L20",
+      "kind": "method",
+      "label": "StatePattern.StatePattern.UnitTest",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:StatePattern.StatePattern:L13",
+      "kind": "class",
+      "label": "StatePattern.StatePattern",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern/StatePattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Subject.Attach:L32",
+      "kind": "method",
+      "label": "Subject.Attach",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Subject.Detach:L37",
+      "kind": "method",
+      "label": "Subject.Detach",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Subject.Notify:L42",
+      "kind": "method",
+      "label": "Subject.Notify",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:Subject:L28",
+      "kind": "class",
+      "label": "Subject",
+      "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern/ObserverPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SuperPower.Activate:L12",
+      "kind": "method",
+      "label": "SuperPower.Activate",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SuperPower.Move:L15",
+      "kind": "method",
+      "label": "SuperPower.Move",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SuperPower.PlaySound:L20",
+      "kind": "method",
+      "label": "SuperPower.PlaySound",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SuperPower.SpawnParticles:L25",
+      "kind": "method",
+      "label": "SuperPower.SpawnParticles",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:SuperPower:L9",
+      "kind": "class",
+      "label": "SuperPower",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/SuperPower.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:TestSubclassSandbox.Start:L16",
+      "kind": "method",
+      "label": "TestSubclassSandbox.Start",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:TestSubclassSandbox.Update:L24",
+      "kind": "method",
+      "label": "TestSubclassSandbox.Update",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:TestSubclassSandbox:L9",
+      "kind": "class",
+      "label": "TestSubclassSandbox",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox/TestSubclassSandbox.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:TypeObjectPattern.Start:L25",
+      "kind": "method",
+      "label": "TypeObjectPattern.Start",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:TypeObjectPattern:L4",
+      "kind": "class",
+      "label": "TypeObjectPattern",
+      "path": "GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject/TypeObjectPattern.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:UpdateMethod.Start:L9",
+      "kind": "method",
+      "label": "UpdateMethod.Start",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:UpdateMethod.Update:L13",
+      "kind": "method",
+      "label": "UpdateMethod.Update",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:UpdateMethod:L5",
+      "kind": "class",
+      "label": "UpdateMethod",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:World.GameLoop:L38",
+      "kind": "method",
+      "label": "World.GameLoop",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol:csharp:World:L36",
+      "kind": "class",
+      "label": "World",
+      "path": "GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod/UpdateMethod.cs",
+      "type": "symbol"
+    }
+  ],
+  "schema_version": 1
+}

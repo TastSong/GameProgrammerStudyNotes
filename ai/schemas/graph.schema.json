@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TastSong/GameProgrammerStudyNotes/ai/schemas/graph.schema.json",
+  "title": "Knowledge Graph",
+  "type": "object",
+  "required": ["schema_version", "nodes", "edges"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "label", "path"],
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"enum": ["note", "code", "test", "symbol"]},
+          "label": {"type": "string"},
+          "path": {"type": "string"},
+          "kind": {"type": "string"}
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "type"],
+        "properties": {
+          "from": {"type": "string"},
+          "to": {"type": "string"},
+          "type": {"enum": ["documents", "tested_by", "defined_in"]}
+        }
+      }
+    }
+  }
+}

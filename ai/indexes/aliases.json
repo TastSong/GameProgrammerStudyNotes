@@ -1,0 +1,265 @@
+{
+  "groups": [
+    {
+      "aliases": [
+        "Drawcall",
+        "绘制调用"
+      ],
+      "canonical": "Draw Call",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "Garbage Collection",
+        "垃圾回收",
+        "托管堆分配"
+      ],
+      "canonical": "GC",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "着色器"
+      ],
+      "canonical": "Shader",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "Transmission Control Protocol"
+      ],
+      "canonical": "TCP",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "User Datagram Protocol"
+      ],
+      "canonical": "UDP",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "Event Queue",
+        "事件队列"
+      ],
+      "canonical": "事件队列",
+      "sources": [
+        "note:gameprogrammingpatterns-eventqueue"
+      ]
+    },
+    {
+      "aliases": [
+        "Flyweight Pattern",
+        "享元模式"
+      ],
+      "canonical": "享元模式",
+      "sources": [
+        "note:gameprogrammingpatterns-flyweight"
+      ]
+    },
+    {
+      "aliases": [
+        "Singleton Pattern",
+        "单例模式"
+      ],
+      "canonical": "单例模式",
+      "sources": [
+        "note:gameprogrammingpatterns-singleton"
+      ]
+    },
+    {
+      "aliases": [
+        "Prototype Pattern",
+        "原型模式"
+      ],
+      "canonical": "原型模式",
+      "sources": [
+        "note:gameprogrammingpatterns-prototype"
+      ]
+    },
+    {
+      "aliases": [
+        "Double Buffer",
+        "双缓冲"
+      ],
+      "canonical": "双缓冲模式",
+      "sources": [
+        "note:gameprogrammingpatterns-doublebuffer"
+      ]
+    },
+    {
+      "aliases": [
+        "Command Pattern",
+        "命令模式"
+      ],
+      "canonical": "命令模式",
+      "sources": [
+        "note:gameprogrammingpatterns-command"
+      ]
+    },
+    {
+      "aliases": [
+        "Subclass Sandbox",
+        "子类沙箱"
+      ],
+      "canonical": "子类沙箱",
+      "sources": [
+        "note:gameprogrammingpatterns-subclasssandbox"
+      ]
+    },
+    {
+      "aliases": [
+        "Bytecode",
+        "字节码"
+      ],
+      "canonical": "字节码",
+      "sources": [
+        "note:gameprogrammingpatterns-bytecode"
+      ]
+    },
+    {
+      "aliases": [
+        "Object Pool",
+        "对象池模式"
+      ],
+      "canonical": "对象池",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "Object Pool",
+        "对象池模式"
+      ],
+      "canonical": "对象池模式",
+      "sources": [
+        "note:gameprogrammingpatterns-objectpool"
+      ]
+    },
+    {
+      "aliases": [
+        "Lockstep",
+        "确定性帧同步"
+      ],
+      "canonical": "帧同步",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "Data Locality",
+        "数据局部性"
+      ],
+      "canonical": "数据局部性",
+      "sources": [
+        "note:gameprogrammingpatterns-datalocality"
+      ]
+    },
+    {
+      "aliases": [
+        "Update Method",
+        "更新方法"
+      ],
+      "canonical": "更新方法",
+      "sources": [
+        "note:gameprogrammingpatterns-updatemethod"
+      ]
+    },
+    {
+      "aliases": [
+        "Service Locator",
+        "服务定位器"
+      ],
+      "canonical": "服务定位器",
+      "sources": [
+        "note:gameprogrammingpatterns-servicelocator"
+      ]
+    },
+    {
+      "aliases": [
+        "HDRP",
+        "Render Pipeline",
+        "SRP",
+        "URP"
+      ],
+      "canonical": "渲染管线",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "State Sync",
+        "状态同步"
+      ],
+      "canonical": "状态同步",
+      "sources": [
+        "glossary"
+      ]
+    },
+    {
+      "aliases": [
+        "State Pattern",
+        "状态模式"
+      ],
+      "canonical": "状态模式",
+      "sources": [
+        "note:gameprogrammingpatterns-state"
+      ]
+    },
+    {
+      "aliases": [
+        "Type Object",
+        "类型对象"
+      ],
+      "canonical": "类型对象",
+      "sources": [
+        "note:gameprogrammingpatterns-typeobject"
+      ]
+    },
+    {
+      "aliases": [
+        "Component Pattern",
+        "组件模式"
+      ],
+      "canonical": "组件模式",
+      "sources": [
+        "note:gameprogrammingpatterns-component"
+      ]
+    },
+    {
+      "aliases": [
+        "Dirty Flag",
+        "脏标识"
+      ],
+      "canonical": "脏标识模式",
+      "sources": [
+        "note:gameprogrammingpatterns-dirtyflag"
+      ]
+    },
+    {
+      "aliases": [
+        "Observer Pattern",
+        "观察者模式"
+      ],
+      "canonical": "观察者模式",
+      "sources": [
+        "note:gameprogrammingpatterns-observer"
+      ]
+    }
+  ],
+  "schema_version": 1
+}

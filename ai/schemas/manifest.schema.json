@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TastSong/GameProgrammerStudyNotes/ai/schemas/manifest.schema.json",
+  "title": "AI Index Manifest",
+  "type": "object",
+  "required": ["schema_version", "index_version", "source", "counts", "files"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "index_version": {"const": 1},
+    "source": {
+      "type": "object",
+      "required": ["content_fingerprint", "documents", "csharp_files", "metadata_records"],
+      "properties": {
+        "content_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "documents": {"type": "integer", "minimum": 0},
+        "csharp_files": {"type": "integer", "minimum": 0},
+        "metadata_records": {"type": "integer", "minimum": 0}
+      }
+    },
+    "counts": {"type": "object"},
+    "files": {"type": "object"}
+  }
+}
