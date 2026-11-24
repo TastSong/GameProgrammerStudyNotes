@@ -62,3 +62,10 @@ crashlytics-build.properties
 
 /.claude/
 
+# AI knowledge system runtime and caches
+ai/runtime/*
+!ai/runtime/.gitignore
+ai/indexes/index.sqlite
+__pycache__/
+*.py[cod]
+.venv/

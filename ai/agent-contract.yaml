@@ -1,0 +1,44 @@
+version: 1
+
+source_of_truth:
+  documents:
+    - "**/*.md"
+  code:
+    - "**/*.cs"
+  metadata: "ai/meta"
+  derived: "ai/indexes"
+
+retrieval:
+  default_top_k: 6
+  max_context_chunks: 10
+  require_source_read: true
+
+citations:
+  format: "path:start_line-end_line"
+  require_status: true
+
+content_status:
+  trusted:
+    - reviewed
+    - verified
+  warning:
+    - draft
+    - outline
+    - summary
+    - stale
+
+generated_files:
+  track:
+    - "ai/indexes/catalog.jsonl"
+    - "ai/indexes/chunks.jsonl"
+    - "ai/indexes/symbols.jsonl"
+    - "ai/indexes/aliases.json"
+    - "ai/indexes/graph.json"
+    - "ai/indexes/manifest.json"
+  ignore:
+    - "ai/indexes/index.sqlite"
+    - "ai/runtime/**"
+
+editing:
+  regenerate_index_after_change: true
+  forbid_manual_index_edit: true
