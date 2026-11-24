@@ -17,7 +17,7 @@
 {"id":"math-matrix","query":"3D 数学 矩阵 变换","expected_paths":["MathematicsFor3DGameProgrammingAndComputerGraphics/README.md"],"expected_heading_any":["矩阵","变换","渲染管线"]}
 {"id":"unity-navmesh","query":"Unity NavMesh AI 寻路","expected_paths":["UnityAI/README.md"],"expected_heading_any":["NavMesh","导航"]}
 {"id":"mythical-man-month","query":"人月神话 沟通 项目进度","expected_paths":["MythicalManMonth/README.md"],"expected_heading_any":["人月","沟通"]}
-{"id":"object-pool-gc","query":"Unity 对象池 GC Alloc","expected_paths":["GameProgrammingPatterns/ObjectPool.md"],"expected_heading_any":["对象池"]}
+{"id":"object-pool-gc","query":"Unity 对象池 GC Alloc","expected_paths":["GameProgrammingPatterns/ObjectPool.md"],"expected_heading_any":["GC"]}
 {"id":"symbol-input-redo","kind":"symbols","query":"InputHandler Redo","expected_symbols":["InputHandler.Redo"]}
 {"id":"symbol-pool-return","kind":"symbols","query":"PoolManager ReturnObjectToPool","expected_symbols":["ObjectPoolPattern.PoolManager.ReturnObjectToPool"]}
 {"id":"symbol-event-listener","kind":"symbols","query":"EventQueue AddListener","expected_symbols":["EventQueuePattern.MessageDispatcher.AddListener"]}

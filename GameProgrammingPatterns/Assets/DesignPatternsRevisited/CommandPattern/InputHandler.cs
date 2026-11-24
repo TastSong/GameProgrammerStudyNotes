@@ -46,6 +46,13 @@ public class InputHandler : MonoBehaviour
     {
         MoveCommand moveCommand = new MoveCommand(moveCommandReciever, direction, moveDistance, objectToMove);
         moveCommand.Execute();
+
+        // A new command invalidates all commands that were available for redo.
+        if (currentCommandNum < commands.Count)
+        {
+            commands.RemoveRange(currentCommandNum, commands.Count - currentCommandNum);
+        }
+
         commands.Add(moveCommand);
         currentCommandNum++;
     }

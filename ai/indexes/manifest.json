@@ -2,7 +2,7 @@
   "counts": {
     "alias_groups": 26,
     "catalog": 65,
-    "chunks": 1036,
+    "chunks": 1037,
     "graph_edges": 291,
     "graph_nodes": 357,
     "symbols": 264
@@ -14,25 +14,25 @@
     },
     "catalog.jsonl": {
       "records": 65,
-      "sha256": "c1e5327ea74f9ac35398080914578704e1053975ac72b822750322c33b0e79f8"
+      "sha256": "06b71284f12e3d8cdd3a717e59ed76bf5ae437dba524453357cda532b202f256"
     },
     "chunks.jsonl": {
-      "records": 1036,
-      "sha256": "cdd2d8579a103d91a1fbd4f12be0e4797a614cf5355d0dd886ab005e34764da4"
+      "records": 1037,
+      "sha256": "ce4a76cdaa7de806921ca1a575bd5b6639bf88a4928340eab27300a7ccc4b953"
     },
     "graph.json": {
       "records": 357,
-      "sha256": "8ecdf50e8b75774d7dcab34c6b2175bd68f1dda3dfc9ec6133d3e1d86bdacbf1"
+      "sha256": "f168512e5b7afdf09622a5a32ef7a8a5b624b0e4a8ae9e1d7ad6af89fa6fcd5a"
     },
     "symbols.jsonl": {
       "records": 264,
-      "sha256": "c7735ed28c79901beac2503f8f96c632d195b308107e53cc37f4177690ed7d27"
+      "sha256": "59e5e4786efa1d6a9612976c02fa468be58fa0e4dc32d05b9f6dbd2decd02644"
     }
   },
   "index_version": 1,
   "schema_version": 1,
   "source": {
-    "content_fingerprint": "ab41931dea0f6ec75756cea1803a48e9c69edf2108314246c2e90e95923bc470",
+    "content_fingerprint": "31470969de02bcbc1be3b1999f5d63c704ea0ae9254d81108208bfa45cc7ef8c",
     "csharp_files": 28,
     "documents": 65,
     "metadata_records": 65

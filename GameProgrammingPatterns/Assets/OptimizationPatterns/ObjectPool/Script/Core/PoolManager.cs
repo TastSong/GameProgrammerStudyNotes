@@ -277,7 +277,7 @@ namespace ObjectPoolPattern
             //PoolObject po = go.GetComponent<PoolObject>();
             if (po == null)
             {
-                Debug.LogWarning("Specified object is not a pooled instance: " + po.name);
+                Debug.LogWarning("Specified object is not a pooled instance.");
             }
             else
             {

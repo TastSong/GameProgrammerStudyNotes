@@ -300,7 +300,7 @@ public class AppearanceUI : MonoBehaviour, JsonDataInterface, SettingInterface
 
 ## 示例效果
 
-[代码地址](https://github.com/liangxiegame/QFramework.Example)
+[代码地址](https://github.com/liangxiegame/QFramework)
 
 ![](1.CounterAppPreview.gif)
 

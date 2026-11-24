@@ -821,27 +821,27 @@
       "type": "defined_in"
     },
     {
-      "from": "symbol:csharp:InputHandler.MoveDown:L56",
+      "from": "symbol:csharp:InputHandler.MoveDown:L63",
       "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "defined_in"
     },
     {
-      "from": "symbol:csharp:InputHandler.MoveLeft:L57",
+      "from": "symbol:csharp:InputHandler.MoveLeft:L64",
       "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "defined_in"
     },
     {
-      "from": "symbol:csharp:InputHandler.MoveRight:L58",
+      "from": "symbol:csharp:InputHandler.MoveRight:L65",
       "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "defined_in"
     },
     {
-      "from": "symbol:csharp:InputHandler.MoveUp:L55",
+      "from": "symbol:csharp:InputHandler.MoveUp:L62",
       "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "defined_in"
     },
     {
-      "from": "symbol:csharp:InputHandler.OnGUI:L61",
+      "from": "symbol:csharp:InputHandler.OnGUI:L68",
       "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "defined_in"
     },
@@ -861,7 +861,7 @@
       "type": "defined_in"
     },
     {
-      "from": "symbol:csharp:InputHandler.Update:L81",
+      "from": "symbol:csharp:InputHandler.Update:L88",
       "to": "file:GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "defined_in"
     },
@@ -2975,35 +2975,35 @@
       "type": "symbol"
     },
     {
-      "id": "symbol:csharp:InputHandler.MoveDown:L56",
+      "id": "symbol:csharp:InputHandler.MoveDown:L63",
       "kind": "method",
       "label": "InputHandler.MoveDown",
       "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "symbol"
     },
     {
-      "id": "symbol:csharp:InputHandler.MoveLeft:L57",
+      "id": "symbol:csharp:InputHandler.MoveLeft:L64",
       "kind": "method",
       "label": "InputHandler.MoveLeft",
       "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "symbol"
     },
     {
-      "id": "symbol:csharp:InputHandler.MoveRight:L58",
+      "id": "symbol:csharp:InputHandler.MoveRight:L65",
       "kind": "method",
       "label": "InputHandler.MoveRight",
       "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "symbol"
     },
     {
-      "id": "symbol:csharp:InputHandler.MoveUp:L55",
+      "id": "symbol:csharp:InputHandler.MoveUp:L62",
       "kind": "method",
       "label": "InputHandler.MoveUp",
       "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
       "type": "symbol"
     },
     {
-      "id": "symbol:csharp:InputHandler.OnGUI:L61",
+      "id": "symbol:csharp:InputHandler.OnGUI:L68",
       "kind": "method",
       "label": "InputHandler.OnGUI",
       "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",
@@ -3031,7 +3031,7 @@
       "type": "symbol"
     },
     {
-      "id": "symbol:csharp:InputHandler.Update:L81",
+      "id": "symbol:csharp:InputHandler.Update:L88",
       "kind": "method",
       "label": "InputHandler.Update",
       "path": "GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern/InputHandler.cs",

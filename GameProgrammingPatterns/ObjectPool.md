@@ -31,6 +31,28 @@
 
 以空间换时间
 
+## 对象池为什么仍可能产生 GC
+
+对象池减少的是频繁创建和销毁对象带来的开销，**并不自动保证托管堆零分配**。
+
+在这个 Unity 示例中，可以重点检查以下几类分配：
+
+- 池没有预热，或者 `fixedSize` 为 `false` 时，运行期扩容仍会调用
+  [PoolManager.NewObjectInstance](./Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs)，
+  其中会执行 `GameObject.Instantiate`。
+- 扩容时还会生成日志字符串，见
+  [PoolManager.NextAvailableObject](./Assets/OptimizationPatterns/ObjectPool/Script/Core/PoolManager.cs)。
+  字符串格式化和日志本身也可能产生托管分配。
+- [ObjectPool](./Assets/OptimizationPatterns/ObjectPool/Script/Example/ObjectPool.cs)
+  会把使用中的对象加入 `List<PoolObject>`。列表容量不足时，`Add` 会分配更大的数组。
+- 池化对象如果注册了事件、委托或闭包，但没有在归还时反注册，仍可能继续分配或持有引用。
+- 业务层在获取对象后执行的 LINQ、装箱、临时数组和字符串拼接，也不会因为“用了对象池”而消失。
+
+验证时建议先预热足够数量的对象，将池设置为固定容量，再在 Profiler 中比较池化前后的 `GC Alloc`。
+如果仍有分配，优先检查扩容路径、日志、集合增长、事件注册和业务层临时对象。
+
+> 本示例以 Unity 2019.4 为基础；不同 Unity、Mono 和 IL2CPP 版本的具体分配行为应以目标环境实测为准。
+
 ## 与其他设计模式的关系
 
 - 这看上去很像是**享元模式**。两者都控制了一系列可重用的对象。不同在于“重用”的含义。享元对象分享实例间*同时*拥有的相同部分。享元模式在不同上下文中使用相同对象避免了*重复*内存使用。
