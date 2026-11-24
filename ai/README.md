@@ -44,6 +44,17 @@ python3 ai/scripts/read_source.py \
 4. 回答必须引用原始文件路径和行号。
 5. 修改文档、代码或元数据后运行 `build_index.py` 并提交索引变化。
 
+
+## Agent 入口文件
+
+- `AGENTS.md`：Codex / AGENTS 兼容 Agent
+- `CLAUDE.md`：Claude Code
+- `GEMINI.md`：Gemini Agent
+- `.github/copilot-instructions.md`：GitHub Copilot
+- `.cursor/rules/game-notes.mdc`：Cursor
+
+这些文件都指向 `ai/instructions/core.md`，避免规则分散和漂移。
+
 ## 索引可复现性
 
 索引文件使用稳定的 JSON 排序和相对路径，不包含当前时间。

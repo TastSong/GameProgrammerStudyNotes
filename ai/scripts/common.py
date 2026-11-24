@@ -16,7 +16,8 @@ NOTES_META_DIR = META_DIR / "notes"
 INDEX_DIR = AI_DIR / "indexes"
 SCRIPTS_DIR = AI_DIR / "scripts"
 
-EXCLUDED_TOP_LEVEL = {".git", "ai"}
+EXCLUDED_TOP_LEVEL = {".git", ".github", ".cursor", "ai"}
+EXCLUDED_DOCUMENT_NAMES = {"AGENTS.md", "CLAUDE.md", "GEMINI.md"}
 
 
 def relative_path(path: Path) -> str:
@@ -25,6 +26,8 @@ def relative_path(path: Path) -> str:
 
 def iter_documents() -> Iterable[Path]:
     for path in sorted(ROOT.rglob("*.md")):
+        if path.name in EXCLUDED_DOCUMENT_NAMES:
+            continue
         if any(part in EXCLUDED_TOP_LEVEL for part in path.relative_to(ROOT).parts):
             continue
         yield path
