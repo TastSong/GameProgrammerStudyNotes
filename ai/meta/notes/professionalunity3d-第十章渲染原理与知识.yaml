@@ -1,0 +1,21 @@
+schema_version: 1
+id: professionalunity3d-第十章渲染原理与知识
+content_path: ProfessionalUnity3D/第十章渲染原理与知识.md
+title: 第十章 渲染原理与知识
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 前面章节中我们介绍了深度测试这个模块阶段，它用片元的深度值与深度缓存中的值对比，测试的结果决定是否要写入深度缓存中，如果判断不符合则抛弃片元不再继续下面的流程。这其中涉及到了
+  ZTest On/Off 状态开关，和，ZWrite On/Off 状态开关，其中ZTest 用于控制是否开启深度测试，ZWrite 用于控制是否写入深度缓存。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

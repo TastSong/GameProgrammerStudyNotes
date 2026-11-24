@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第三章数据表
+content_path: ProfessionalUnity3D/第三章数据表.md
+title: 第三章 数据表
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 为什么会更加小，二进制比特流在存储数字时，会直接用二进制形式存储，比如，txt文本中23345是“23345”这个字符串，占用了5个字符，每个字符2个字节，就用了10个字节，而二进制比特流则在存储时可以直接使用二个字节(short)存储’23345‘这个数字，所以数据比特流形式的数据存储文件更加小。一个以文本形式的txt文件来建立的10MB的数据文件，转化为2进制格式后，可以压缩到几百KB甚至几十KB。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

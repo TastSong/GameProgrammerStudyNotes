@@ -1,0 +1,18 @@
+schema_version: 1
+id: tencentgamedevelopment2-readme
+content_path: TencentGameDevelopment2/README.md
+title: 腾讯游戏开发精粹 II
+category: server-architecture
+status: summary
+difficulty: intermediate
+summary: 本章介绍了强化学习方法在制作游戏 AI 方面的一些探索。利用强化学习方法，只需要部分的人工参与，就可以在竞速类、格斗类等游戏上建立快速的高质量游戏AI生成流程。这个流程不仅能够生产在竞技水平上与一流的人类玩家相匹配的AI，还在能力分级、拟人行为等方面做了许多适应实际游戏开发需要的工作。
+version_scope: []
+tags:
+- architecture
+- server
+- tencentgamedevelopment2
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

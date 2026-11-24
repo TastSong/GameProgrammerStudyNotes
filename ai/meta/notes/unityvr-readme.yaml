@@ -1,0 +1,19 @@
+schema_version: 1
+id: unityvr-readme
+content_path: UnityVR/README.md
+title: Unity VR虚拟现实完全自学教程
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: VR 行业目前处于发展早期阶段，在大众市场普及方面面临着挑战，行业生态尚需完善，硬件先发展还是内容先丰富，貌似是一个悖论，但我们应该看到，硬件技术正在飞速发展，硬件产业链上的厂家也在逐渐提高产品性能，同时深度学习、5G
+  等技术也逐渐显露，随着Unity 等内容制作引擎的版本升级，使得开发者制作高品质 VR 应用程序的门槛也越来越低。我们有理由相信，VR 技术会在未来蓬勃发展。
+version_scope: []
+tags:
+- game-development
+- unity
+- unityvr
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

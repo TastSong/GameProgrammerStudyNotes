@@ -1,0 +1,18 @@
+schema_version: 1
+id: qframework-readme
+content_path: QFramework/README.md
+title: QFramework
+category: client-engine
+status: reviewed
+difficulty: intermediate
+summary: 由于拖拽的时候，对象之间的引用关系是随机的没有规律可循的，所以当时间久了或者比人来接手次项目时要理清其中的逻辑所花费的时间会很多。
+version_scope: []
+tags:
+- game-development
+- qframework
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,19 @@
+schema_version: 1
+id: unityai-readme
+content_path: UnityAI/README.md
+title: 第1章 行为——智能移动
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 本章将从学习某些最有趣的移动算法开始，这些算法基于 Craig Reynolds 和 Ian Millington一起开发的转向行为原则，本章介绍的实用方法是绝大多数用于高级游戏以及其他依赖于移动的算法（比如寻路算法家族）的
+  AI的基石。
+version_scope: []
+tags:
+- game-development
+- unity
+- unityai
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

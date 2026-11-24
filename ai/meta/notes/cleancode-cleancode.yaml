@@ -1,0 +1,17 @@
+schema_version: 1
+id: cleancode-cleancode
+content_path: CleanCode/CleanCode.md
+title: Clean Code
+category: engineering-design
+status: summary
+difficulty: beginner
+summary: 整洁代码的书写格式，可以遵从如下几个原则：
+version_scope: []
+tags:
+- cleancode
+- software-engineering
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

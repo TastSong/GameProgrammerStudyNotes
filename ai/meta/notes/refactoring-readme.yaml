@@ -1,0 +1,17 @@
+schema_version: 1
+id: refactoring-readme
+content_path: Refactoring/README.md
+title: 重构：改善既有代码的设计
+category: engineering-design
+status: reviewed
+difficulty: intermediate
+summary: 重构（refactoring）是这样一个过程： 在不改变代码外在行为的前提下，对代 码做出修改，以改进程序的内部结构 。 本质上说，重构就是在代码写好之后改进它的设计。
+version_scope: []
+tags:
+- refactoring
+- software-engineering
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

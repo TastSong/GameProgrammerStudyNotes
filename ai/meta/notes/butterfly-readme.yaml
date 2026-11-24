@@ -1,0 +1,18 @@
+schema_version: 1
+id: butterfly-readme
+content_path: Butterfly/README.md
+title: 第1篇 成为用户体验设计师的信念
+category: design-product
+status: outline
+difficulty: beginner
+summary: 该文档整理相关主题内容，具体结论以正文为准。
+version_scope: []
+tags:
+- butterfly
+- design
+- user-experience
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

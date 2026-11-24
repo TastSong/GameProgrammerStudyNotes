@@ -1,0 +1,17 @@
+schema_version: 1
+id: gamefell-gamefell
+content_path: GameFell/GameFell.md
+title: 游戏感
+category: game-design
+status: summary
+difficulty: intermediate
+summary: 游戏感是没有一个标准的定义的。玩家和游戏设计师之间都有着一些初始的共同语言，但我们从来没有为了讨论特定游戏而一起去定义游戏感。我们会用“飘”、“响应灵敏”或者“操作很差”来描述一个游戏的感觉，这些描述的含义是能跨越多个游戏的，例如“我们需要让这个游戏感觉起来响应更灵敏，就像《陨石大战》那样”。但假如我像写这本书之前所做的准备工作那样，找10个从业的游戏设计师来问问什么是游戏感，那我能得到10个不同的答案。而问题也在于这里：这10个答案中的每一个都是正确的。每个答案都描述了游…
+version_scope: []
+tags:
+- game-design
+- gamefell
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

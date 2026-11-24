@@ -1,0 +1,19 @@
+schema_version: 1
+id: unityhdrp-readme
+content_path: UnityHDRP/README.md
+title: Unity HDRP 高清渲染管线实战
+category: client-engine
+status: summary
+difficulty: advanced
+summary: 介绍HDRP场景组成
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- unity
+- unityhdrp
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

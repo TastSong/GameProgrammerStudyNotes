@@ -1,0 +1,19 @@
+schema_version: 1
+id: unitynetworkgame-readme
+content_path: UnityNetworkGame/README.md
+title: 第一章 网络游戏的开端
+category: client-engine
+status: summary
+difficulty: advanced
+summary: 网络上的两个程序通过一个双向的通信连接实现数据交换，这个连接的一端称为一个Socket。一个Socket包含了进行网络通信必需的五种信息：连接使用的协议、本地主机的IP地址、本地的协议端口、远程主机的IP地址和远程协议端口（如图1-6所示）。如果把Socket理解成一台手机，那么本地主机IP地址和端口相当于自己的手机号码，远程主机IP地址和端口相当于对方的号码。至少需要两台手机才能打电话，同样地，至少需要两个Socket才能进行网络通信。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- unity
+- unitynetworkgame
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

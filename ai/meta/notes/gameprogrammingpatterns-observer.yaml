@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-observer
+content_path: GameProgrammingPatterns/Observer.md
+title: 观察者模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 允许你定义一种订阅机制，可在对象事件发生时通知多个 “观察” 该对象的其他对象。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Observer Pattern
+- 观察者模式
+code_paths:
+- GameProgrammingPatterns/Assets/DesignPatternsRevisited/ObserverPattern
+test_paths: []
+sources: []
+reviewed_at: null

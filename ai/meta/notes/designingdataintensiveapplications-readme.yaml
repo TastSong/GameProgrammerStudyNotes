@@ -1,0 +1,18 @@
+schema_version: 1
+id: designingdataintensiveapplications-readme
+content_path: DesigningDataIntensiveApplications/README.md
+title: 《数据密集型应用系统设计》
+category: server-architecture
+status: summary
+difficulty: advanced
+summary: 第一部分：数据系统的基石
+version_scope: []
+tags:
+- architecture
+- designingdataintensiveapplications
+- server
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

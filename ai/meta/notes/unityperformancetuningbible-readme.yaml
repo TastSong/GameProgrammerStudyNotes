@@ -1,0 +1,20 @@
+schema_version: 1
+id: unityperformancetuningbible-readme
+content_path: UnityPerformanceTuningBible/README.md
+title: Unity 性能调优宝典
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: Unity机制
+version_scope:
+- Unity 2022+
+tags:
+- game-development
+- unity
+- unityperformancetuningbible
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 性能倍数和平台结论必须结合目标硬件、Unity 版本与构建后端实测。

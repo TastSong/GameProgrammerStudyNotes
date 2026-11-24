@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第八章地图与寻路
+content_path: ProfessionalUnity3D/第八章地图与寻路.md
+title: 第八章 地图与寻路
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: A星算法其实并不是最短路径算法，它找到的路径并不是最短的，它的目标是能以最快的速度找到通往目的地的路，算法的时间平均复杂度为O(NLogN)，最差的情况是从起点出发把所有的格子都走了一遍，最后才找到目的地。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

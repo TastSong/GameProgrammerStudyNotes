@@ -1,0 +1,21 @@
+schema_version: 1
+id: professionalunity3d-第二章技术要点
+content_path: ProfessionalUnity3D/第二章技术要点.md
+title: 第二章 C# 技术要点
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 版本说明：本章涉及 List、Dictionary、数组排序等运行时内部实现。不同 Unity、Mono、.NET 和 IL2CPP 版本的行为可能不同，容量变化、枚举器分配等结论应结合目标版本通过
+  Profiler 或基准测试确认，不应脱离版本直接套用。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

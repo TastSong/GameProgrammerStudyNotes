@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-component
+content_path: GameProgrammingPatterns/Component.md
+title: 组件模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 允许一个单一的实体跨越多个不同域而不会导致耦合。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Component Pattern
+- 组件模式
+code_paths:
+- GameProgrammingPatterns/Assets/DecouplingPatterns/Component
+test_paths: []
+sources: []
+reviewed_at: null

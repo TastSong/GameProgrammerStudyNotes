@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-servicelocator
+content_path: GameProgrammingPatterns/ServiceLocator.md
+title: 服务定位器
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 提供服务的全局接入点，避免使用者和实现服务的具体类耦合。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Service Locator
+- 服务定位器
+code_paths:
+- GameProgrammingPatterns/Assets/DecouplingPatterns/ServiceLocator
+test_paths: []
+sources: []
+reviewed_at: null

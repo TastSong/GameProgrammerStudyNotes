@@ -1,0 +1,21 @@
+schema_version: 1
+id: unityshader-readme
+content_path: UnityShader/README.md
+title: 第1篇 基础篇
+category: client-engine
+status: summary
+difficulty: advanced
+summary: 程序员的三大浪漫：编译原理、操作系统和图形学
+version_scope:
+- Unity 5
+- Unity 2020+
+tags:
+- game-development
+- unity
+- unityshader
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分内容基于旧版 ShaderLab 和内置管线；SRP、URP、HDRP 与 Shader Graph 场景需另行核对。

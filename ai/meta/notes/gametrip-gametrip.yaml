@@ -1,0 +1,17 @@
+schema_version: 1
+id: gametrip-gametrip
+content_path: GameTrip/GameTrip.md
+title: 第1章 计算机，游戏，我
+category: game-design
+status: summary
+difficulty: intermediate
+summary: 几乎每个受过逻辑学教育的人，都可以快速地理解它并帮助自己解决些问题。从理解编程这件事情本身，我不觉得有比BASIC更好的选择.
+version_scope: []
+tags:
+- game-design
+- gametrip
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

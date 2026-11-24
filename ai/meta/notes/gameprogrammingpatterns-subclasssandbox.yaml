@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-subclasssandbox
+content_path: GameProgrammingPatterns/SubclassSandbox.md
+title: 子类沙箱
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 用一系列由基类提供的操作定义子类中的行为。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Subclass Sandbox
+- 子类沙箱
+code_paths:
+- GameProgrammingPatterns/Assets/BehavioralPatterns/SubclassSandbox
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,19 @@
+schema_version: 1
+id: gameprogrammingpatterns-assets-optimizationpatterns-objectpool-script-readme
+content_path: GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool/Script/README.md
+title: Reference
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: https://www.assetstore.unity3d.com/cn/?stay !/content/31928
+version_scope:
+- Unity 2019.4
+tags:
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

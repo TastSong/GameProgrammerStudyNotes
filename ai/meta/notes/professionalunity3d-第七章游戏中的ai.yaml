@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第七章游戏中的ai
+content_path: ProfessionalUnity3D/第七章游戏中的AI.md
+title: 第七章 游戏中的 AI
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: AI机器人在游戏中非常普遍，它们常以模仿人类的行为在游戏中活动。游戏中的怪物的自动行为比较普遍，这种简单的人工智能方式可以用几种不同的方式进行编写，主要的两种方式：一种为容易被人类思维接受的状态机，另一种是为机器人策略型思考方式编写的行为树。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

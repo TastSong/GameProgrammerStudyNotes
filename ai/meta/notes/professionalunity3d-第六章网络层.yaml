@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第六章网络层
+content_path: ProfessionalUnity3D/第六章网络层.md
+title: 第六章 网络层
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 一个TCP连接必须要经过三次“对话”才能建立起来，这里我们描述下这三次对话的形象过程：
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

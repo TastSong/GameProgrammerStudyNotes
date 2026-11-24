@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-datalocality
+content_path: GameProgrammingPatterns/DataLocality.md
+title: 数据局部性
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 合理组织数据，充分使用CPU的缓存来加速内存读取
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Data Locality
+- 数据局部性
+code_paths:
+- GameProgrammingPatterns/Assets/OptimizationPatterns/DataLocality
+test_paths: []
+sources: []
+reviewed_at: null

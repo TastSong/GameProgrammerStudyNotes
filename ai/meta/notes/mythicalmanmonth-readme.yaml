@@ -1,0 +1,17 @@
+schema_version: 1
+id: mythicalmanmonth-readme
+content_path: MythicalManMonth/README.md
+title: 第1章 焦油坑
+category: engineering-design
+status: summary
+difficulty: beginner
+summary: 一个许多人痛苦挣扎的焦油坑以及一种乐趣和苦恼共存的创造性活动。
+version_scope: []
+tags:
+- mythicalmanmonth
+- software-engineering
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

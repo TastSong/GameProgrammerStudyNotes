@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-singleton
+content_path: GameProgrammingPatterns/Singleton.md
+title: 单例模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 确保一个类只有一个实例，并为其提供一个全局访问入口
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Singleton Pattern
+- 单例模式
+code_paths:
+- GameProgrammingPatterns/Assets/DesignPatternsRevisited/SingletonPattern
+test_paths: []
+sources: []
+reviewed_at: null

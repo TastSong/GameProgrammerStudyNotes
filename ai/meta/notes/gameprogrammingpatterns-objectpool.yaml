@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-objectpool
+content_path: GameProgrammingPatterns/ObjectPool.md
+title: 对象池模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 放弃单独地分配和释放对象，从固定的池中重用对象，以提高性能和内存使用率
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Object Pool
+- 对象池模式
+code_paths:
+- GameProgrammingPatterns/Assets/OptimizationPatterns/ObjectPool
+test_paths: []
+sources: []
+reviewed_at: null

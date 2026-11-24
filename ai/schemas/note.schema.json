@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TastSong/GameProgrammerStudyNotes/ai/schemas/note.schema.json",
+  "title": "Knowledge Note Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "content_path",
+    "title",
+    "category",
+    "status",
+    "difficulty",
+    "summary",
+    "version_scope",
+    "tags",
+    "aliases",
+    "code_paths",
+    "test_paths",
+    "sources",
+    "reviewed_at"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1, "pattern": "^[^\\s/\\\\]+$"},
+    "content_path": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "category": {
+      "enum": [
+        "overview",
+        "meta",
+        "client-engine",
+        "server-architecture",
+        "engineering-design",
+        "design-product",
+        "game-design",
+        "math-ai"
+      ]
+    },
+    "status": {"enum": ["draft", "outline", "summary", "reviewed", "verified", "stale"]},
+    "difficulty": {"enum": ["beginner", "intermediate", "advanced"]},
+    "summary": {"type": "string", "minLength": 1, "maxLength": 300},
+    "version_scope": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "version_note": {"type": "string", "minLength": 1},
+    "tags": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "aliases": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "code_paths": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "test_paths": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "title"],
+        "properties": {
+          "type": {"enum": ["book", "article", "official", "experience", "production", "unknown"]},
+          "title": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "minLength": 1},
+          "chapter": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "reviewed_at": {
+      "anyOf": [
+        {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        {"type": "null"}
+      ]
+    }
+  }
+}

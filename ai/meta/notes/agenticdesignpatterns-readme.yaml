@@ -1,0 +1,18 @@
+schema_version: 1
+id: agenticdesignpatterns-readme
+content_path: AgenticDesignPatterns/README.md
+title: Agentic Design Patterns
+category: engineering-design
+status: summary
+difficulty: intermediate
+summary: 本书以“智能体（Agentic System）”为核心，探讨如何将大型语言模型（LLM）的能力转化为具备 感知、决策、执行与学习 能力的自治系统。
+  作者将“开发智能体”比喻为“在画布（Canvas）上作画”——其中画布指代技术框架（如 LangChain、Crew AI、Google ADK 等），而设计模式则是绘画的笔触和结构。
+version_scope: []
+tags:
+- agenticdesignpatterns
+- software-engineering
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

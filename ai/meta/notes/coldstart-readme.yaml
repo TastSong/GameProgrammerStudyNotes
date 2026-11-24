@@ -1,0 +1,18 @@
+schema_version: 1
+id: coldstart-readme
+content_path: ColdStart/README.md
+title: 冷启动
+category: design-product
+status: summary
+difficulty: beginner
+summary: 因工具而来 ：用刚需工具刺穿市场。 - 比竞品优 10 倍，例如 Tinder 的 10 秒匹配效率。 - 解决无人关注的痛点，例如 Uber 一键叫车优于街头拦车。
+version_scope: []
+tags:
+- coldstart
+- design
+- user-experience
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第四章用户界面
+content_path: ProfessionalUnity3D/第四章用户界面.md
+title: 第四章 用户界面
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 综合来看，NGUI和UGUI都各自有各自的特点，没有绝对好，也没有绝对的差，都各自有各自的特点，和擅长的领域。针对不同的人群和项目可以有不同的选择。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

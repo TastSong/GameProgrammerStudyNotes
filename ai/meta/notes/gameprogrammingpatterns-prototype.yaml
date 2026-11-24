@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-prototype
+content_path: GameProgrammingPatterns/Prototype.md
+title: 原型模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 使用特定原型实例来创建特定种类的对象，并且通过 拷贝 原型来创建新的对象
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Prototype Pattern
+- 原型模式
+code_paths:
+- GameProgrammingPatterns/Assets/DesignPatternsRevisited/PrototypePattern
+test_paths: []
+sources: []
+reviewed_at: null

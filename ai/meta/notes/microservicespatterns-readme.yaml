@@ -1,0 +1,19 @@
+schema_version: 1
+id: microservicespatterns-readme
+content_path: MicroservicesPatterns/README.md
+title: 微服务架构设计模式
+category: server-architecture
+status: summary
+difficulty: advanced
+summary: FTGO的核心业务其实非常简单。消费者(Consumer)使用FTGO的网站或者移动应用在本地的餐馆(Restaurant)下订单，FTGO会协调一个由送餐员(Courier)组成的快递网络来完成订单食品(Order)的运送(Delivery)。显然，给送餐员和餐馆支付费用(Payment)也是FTGO的重要任务之一。这套应用程序使用了多个Web
+  服务，例如使用 Stripe 管理支付、使用Twilio 实现消息传递、使用Amazon SES(Simple Email Se…
+version_scope: []
+tags:
+- architecture
+- microservicespatterns
+- server
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

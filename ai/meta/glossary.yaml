@@ -1,0 +1,28 @@
+terms:
+  object-pool:
+    canonical: 对象池
+    aliases: [Object Pool, 对象池模式]
+  gc:
+    canonical: GC
+    aliases: [Garbage Collection, 垃圾回收, 托管堆分配]
+  draw-call:
+    canonical: Draw Call
+    aliases: [Drawcall, 绘制调用]
+  frame-sync:
+    canonical: 帧同步
+    aliases: [Lockstep, 确定性帧同步]
+  state-sync:
+    canonical: 状态同步
+    aliases: [State Sync, 状态同步]
+  tcp:
+    canonical: TCP
+    aliases: [Transmission Control Protocol]
+  udp:
+    canonical: UDP
+    aliases: [User Datagram Protocol]
+  shader:
+    canonical: Shader
+    aliases: [着色器]
+  rendering-pipeline:
+    canonical: 渲染管线
+    aliases: [Render Pipeline, SRP, URP, HDRP]

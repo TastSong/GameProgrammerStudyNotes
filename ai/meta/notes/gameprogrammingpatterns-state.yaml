@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-state
+content_path: GameProgrammingPatterns/State.md
+title: 状态模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 能在一个对象的内部状态变化时改变其行为，使其看上去就像改变了自身所属的类一样。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- State Pattern
+- 状态模式
+code_paths:
+- GameProgrammingPatterns/Assets/DesignPatternsRevisited/StatePattern
+test_paths: []
+sources: []
+reviewed_at: null

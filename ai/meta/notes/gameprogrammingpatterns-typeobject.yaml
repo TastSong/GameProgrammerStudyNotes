@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-typeobject
+content_path: GameProgrammingPatterns/TypeObject.md
+title: 类型对象
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 创造一个类A来允许灵活地创造新“类型”，类A的每个实例都代表了不同的对象类型。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Type Object
+- 类型对象
+code_paths:
+- GameProgrammingPatterns/Assets/BehavioralPatterns/TypeObject
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,21 @@
+schema_version: 1
+id: unitygameoptimization-readme
+content_path: UnityGameOptimization/README.md
+title: 第1章 检测性能问题
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 版本说明：本文包含旧版 Unity 和 Mono 的运行机制与优化结论。容量变化、集合枚举器分配等行为可能随 Unity、Mono、.NET 和
+  IL2CPP 版本变化，请结合项目实际使用的版本通过 Profiler 验证。
+version_scope:
+- Unity 5
+tags:
+- game-development
+- unity
+- unitygameoptimization
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 内容包含 Unity 5/Mono 时代结论，容量、分配和性能数值应在当前目标版本实测。

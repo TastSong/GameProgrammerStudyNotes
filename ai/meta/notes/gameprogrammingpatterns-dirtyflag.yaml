@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-dirtyflag
+content_path: GameProgrammingPatterns/DirtyFlag.md
+title: 脏标识模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 将工作延期至需要其结果时才去执行，避免不必要的工作
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Dirty Flag
+- 脏标识
+code_paths:
+- GameProgrammingPatterns/Assets/OptimizationPatterns/DirtyFlag
+test_paths: []
+sources: []
+reviewed_at: null

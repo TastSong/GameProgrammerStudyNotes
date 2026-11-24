@@ -1,0 +1,18 @@
+schema_version: 1
+id: javagameserverarchitectureofactualcombat-readme
+content_path: JavaGameServerArchitectureOfActualCombat/README.md
+title: 模块零 概论
+category: server-architecture
+status: summary
+difficulty: advanced
+summary: 网关就是网络通信的第一关，是服务器上所有服务的大门。它负责与外界联系，并且可以“辨正邪，识真伪，保证内部服务收到的都是合法消息，限制请求流量，防止请求超载。
+version_scope: []
+tags:
+- architecture
+- javagameserverarchitectureofactualcombat
+- server
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

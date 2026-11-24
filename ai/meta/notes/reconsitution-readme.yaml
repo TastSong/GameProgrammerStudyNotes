@@ -1,0 +1,17 @@
+schema_version: 1
+id: reconsitution-readme
+content_path: Reconsitution/README.md
+title: Unity 游戏程序优化设计实战
+category: engineering-design
+status: outline
+difficulty: intermediate
+summary: 此路径为历史兼容入口，正文已统一维护在 UnityGameOptimization/README.md。
+version_scope: []
+tags:
+- reconsitution
+- software-engineering
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-bytecode
+content_path: GameProgrammingPatterns/Bytecode.md
+title: 字节码
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 将行为编码为虚拟机器上的指令，赋予其数据的灵活性
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Bytecode
+- 字节码
+code_paths:
+- GameProgrammingPatterns/Assets/BehavioralPatterns/Bytecode
+test_paths: []
+sources: []
+reviewed_at: null

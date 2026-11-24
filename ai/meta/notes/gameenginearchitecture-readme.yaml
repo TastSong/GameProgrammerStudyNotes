@@ -1,0 +1,18 @@
+schema_version: 1
+id: gameenginearchitecture-readme
+content_path: GameEngineArchitecture/README.md
+title: 第一部分 基础
+category: client-engine
+status: summary
+difficulty: advanced
+summary: 版本控制系统（Version Control System, VCS）是游戏开发中不可或缺的工具，用于管理代码和资源的变更。常见的版本控制系统包括Git、Subversion（SVN）和Perforce。它们能够记录每次变更，允许开发者回滚到之前的版本，并且支持多人协作开发，解决代码冲突。
+version_scope: []
+tags:
+- game-development
+- gameenginearchitecture
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

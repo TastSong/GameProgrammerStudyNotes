@@ -1,0 +1,19 @@
+schema_version: 1
+id: multi-playeronlinegamearchitecturecombat-readme
+content_path: Multi-playerOnlineGameArchitectureCombat/README.md
+title: 第1章 网络编程基础
+category: server-architecture
+status: summary
+difficulty: advanced
+summary: 本书要以分割空间的方式实现一个不分服的架构，在这个架构之下可以再深度扩展，不仅可以实现一个MMORPG，也可以实现类似《王者荣耀》的对战类游戏。当然，既然可以分割空间到不同的进程，我们也希望它可以合并空间到一个进程，也就是说这个框架也可以实现常规的滚服游戏，这是一个可伸可展的框架，可以满足大部分游戏的需求。
+  3. 副本空间的框架也有两种实现方式，一种是客户端维护一个网络连接，只与game进行通信；另一种是客户端需要维护两个网络连接，同时与 game和副本进行通信。也可以把副…
+version_scope: []
+tags:
+- architecture
+- multi-playeronlinegamearchitecturecombat
+- server
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

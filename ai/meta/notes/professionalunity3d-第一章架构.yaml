@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第一章架构
+content_path: ProfessionalUnity3D/第一章架构.md
+title: 第一章 架构
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 软件系统架构可以理解为是软件程序的架子，和现实中的书架相比有异曲同工之妙，这个架子上有很多大大小小的格子，每个格子里都可以放固定种类的程序。架子有大有小，大的需要花费点去做，小的轻便快捷。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

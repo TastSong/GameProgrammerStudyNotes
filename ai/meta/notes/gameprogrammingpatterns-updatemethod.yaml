@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-updatemethod
+content_path: GameProgrammingPatterns/UpdateMethod.md
+title: 更新方法
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 优点
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Update Method
+- 更新方法
+code_paths:
+- GameProgrammingPatterns/Assets/SequencingPatterns/UpdateMethod
+test_paths: []
+sources: []
+reviewed_at: null

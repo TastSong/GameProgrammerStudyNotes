@@ -1,0 +1,18 @@
+schema_version: 1
+id: tencentgamedevelopment1-readme
+content_path: TencentGameDevelopment1/README.md
+title: 第一部分 游戏数学
+category: server-architecture
+status: outline
+difficulty: intermediate
+summary: (1)物理碰撞方式:直接使用点(或圆)与多边形进行碰撞检测，然后绕多边形的边移动.
+version_scope: []
+tags:
+- architecture
+- server
+- tencentgamedevelopment1
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

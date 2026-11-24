@@ -1,0 +1,23 @@
+schema_version: 1
+id: gameprogrammingpatterns-command
+content_path: GameProgrammingPatterns/Command.md
+title: 命令模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 将一个请求封装为 一个对象 ，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可 撤销 的操作。
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases:
+- Command Pattern
+- 命令模式
+code_paths:
+- GameProgrammingPatterns/Assets/DesignPatternsRevisited/CommandPattern
+test_paths: []
+sources: []
+reviewed_at: null

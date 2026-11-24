@@ -1,0 +1,15 @@
+schema_version: 1
+id: content-audit
+content_path: CONTENT_AUDIT.md
+title: 内容状态与质量清单
+category: meta
+status: reviewed
+difficulty: beginner
+summary: 本文件用于区分完整笔记、专题摘要和章节提纲，并记录已修正的技术问题与仍需人工复核的内容。
+version_scope: []
+tags: []
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

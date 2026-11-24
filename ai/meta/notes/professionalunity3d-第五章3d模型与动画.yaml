@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第五章3d模型与动画
+content_path: ProfessionalUnity3D/第五章3D模型与动画.md
+title: 第五章 3D 模型与动画
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 像汤姆猫这种强调单一主角的场景，主要资源全部投入到主角一个人的，对主角进行精细化的雕琢是很有必要的。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。

@@ -1,0 +1,18 @@
+schema_version: 1
+id: tencentgamedevelopment3-readme
+content_path: TencentGameDevelopment3/README.md
+title: 腾讯游戏开发精粹 III
+category: server-architecture
+status: summary
+difficulty: intermediate
+summary: 在帧同步体系下，实现了 低成本、稳定、与技能/阻挡兼容的移动预测系统 ，核心价值是“弱网可玩性”和“连招手感保持不崩”
+version_scope: []
+tags:
+- architecture
+- server
+- tencentgamedevelopment3
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,18 @@
+schema_version: 1
+id: biggameserverdevelopment-readme
+content_path: BigGameServerDevelopment/README.md
+title: 百万在线---大型游戏服务端开发
+category: server-architecture
+status: summary
+difficulty: advanced
+summary: 一致性问题是分布式系统的一大难题，在游戏业务中，开发者一般会把一致性问题抛给具体业务去处理。对于图1-16所示的异常情况，需要给每个交易赋予唯一编号。程序C除了转发消息，还需要记录程序A对每个交易的执行状态，如果转发失败，程序C要在稍后重发交易消息，直到程序A成功执行。而程序A也需要记录每个交易的状态，如果某个交易已经成功执行，则不再响应程序C发来的消息，避免重复添加道具。
+version_scope: []
+tags:
+- architecture
+- biggameserverdevelopment
+- server
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,19 @@
+schema_version: 1
+id: gameprogrammingpatterns-readme
+content_path: GameProgrammingPatterns/README.md
+title: Game Programming Patterns 游戏编程模式
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 本目录包含《游戏编程模式》相关中文笔记和一个 Unity 教学示例工程。示例用于观察各模式的最小结构，并非生产级实现。
+version_scope:
+- Unity 2019.4
+tags:
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,17 @@
+schema_version: 1
+id: mathematicsfor3dgameprogrammingandcomputergraphics-readme
+content_path: MathematicsFor3DGameProgrammingAndComputerGraphics/README.md
+title: 3D游戏与计算机图形学中的数学方法
+category: math-ai
+status: summary
+difficulty: intermediate
+summary: 全书由 16章主体章节 和 5个附录 构成，循序渐进地搭建知识体系。
+version_scope: []
+tags:
+- mathematics
+- mathematicsfor3dgameprogrammingandcomputergraphics
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

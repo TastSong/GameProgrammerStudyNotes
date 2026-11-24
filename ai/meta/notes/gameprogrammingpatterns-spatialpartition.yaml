@@ -1,0 +1,20 @@
+schema_version: 1
+id: gameprogrammingpatterns-spatialpartition
+content_path: GameProgrammingPatterns/SpatialPartition.md
+title: 空间分区
+category: client-engine
+status: summary
+difficulty: intermediate
+summary: 将对象根据它们的位置存储在数据结构中，来高效地定位对象
+version_scope:
+- Unity 2019.4
+tags:
+- design-pattern
+- game-development
+- gameprogrammingpatterns
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

@@ -1,0 +1,15 @@
+schema_version: 1
+id: readme
+content_path: README.md
+title: Game Programmer Study Notes 游戏编程学习笔记
+category: overview
+status: reviewed
+difficulty: beginner
+summary: 各专题的内容状态、版本适用范围和待复核项见 CONTENT AUDIT.md。
+version_scope: []
+tags: []
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null

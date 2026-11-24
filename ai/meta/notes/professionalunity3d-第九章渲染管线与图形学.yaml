@@ -1,0 +1,20 @@
+schema_version: 1
+id: professionalunity3d-第九章渲染管线与图形学
+content_path: ProfessionalUnity3D/第九章渲染管线与图形学.md
+title: 第九章 渲染管线与图形学
+category: client-engine
+status: reviewed
+difficulty: advanced
+summary: 欧拉角的定义是，x,y,z 分别表达了x轴上的旋转角度，y轴上的旋转角度，z轴上的旋转角度，即(20,40,50) 表达了在x轴上旋转20度，y轴上旋转40度，z轴上旋转50度。看起来简单易懂就能定义坐标系上的旋转角度，为什么就不能使用它来表达所有的旋转角度，却还要使用四元数呢？其实是有原因的。
+version_scope:
+- Unity 2019.4+
+tags:
+- game-development
+- professionalunity3d
+- unity
+aliases: []
+code_paths: []
+test_paths: []
+sources: []
+reviewed_at: null
+version_note: 部分运行时、GC 和平台结论具有版本依赖性，需在目标 Unity/.NET/IL2CPP 版本复核。
