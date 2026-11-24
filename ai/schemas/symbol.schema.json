@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TastSong/GameProgrammerStudyNotes/ai/schemas/symbol.schema.json",
+  "title": "C# Symbol",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "id", "language", "kind", "name", "qualified_name",
+    "namespace", "type_name", "path", "start_line", "end_line", "signature",
+    "related_doc_ids", "content_hash"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "language": {"const": "csharp"},
+    "kind": {"enum": ["class", "interface", "struct", "enum", "method", "constructor"]},
+    "name": {"type": "string", "minLength": 1},
+    "qualified_name": {"type": "string", "minLength": 1},
+    "namespace": {"type": "string"},
+    "type_name": {"type": "string", "minLength": 1},
+    "path": {"type": "string", "minLength": 1},
+    "start_line": {"type": "integer", "minimum": 1},
+    "end_line": {"type": "integer", "minimum": 1},
+    "signature": {"type": "string", "minLength": 1},
+    "arguments": {"type": "string"},
+    "is_constructor": {"type": "boolean"},
+    "related_doc_ids": {"type": "array", "items": {"type": "string"}},
+    "content_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}
