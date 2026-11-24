@@ -109,8 +109,9 @@ def check_agent_adapters() -> list[str]:
             errors.append(f"missing agent adapter: {path.relative_to(ROOT)}")
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
-        if "ai/instructions/core.md" not in text:
-            errors.append(f"{path.relative_to(ROOT)} does not reference ai/instructions/core.md")
+        for reference in ("@ai/instructions/core.md", "@ai/agent-contract.yaml"):
+            if reference not in text:
+                errors.append(f"{path.relative_to(ROOT)} does not import {reference}")
     return errors
 
 

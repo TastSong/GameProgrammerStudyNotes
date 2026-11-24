@@ -58,7 +58,8 @@ python3 ai/scripts/evaluate_retrieval.py --top 5 --min-recall 0.8
 - `.github/copilot-instructions.md`：GitHub Copilot
 - `.cursor/rules/game-notes.mdc`：Cursor
 
-这些文件都指向 `ai/instructions/core.md`，避免规则分散和漂移。
+这些入口文件只通过 `@` 引用 `ai/README.md`、`ai/instructions/core.md` 和
+`ai/agent-contract.yaml`，不重复维护具体规范。
 
 ## 索引可复现性
 

@@ -3,10 +3,6 @@ description: Game programmer knowledge repository agent rules
 alwaysApply: true
 ---
 
-Read `ai/instructions/core.md` before working in this repository.
-
-- Prefer indexed retrieval over scanning all files.
-- Read original sources before answering.
-- Cite repository paths and line ranges.
-- Do not manually edit `ai/indexes/`.
-- Regenerate indexes after changing documents, code, or metadata.
+@ai/README.md
+@ai/instructions/core.md
+@ai/agent-contract.yaml
