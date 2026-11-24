@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="20" role="img" aria-label="Star on GitHub">
+  <title>Star on GitHub</title>
+  <rect width="56" height="20" rx="3" fill="#555"/>
+  <rect x="56" width="52" height="20" rx="3" fill="#c28a00"/>
+  <rect x="53" width="6" height="20" fill="#c28a00"/>
+  <text x="28" y="14" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">GitHub</text>
+  <text x="82" y="14" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" text-anchor="middle">★ Star</text>
+</svg>

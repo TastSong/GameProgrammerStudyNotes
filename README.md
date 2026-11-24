@@ -5,10 +5,10 @@
 > 覆盖 Unity 客户端、Shader、网络同步、大型游戏服务端、设计模式、性能优化与工程实践。
 
 [![AI Knowledge Quality](https://github.com/TastSong/GameProgrammerStudyNotes/actions/workflows/quality.yml/badge.svg)](https://github.com/TastSong/GameProgrammerStudyNotes/actions/workflows/quality.yml)
-[![Notes](https://img.shields.io/badge/notes-65-2563eb)](./CONTENT_AUDIT.md)
-[![AI Indexed](https://img.shields.io/badge/AI_indexed-1%2C000%2B_chunks-0f766e)](./ai/README.md)
-[![License](https://img.shields.io/github/license/TastSong/GameProgrammerStudyNotes)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/TastSong/GameProgrammerStudyNotes?style=social)](https://github.com/TastSong/GameProgrammerStudyNotes/stargazers)
+[![Notes: 65](./Pictures/badges/notes.svg)](./CONTENT_AUDIT.md)
+[![AI indexed: 1,000+ chunks](./Pictures/badges/ai-indexed.svg)](./ai/README.md)
+[![License: MIT](./Pictures/badges/license-mit.svg)](./LICENSE)
+[![Star on GitHub](./Pictures/badges/star.svg)](https://github.com/TastSong/GameProgrammerStudyNotes/stargazers)
 
 [快速开始](#快速开始) · [学习路径](#学习路径) · [AI 检索](#ai-检索) · [为什么值得-star](#为什么值得-star) · [内容状态](./CONTENT_AUDIT.md)
 

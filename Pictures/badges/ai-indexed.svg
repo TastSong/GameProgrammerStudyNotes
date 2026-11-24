@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="20" role="img" aria-label="AI indexed: 1,000+ chunks">
+  <title>AI indexed: 1,000+ chunks</title>
+  <rect width="80" height="20" rx="3" fill="#555"/>
+  <rect x="80" width="96" height="20" rx="3" fill="#0f766e"/>
+  <rect x="77" width="6" height="20" fill="#0f766e"/>
+  <text x="40" y="14" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">AI indexed</text>
+  <text x="128" y="14" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" text-anchor="middle">1,000+ chunks</text>
+</svg>

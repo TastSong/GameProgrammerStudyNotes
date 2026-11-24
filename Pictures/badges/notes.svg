@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="20" role="img" aria-label="notes: 65">
+  <title>notes: 65</title>
+  <rect width="42" height="20" rx="3" fill="#555"/>
+  <rect x="42" width="40" height="20" rx="3" fill="#2563eb"/>
+  <rect x="39" width="6" height="20" fill="#2563eb"/>
+  <text x="21" y="14" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">notes</text>
+  <text x="62" y="14" fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" font-weight="700" text-anchor="middle">65</text>
+</svg>
