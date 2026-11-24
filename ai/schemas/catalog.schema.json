@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TastSong/GameProgrammerStudyNotes/ai/schemas/catalog.schema.json",
+  "title": "Document Catalog Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "id", "content_path", "metadata_path", "title", "category",
+    "status", "difficulty", "summary", "version_scope", "tags", "aliases",
+    "code_paths", "test_paths", "reviewed_at", "line_count", "section_count", "content_hash"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "content_path": {"type": "string", "minLength": 1},
+    "metadata_path": {"type": ["string", "null"]},
+    "title": {"type": "string", "minLength": 1},
+    "category": {"type": "string", "minLength": 1},
+    "status": {"enum": ["draft", "outline", "summary", "reviewed", "verified", "stale"]},
+    "difficulty": {"enum": ["beginner", "intermediate", "advanced"]},
+    "summary": {"type": "string", "minLength": 1},
+    "version_scope": {"type": "array", "items": {"type": "string"}},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "code_paths": {"type": "array", "items": {"type": "string"}},
+    "test_paths": {"type": "array", "items": {"type": "string"}},
+    "reviewed_at": {"type": ["string", "null"]},
+    "line_count": {"type": "integer", "minimum": 1},
+    "section_count": {"type": "integer", "minimum": 1},
+    "content_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}
