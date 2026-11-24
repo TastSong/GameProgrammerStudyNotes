@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "base_dir": "Pictures",
+  "specs": {
+    "cover": {
+      "asset_width": 480,
+      "asset_height": 640,
+      "padding": 20,
+      "display_width": 180,
+      "max_bytes": 153600,
+      "format": "WEBP",
+      "quality": 88
+    },
+    "topic": {
+      "asset_width": 480,
+      "asset_height": 240,
+      "padding": 20,
+      "display_width": 240,
+      "max_bytes": 153600,
+      "format": "WEBP",
+      "quality": 88
+    }
+  },
+  "items": [
+    {
+      "kind": "cover",
+      "source": "GameProgrammingPatterns.png",
+      "target": "covers/game-programming-patterns.webp",
+      "alt": "《游戏编程模式》封面"
+    },
+    {
+      "kind": "topic",
+      "source": "QFormwork.png",
+      "target": "topics/qframework.webp",
+      "alt": "QFramework 标志"
+    },
+    {
+      "kind": "cover",
+      "source": "ProfessionalNotes.png",
+      "target": "covers/professional-unity-3d.webp",
+      "alt": "《Unity 3D 高级编程》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "CleanCode.png",
+      "target": "covers/clean-code.webp",
+      "alt": "《Clean Code》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "GameFell.png",
+      "target": "covers/game-feel.webp",
+      "alt": "《游戏感》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "JavaGameServer.png",
+      "target": "covers/java-game-server-architecture.webp",
+      "alt": "《Java 游戏服务器架构实战》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityAI.png",
+      "target": "covers/unity-ai.webp",
+      "alt": "《Unity 人工智能实战》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityHDRP.png",
+      "target": "covers/unity-hdrp.webp",
+      "alt": "《Unity HDRP 高清渲染管线实战》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityNetwork.png",
+      "target": "covers/unity-network-game.webp",
+      "alt": "《Unity 网络游戏实战》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityShader.png",
+      "target": "covers/unity-shader.webp",
+      "alt": "《Unity Shader 入门精要》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityVR.png",
+      "target": "covers/unity-vr.webp",
+      "alt": "《Unity VR 虚拟现实完全自学教程》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityGameOptimization.png",
+      "target": "covers/unity-game-optimization.webp",
+      "alt": "《Unity 游戏程序优化设计实战》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "Reconsitution.png",
+      "target": "covers/unity-game-optimization-practice.webp",
+      "alt": "《Unity 游戏程序优化设计实战》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "BigGameServerDevelopment.png",
+      "target": "covers/big-game-server-development.webp",
+      "alt": "《百万在线：大型游戏服务端开发》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "TheGameServerArchitectureAndOptimization.png",
+      "target": "covers/game-server-architecture-optimization.webp",
+      "alt": "《游戏服务器架构与优化》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "MicroservicesPatterns.png",
+      "target": "covers/microservices-patterns.webp",
+      "alt": "《微服务架构设计模式》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "TencentGame1.jpg",
+      "target": "covers/tencent-game-development-1.webp",
+      "alt": "《腾讯游戏开发精粹 I》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "TencentGame2.png",
+      "target": "covers/tencent-game-development-2.webp",
+      "alt": "《腾讯游戏开发精粹 II》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "MythicalManMonth.png",
+      "target": "covers/mythical-man-month.webp",
+      "alt": "《人月神话》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "Multi-playerOnlineGameArchitectureCombat.png",
+      "target": "covers/multiplayer-online-game-architecture.webp",
+      "alt": "《多人在线游戏架构实践》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "TheArtofComputerProgramming.png",
+      "target": "covers/art-of-computer-programming.webp",
+      "alt": "《计算机程序设计艺术》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "GameEngineArchitecture.png",
+      "target": "covers/game-engine-architecture.webp",
+      "alt": "《游戏引擎架构》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "GameTrip.png",
+      "target": "covers/game-trip.webp",
+      "alt": "《游戏之旅：我的编程感悟》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "GameProgrammingEssence1.png",
+      "target": "covers/game-programming-essence-1.webp",
+      "alt": "《游戏编程精粹 I》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "DontMakeMeThink.png",
+      "target": "covers/dont-make-me-think.webp",
+      "alt": "《点石成金》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "DesignWithinDesign.png",
+      "target": "covers/design-within-design.webp",
+      "alt": "《设计中的设计》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "TheNon-Designer'sDesignBook.png",
+      "target": "covers/non-designers-design-book.webp",
+      "alt": "《写给大家看的设计书》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "Butterfly.png",
+      "target": "covers/butterfly.webp",
+      "alt": "《破茧成蝶》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "ColdStart.png",
+      "target": "covers/cold-start.webp",
+      "alt": "《冷启动》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "UnityPerformanceTuningBible.png",
+      "target": "covers/unity-performance-tuning-bible.webp",
+      "alt": "《Unity 性能调优宝典》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "AgenticDesignPatterns.png",
+      "target": "covers/agentic-design-patterns.webp",
+      "alt": "《Agentic Design Patterns》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "TencentGame3.png",
+      "target": "covers/tencent-game-development-3.webp",
+      "alt": "《腾讯游戏开发精粹 III》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "DesigningDataIntensiveApplications.png",
+      "target": "covers/designing-data-intensive-applications.webp",
+      "alt": "《数据密集型应用系统设计》封面"
+    },
+    {
+      "kind": "cover",
+      "source": "MathematicsFor3DGameProgrammingAndComputerGraphics.png",
+      "target": "covers/mathematics-3d-game-programming.webp",
+      "alt": "《3D 游戏与计算机图形学中的数学方法》封面"
+    }
+  ]
+}

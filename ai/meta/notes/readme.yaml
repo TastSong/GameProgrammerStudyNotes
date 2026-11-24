@@ -17,4 +17,4 @@ code_paths: []
 test_paths: []
 sources: []
 reviewed_at: '2026-11-24'
-review_note: 更新仓库首屏定位、学习路径、AI 检索入口与质量状态说明。
+review_note: 更新仓库首屏、学习路径和 AI 检索入口；书籍封面统一为 480x640 WebP 并固定展示宽度。

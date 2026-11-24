@@ -14,11 +14,11 @@
     },
     "catalog.jsonl": {
       "records": 65,
-      "sha256": "85a9a634494f911770eda69b002cbdce403556aea42f6818f68d8138dd3e4191"
+      "sha256": "77088be9dff4bca8bde1498fad863942c484783e4a5a58e9ce3e1e9d8d75e49a"
     },
     "chunks.jsonl": {
       "records": 1041,
-      "sha256": "865f78795c394d515ad09d23f401f73d20d35d1bc00093cb34ed82ec598b248b"
+      "sha256": "e7848163897c2bc399d4e58093e77db0d3254151e1a00330cbfad35d01afc240"
     },
     "graph.json": {
       "records": 357,
@@ -32,7 +32,7 @@
   "index_version": 1,
   "schema_version": 1,
   "source": {
-    "content_fingerprint": "7349b992b049fd3a8209bf5208e3dee73246ce3a2e615acb0b6e9c8664eabc01",
+    "content_fingerprint": "027f8a3bc206923c3f96839c5e58d5c6a6125ecac777f459d5ac92e062d9c900",
     "csharp_files": 28,
     "documents": 65,
     "metadata_records": 65

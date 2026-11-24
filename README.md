@@ -89,7 +89,9 @@ Agent 使用入口：
 
 ## Game Programming Patterns 游戏编程模式
 
-![](./Pictures/GameProgrammingPatterns.png)
+<p align="center">
+  <img src="./Pictures/covers/game-programming-patterns.webp" width="180" alt="《游戏编程模式》封面">
+</p>
 
 [代码示例](./GameProgrammingPatterns/README.md)
 
@@ -122,7 +124,9 @@ Agent 使用入口：
 
 ## QFramework Unity 框架
 
-![](./Pictures/QFormwork.png)
+<p align="center">
+  <img src="./Pictures/topics/qframework.webp" width="240" alt="QFramework 标志">
+</p>
 
 [详细文档](./QFramework/README.md)
 
@@ -136,7 +140,9 @@ Agent 使用入口：
 
 ## Unity 3D 高级编程
 
-![](./Pictures/ProfessionalNotes.png)
+<p align="center">
+  <img src="./Pictures/covers/professional-unity-3d.webp" width="180" alt="《Unity 3D 高级编程》封面">
+</p>
 
 * [第一章架构](./ProfessionalUnity3D/第一章架构.md)：架构的意义、架构的原理以及如何实现架构
 * [第二章 C# 技术要点](./ProfessionalUnity3D/第二章技术要点.md)：C# 技术的基础知识
@@ -153,7 +159,9 @@ Agent 使用入口：
 
 ## Clean Code
 
-![](./Pictures/CleanCode.png)
+<p align="center">
+  <img src="./Pictures/covers/clean-code.webp" width="180" alt="《Clean Code》封面">
+</p>
 
 [详细文档](./CleanCode/CleanCode.md)
 
@@ -174,7 +182,9 @@ Agent 使用入口：
 
 ## 游戏感
 
-![](./Pictures/GameFell.png)
+<p align="center">
+  <img src="./Pictures/covers/game-feel.webp" width="180" alt="《游戏感》封面">
+</p>
 
 [详细文档](./GameFell/GameFell.md)
 
@@ -201,7 +211,9 @@ Agent 使用入口：
 
 ## Java 游戏服务器架构实战
 
-![](./Pictures/JavaGameServer.png)
+<p align="center">
+  <img src="./Pictures/covers/java-game-server-architecture.webp" width="180" alt="《Java 游戏服务器架构实战》封面">
+</p>
 
 [详细文档](./JavaGameServerArchitectureOfActualCombat/README.md)
 
@@ -229,7 +241,9 @@ Agent 使用入口：
 
 ## Unity 人工智能实战
 
-![](./Pictures/UnityAI.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-ai.webp" width="180" alt="《Unity 人工智能实战》封面">
+</p>
 
 [详细文档](./UnityAI/README.md)
 
@@ -248,7 +262,9 @@ Agent 使用入口：
 
 ## Unity 引擎 HDRP 高清渲染管线实战
 
-![](./Pictures/UnityHDRP.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-hdrp.webp" width="180" alt="《Unity HDRP 高清渲染管线实战》封面">
+</p>
 
 [详细文档](./UnityHDRP/README.md)
 
@@ -268,7 +284,9 @@ Agent 使用入口：
 
 ## Unity 网络游戏实战
 
-![](./Pictures/UnityNetwork.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-network-game.webp" width="180" alt="《Unity 网络游戏实战》封面">
+</p>
 
 [详细文档](./UnityNetworkGame/README.md)
 
@@ -293,7 +311,9 @@ Agent 使用入口：
 
 ## Unity Shader 入门精要
 
-![](./Pictures/UnityShader.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-shader.webp" width="180" alt="《Unity Shader 入门精要》封面">
+</p>
 
 [详细文档](./UnityShader/README.md)
 
@@ -329,7 +349,9 @@ Agent 使用入口：
 
 ## Unity VR 虚拟现实完全自学教程
 
-![](./Pictures/UnityVR.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-vr.webp" width="180" alt="《Unity VR 虚拟现实完全自学教程》封面">
+</p>
 
 [详细文档](./UnityVR/README.md)
 
@@ -354,7 +376,9 @@ Agent 使用入口：
 
 ## Unity 游戏程序优化设计实战
 
-![](./Pictures/UnityGameOptimization.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-game-optimization.webp" width="180" alt="《Unity 游戏程序优化设计实战》封面">
+</p>
 
 [详细文档](./UnityGameOptimization/README.md)
 
@@ -377,7 +401,9 @@ Agent 使用入口：
 
 ## 重构：改善既有代码的设计
 
-![](./Pictures/Reconsitution.png)
+<p align="center">
+  <img src="./Pictures/covers/unity-game-optimization-practice.webp" width="180" alt="《Unity 游戏程序优化设计实战》封面">
+</p>
 
 [详细文档](./Refactoring/README.md)
 
@@ -396,7 +422,9 @@ Agent 使用入口：
 
 ## 百万在线：大型游戏服务端开发
 
-![](./Pictures/BigGameServerDevelopment.png)
+<p align="center">
+  <img src="./Pictures/covers/big-game-server-development.webp" width="180" alt="《百万在线：大型游戏服务端开发》封面">
+</p>
 
 [详细文档](./BigGameServerDevelopment/README.md)
 
@@ -435,7 +463,9 @@ Agent 使用入口：
 
 ## 游戏服务器架构与优化
 
-<img src="./Pictures/TheGameServerArchitectureAndOptimization.png" style="zoom: 80%;" />
+<p align="center">
+  <img src="./Pictures/covers/game-server-architecture-optimization.webp" width="180" alt="《游戏服务器架构与优化》封面">
+</p>
 
 [详细文档](./TheGameServerArchitectureAndOptimization/README.md)
 
@@ -457,7 +487,9 @@ Agent 使用入口：
 
 ## 微服务架构设计模式
 
-![](./Pictures/MicroservicesPatterns.png)
+<p align="center">
+  <img src="./Pictures/covers/microservices-patterns.webp" width="180" alt="《微服务架构设计模式》封面">
+</p>
 
 [详细文档](./MicroservicesPatterns/README.md)
 
@@ -479,7 +511,9 @@ Agent 使用入口：
 
 ## 腾讯游戏开发精粹 I
 
-<img src="./Pictures/TencentGame1.jpg" style="zoom: 67%;" />
+<p align="center">
+  <img src="./Pictures/covers/tencent-game-development-1.webp" width="180" alt="《腾讯游戏开发精粹 I》封面">
+</p>
 
 [详细文档](./TencentGameDevelopment1/README.md)
 
@@ -507,7 +541,9 @@ Agent 使用入口：
 
 ## 腾讯游戏开发精粹 II
 
-![](./Pictures/TencentGame2.png)
+<p align="center">
+  <img src="./Pictures/covers/tencent-game-development-2.webp" width="180" alt="《腾讯游戏开发精粹 II》封面">
+</p>
 
 [详细文档](./TencentGameDevelopment2/README.md)
 
@@ -543,7 +579,9 @@ Agent 使用入口：
 
 ## 人月神话
 
-<img src="./Pictures/MythicalManMonth.png" style="zoom: 200%;" />
+<p align="center">
+  <img src="./Pictures/covers/mythical-man-month.webp" width="180" alt="《人月神话》封面">
+</p>
 
 [详细文档](./MythicalManMonth/README.md)
 
@@ -578,7 +616,9 @@ Agent 使用入口：
 
 ## 多人在线游戏架构实践
 
-<img src="./Pictures/Multi-playerOnlineGameArchitectureCombat.png" style="zoom: 200%;" />
+<p align="center">
+  <img src="./Pictures/covers/multiplayer-online-game-architecture.webp" width="180" alt="《多人在线游戏架构实践》封面">
+</p>
 
 [详细文档](./Multi-playerOnlineGameArchitectureCombat/README.md)
 
@@ -599,7 +639,9 @@ Agent 使用入口：
 
 ## 计算机程序设计艺术
 
-<img src="./Pictures/TheArtofComputerProgramming.png" style="zoom: 200%;" />
+<p align="center">
+  <img src="./Pictures/covers/art-of-computer-programming.webp" width="180" alt="《计算机程序设计艺术》封面">
+</p>
 
 [详细文档](./TheArtofComputerProgramming/README.md)
 
@@ -618,7 +660,9 @@ Agent 使用入口：
 
 ## 游戏引擎架构
 
-<img src="./Pictures/GameEngineArchitecture.png" alt="image-20240621100810518" style="zoom:50%;" />
+<p align="center">
+  <img src="./Pictures/covers/game-engine-architecture.webp" width="180" alt="《游戏引擎架构》封面">
+</p>
 
 [详细文档](./GameEngineArchitecture/README.md)
 
@@ -653,7 +697,9 @@ Agent 使用入口：
 
 [详细文档](./GameTrip/GameTrip.md)
 
-<img src="./Pictures/GameTrip.png" alt="image-20240704202449541" style="zoom:120%;" />
+<p align="center">
+  <img src="./Pictures/covers/game-trip.webp" width="180" alt="《游戏之旅：我的编程感悟》封面">
+</p>
 
 - 第1章 计算机，游戏，我
 - 第2章 算法，程序的灵魂
@@ -676,7 +722,9 @@ Agent 使用入口：
 
 [详细文档](./GameProgrammingEssence1/README.md)
 
-![image-20240704202449541](./Pictures/GameProgrammingEssence1.png)
+<p align="center">
+  <img src="./Pictures/covers/game-programming-essence-1.webp" width="180" alt="《游戏编程精粹 I》封面">
+</p>
 
 * 第1章 通用编程技术
 * 第2章　数学技巧
@@ -688,7 +736,9 @@ Agent 使用入口：
 
 [详细文档](./DontMakeMeThink/README.md)
 
-![image-20241026193458090](./Pictures/DontMakeMeThink.png)
+<p align="center">
+  <img src="./Pictures/covers/dont-make-me-think.webp" width="180" alt="《点石成金》封面">
+</p>
 
 *一本不容错过的 Web 设计指南，无论你是经验丰富的设计师还是初学者，都能从中获得宝贵的知识和灵感。本书的核心思想是“**访客至上**”，即一切设计决策都应该围绕用户的体验展开。作者强调，用户在浏览网站时往往处于忙碌状态，他们不会仔细阅读每个页面，而是会**快速扫描**，寻找能满足他们需求的信息。因此，设计者需要创造不言而喻的界面，让用户能够轻松地找到他们想要的内容，并完成他们的目标。*
 
@@ -710,7 +760,9 @@ Agent 使用入口：
 
 [详细文档](./DesignWithinDesign/README.md)
 
-<img src="./Pictures/DesignWithinDesign.png" alt="image-20241026193458090" style="zoom:67%;" />
+<p align="center">
+  <img src="./Pictures/covers/design-within-design.webp" width="180" alt="《设计中的设计》封面">
+</p>
 
 *它不仅仅是一本设计理论著作，更是一本关于生活、关于哲学的书籍。它能够帮助我们重新认识设计，并思考设计在未来的发展方向。*
 
@@ -727,7 +779,9 @@ Agent 使用入口：
 
 [详细文档](./TheNon-Designer'sDesignBook/README.md)
 
-<img src="./Pictures/TheNon-Designer'sDesignBook.png" alt="image-20241026193458090" style="zoom:67%;" />
+<p align="center">
+  <img src="./Pictures/covers/non-designers-design-book.webp" width="180" alt="《写给大家看的设计书》封面">
+</p>
 
 *它是一本面向非专业设计师的入门指南，作者将复杂的平面设计原理简化为四大基本原则：亲密性、对齐、重复和对比。书中通过大量示例和练习，通俗易懂地阐述了这四大原则及其背后的原理，帮助读者理解并应用设计原则，提升设计作品的视觉效果和信息传达效果。*
 
@@ -754,7 +808,9 @@ Agent 使用入口：
 
 [详细文档](./Butterfly/README.md)
 
-<img src="./Pictures/Butterfly.png" alt="image-20241026193458090" style="zoom:67%;" />
+<p align="center">
+  <img src="./Pictures/covers/butterfly.webp" width="180" alt="《破茧成蝶》封面">
+</p>
 
 *书中涵盖了用户体验设计基础知识、设计师的角色和职业困惑、工作流程、需求分析、设计规划和设计标准、项目跟进和成果检验、设计师职业修养以及需要具备的意识等内容。本书适用于产品经理、运营、开发等用户体验相关人员以及相关专业的学生阅读参考。*
 
@@ -778,7 +834,9 @@ Agent 使用入口：
 
 [详细文档](./ColdStart/README.md)
 
-<img src="./Pictures/ColdStart.png" alt="image-20241026193458090" style="zoom:30%;" />
+<p align="center">
+  <img src="./Pictures/covers/cold-start.webp" width="180" alt="《冷启动》封面">
+</p>
 
 *书中探讨了数字经济时代企业如何通过构建网络效应实现从零到亿的用户增长。*
 
@@ -793,7 +851,9 @@ Agent 使用入口：
 
 [详细文档](./UnityPerformanceTuningBible/README.md)
 
-<img src="./Pictures/UnityPerformanceTuningBible.png" alt="image-20241026193458090" style="zoom:60%;" />
+<p align="center">
+  <img src="./Pictures/covers/unity-performance-tuning-bible.webp" width="180" alt="《Unity 性能调优宝典》封面">
+</p>
 
 *提供系统化、可落地的性能调优方法论，工具和实践案例丰富，可作为移动端项目优化的标准参考手册。需结合官方最新文档补充版本相关更新。*
 
@@ -814,13 +874,17 @@ Agent 使用入口：
 
 [详细文档](./AgenticDesignPatterns/README.md)
 
-<img src="./Pictures/AgenticDesignPatterns.png" alt="image-20241026193458090" style="zoom:60%;" />
+<p align="center">
+  <img src="./Pictures/covers/agentic-design-patterns.webp" width="180" alt="《Agentic Design Patterns》封面">
+</p>
 
 *通过 21 个“智能体设计模式”系统化地介绍如何构建具有自主性与协作能力的智能系统*；作者的理念为“*设计智能体的真正艺术，不在于掌握单一模式，而在于组合它们—— 就像画家在画布上调和色彩，让规划、工具使用、反思与协作交织，构建出有意识、有目标的智能系统。*”
 
 ## 腾讯游戏开发精粹 III
 
-<img src="./Pictures/TencentGame3.png" style="zoom: 67%;" />
+<p align="center">
+  <img src="./Pictures/covers/tencent-game-development-3.webp" width="180" alt="《腾讯游戏开发精粹 III》封面">
+</p>
 
 [详细文档](./TencentGameDevelopment3/README.md)
 
@@ -828,7 +892,9 @@ Agent 使用入口：
 
 ## 数据密集型应用系统设计
 
-<img src="./Pictures/DesigningDataIntensiveApplications.png" style="zoom: 67%;" />
+<p align="center">
+  <img src="./Pictures/covers/designing-data-intensive-applications.webp" width="180" alt="《数据密集型应用系统设计》封面">
+</p>
 
 [详细文档](./DesigningDataIntensiveApplications/README.md)
 
@@ -836,7 +902,9 @@ Agent 使用入口：
 
 ## 3D 游戏与计算机图形学中的数学方法
 
-<img src="./Pictures/MathematicsFor3DGameProgrammingAndComputerGraphics.png" style="zoom: 67%;" />
+<p align="center">
+  <img src="./Pictures/covers/mathematics-3d-game-programming.webp" width="180" alt="《3D 游戏与计算机图形学中的数学方法》封面">
+</p>
 
 [详细文档](./MathematicsFor3DGameProgrammingAndComputerGraphics/README.md)
 
