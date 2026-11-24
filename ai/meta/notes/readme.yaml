@@ -5,11 +5,16 @@ title: Game Programmer Study Notes 游戏编程学习笔记
 category: overview
 status: reviewed
 difficulty: beginner
-summary: 各专题的内容状态、版本适用范围和待复核项见 CONTENT AUDIT.md。
+summary: 面向游戏程序员的可验证、可检索、可被 AI 引用的中文知识库，覆盖 Unity、Shader、网络、游戏服务端、设计模式与工程实践。
 version_scope: []
-tags: []
+tags:
+- ai
+- game-development
+- knowledge-base
+- unity
 aliases: []
 code_paths: []
 test_paths: []
 sources: []
-reviewed_at: null
+reviewed_at: '2026-11-24'
+review_note: 更新仓库首屏定位、学习路径、AI 检索入口与质量状态说明。

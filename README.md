@@ -1,6 +1,85 @@
 # Game Programmer Study Notes 游戏编程学习笔记
 
-> 各专题的内容状态、版本适用范围和待复核项见 [CONTENT_AUDIT.md](./CONTENT_AUDIT.md)。
+> 面向游戏程序员的可验证、可检索、可被 AI 引用的中文知识库。
+>
+> 覆盖 Unity 客户端、Shader、网络同步、大型游戏服务端、设计模式、性能优化与工程实践。
+
+[![AI Knowledge Quality](https://github.com/TastSong/GameProgrammerStudyNotes/actions/workflows/quality.yml/badge.svg)](https://github.com/TastSong/GameProgrammerStudyNotes/actions/workflows/quality.yml)
+[![Notes](https://img.shields.io/badge/notes-65-2563eb)](./CONTENT_AUDIT.md)
+[![AI Indexed](https://img.shields.io/badge/AI_indexed-1%2C000%2B_chunks-0f766e)](./ai/README.md)
+[![License](https://img.shields.io/github/license/TastSong/GameProgrammerStudyNotes)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/TastSong/GameProgrammerStudyNotes?style=social)](https://github.com/TastSong/GameProgrammerStudyNotes/stargazers)
+
+[快速开始](#快速开始) · [学习路径](#学习路径) · [AI 检索](#ai-检索) · [为什么值得-star](#为什么值得-star) · [内容状态](./CONTENT_AUDIT.md)
+
+## 快速开始
+
+- 65 篇专题笔记、19,700+ 行中文内容。
+- 28 个 C# 文件、18 个 Unity 模式示例场景。
+- 1,000+ 个标题感知知识块、260+ 个代码符号。
+- 检索结果保留文件路径、标题层级和精确行号。
+- 内容按状态、难度、版本范围和关联代码组织，避免把摘要当成完整结论。
+
+安装依赖并体验本地检索：
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r ai/requirements.txt
+python3 ai/scripts/search.py "对象池为什么仍可能产生 GC" --top 3
+```
+
+完整检查：
+
+```bash
+bash tools/check.sh
+```
+
+## AI 检索
+
+仓库不只提供给人阅读的 Markdown，还提供一层可被 AI 直接使用的知识索引：
+
+```text
+GameProgrammingPatterns/ObjectPool.md
+  └── 对象池为什么仍可能产生 GC
+      └── 文件路径 + 起止行号 + 内容状态 + 版本范围
+```
+
+示例结果：
+
+```text
+1. GameProgrammingPatterns/ObjectPool.md:34-55
+   对象池模式 > 对象池为什么仍可能产生 GC
+   status=reviewed · version=['Unity 2019.4']
+```
+
+Agent 使用入口：
+
+- [AGENTS.md](./AGENTS.md)：Codex 等 Agent
+- [CLAUDE.md](./CLAUDE.md)：Claude Code
+- [ai/README.md](./ai/README.md)：索引、检索和原文读取说明
+- [ai/instructions/core.md](./ai/instructions/core.md)：统一工作规范
+
+## 学习路径
+
+| 方向 | 推荐入口 | 适合读者 |
+| --- | --- | --- |
+| Unity 客户端 | [Unity 3D 高级编程](./ProfessionalUnity3D/第一章架构.md) · [QFramework](./QFramework/README.md) · [游戏编程模式](./GameProgrammingPatterns/README.md) | 想系统理解 Unity 架构与常用模式 |
+| 图形与 Shader | [Unity Shader 入门精要](./UnityShader/README.md) · [Unity HDRP](./UnityHDRP/README.md) · [渲染原理与知识](./ProfessionalUnity3D/第十章渲染原理与知识.md) | 想理解渲染管线、材质、光照和后处理 |
+| 网络与多人游戏 | [Unity 网络游戏实战](./UnityNetworkGame/README.md) · [多人在线游戏架构实践](./Multi-playerOnlineGameArchitectureCombat/README.md) | 想理解 TCP/UDP、同步、房间和战斗服务器 |
+| 大型游戏服务端 | [百万在线](./BigGameServerDevelopment/README.md) · [微服务架构设计模式](./MicroservicesPatterns/README.md) · [数据密集型应用系统设计](./DesigningDataIntensiveApplications/README.md) | 想学习高并发、分布式和可扩展架构 |
+| 工程能力 | [Clean Code](./CleanCode/CleanCode.md) · [重构](./Refactoring/README.md) · [游戏引擎架构](./GameEngineArchitecture/README.md) | 想提升代码质量、可维护性和引擎思维 |
+| 数学与 AI | [3D 数学方法](./MathematicsFor3DGameProgrammingAndComputerGraphics/README.md) · [Unity AI](./UnityAI/README.md) · [Agentic Design Patterns](./AgenticDesignPatterns/README.md) | 想补足图形数学、游戏 AI 和智能体设计 |
+
+## 为什么值得 Star
+
+- **覆盖面完整**：从 Unity 客户端、Shader、网络，到大型服务端、微服务、数学和工程设计。
+- **不是链接收藏夹**：内容标记为完整笔记、专题摘要或章节提纲，并标注版本与复核状态。
+- **AI 可直接使用**：知识块带文件路径、标题、行号和状态，支持检索、代码符号搜索和原文回溯。
+- **质量可验证**：索引新鲜度、元数据、相对链接、Agent 引用和 23 条代表性检索用例都进入 CI。
+- **持续维护**：历史内容会按版本和测试结果逐步复核，而不是一次性堆叠后不再更新。
+
+如果这些内容对你有帮助，欢迎 Star 支持持续整理和验证。
 
 ## 知识库词云
 
