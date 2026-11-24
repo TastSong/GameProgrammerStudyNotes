@@ -28,13 +28,18 @@
 
 ```bash
 python3 ai/scripts/validate_meta.py
+python3 ai/scripts/validate_indexes.py
 python3 ai/scripts/build_index.py
 python3 ai/scripts/build_index.py --check
+python3 ai/scripts/check_repo.py
 python3 ai/scripts/search.py "对象池为什么产生 GC" --json
 python3 ai/scripts/read_source.py \
   --path GameProgrammingPatterns/ObjectPool.md \
   --lines 1-40
+python3 ai/scripts/evaluate_retrieval.py --top 5 --min-recall 0.8
 ```
+
+本地完整检查可运行 `bash tools/check.sh`。
 
 ## Agent 使用规则
 

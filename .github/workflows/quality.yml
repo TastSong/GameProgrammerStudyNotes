@@ -1,0 +1,21 @@
+name: AI Knowledge Quality
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ai/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r ai/requirements.txt
+      - name: Run repository quality gates
+        run: bash tools/check.sh
